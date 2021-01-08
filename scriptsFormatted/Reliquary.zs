@@ -1,5 +1,0 @@
-import crafttweaker.api.BracketHandlers;
-import crafttweaker.api.item.IIngredient;
-
-craftingTable.removeRecipe(BracketHandlers.getItem('xreliquary:alkahestry_tome'));
-craftingTable.addShaped('alktome_c', BracketHandlers.getItem('xreliquary:alkahestry_tome'), [[BracketHandlers.getItem('xreliquary:eye_of_the_storm') as IIngredient, BracketHandlers.getItem('securitycraft:codebreaker') as IIngredient, BracketHandlers.getItem('xreliquary:nebulous_heart') as IIngredient], [BracketHandlers.getItem('mysticalagradditions:insanium_gemstone_block') as IIngredient, BracketHandlers.getItem('xreliquary:frozen_core') as IIngredient, BracketHandlers.getItem('bloodmagic:demonslate') as IIngredient], [BracketHandlers.getItem('botania:terrasteel_ingot') as IIngredient, BracketHandlers.getItem('iceandfire:summoning_crystal_lightning') as IIngredient, BracketHandlers.getItem('botania:terrasteel_ingot') as IIngredient]], null);

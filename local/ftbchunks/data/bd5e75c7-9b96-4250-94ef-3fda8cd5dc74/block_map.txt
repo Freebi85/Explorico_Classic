@@ -1,7 +1,0 @@
-#A8E5E5 mekanism:block_salt
-#7FDE54 minecraft:clay
-#80497A minecraft:dirt
-#3F84B7 minecraft:grass_block
-#DFD691 minecraft:lily_pad
-#2F9D96 biomesoplenty:mud
-#3A751B biomesoplenty:willow_leaves
