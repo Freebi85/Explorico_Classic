@@ -30,7 +30,7 @@
 		TEUnloadLag = false
 
 	["Load balancing settings"."Event load balancing settings"]
-		#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tile entities. default: true
+		#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tile entities on world ticks. default: true
 		eventLoadBalancing = true
 		#Mean tick time at which event load balancing takes effect, 1000 / mean tick time = TPS. default: 55
 		#Range: 1 ~ 200
@@ -61,6 +61,8 @@
 	#Entity spawn interval setting, determines how frequently entities are spawned overall. 1 = Vanilla default, default = 10
 	#Range: 1 ~ 1000
 	spawnInterval = 1
+	#Adapt entity speed to tps, makes entities struggle less with lag. default = true
+	adaptiveSpeed = true
 
 ["Entity AI Settings"]
 	#Sets the tick interval in which non-running AI tasks are rechecked. Vanilla default is 1(starting with 1.13+), this mods suggested default is 4(as it was in 1.12)
