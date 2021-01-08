@@ -30,7 +30,7 @@
 #Configurations related to item selection.
 [itemSelection]
 	#List of mods that are preferred when selecting items in recipes.
-	preferredMods = ["minecraft", "silents_mechanisms", "moreplates", "iceandfire", "bluepower", "thermal", "mekanism"]
+	preferredMods = ["minecraft", "silents_mechanisms", "iceandfire", "bluepower", "thermal", "mekanism"]
 
 #Configurations related to block tags.
 [blockTags]
@@ -63,7 +63,7 @@
 #Configurations related to recipes.
 [recipes]
 	#List of recipes that should not be added.
-	blacklist = ["jaopca:dusts.to_material_blasting.tungsten", "jaopca:silents_mechanisms.chunks_to_material_blasting.tungsten", "jaopca:thermal_expansion.ore_to_material_smelter.tungsten", "jaopca:appliedenergistics2.ore_to_dust.aluminum", "jaopca:appliedenergistics2.ore_to_dust.bismuth", "jaopca:appliedenergistics2.ore_to_dust.uranium", "jaopca:thermal_expansion.ore_to_dust.uranium", "jaopca:appliedenergistics2.ore_to_dust.copper", "jaopca:appliedenergistics2.ore_to_dust.lead", "jaopca:appliedenergistics2.ore_to_dust.nickel", "jaopca:appliedenergistics2.ore_to_dust.platinum", "jaopca:appliedenergistics2.ore_to_dust.tin", "jaopca:appliedenergistics2.ore_to_dust.zinc", "jaopca:thermal_expansion.create_crushed_ore_to_material.tungsten", "jaopca:create.crushed_to_nugget.tungsten", "jaopca:silents_mechanisms.ore_to_material.fluorite", "jaopca:create.ore_to_material_crushing.fluorite", "jaopca:thermal_expansion.ore_to_material_pulverizer.fluorite", "jaopca:thermal_expansion.ore_to_material_smelter.fluorite", "jaopca:mekanism.ore_to_material.certus_quartz", "jaopca:silents_mechanisms.ore_to_material.certus_quartz", "jaopca:create.ore_to_material_crushing.certus_quartz", "jaopca:create.ore_to_material_crushing.cinnabar", "jaopca:silents_mechanisms.ore_to_material_crushing.cinnabar", "jaopca:mekanism.ore_to_material_crushing.cinnabar"]
+	blacklist = ["jaopca:dusts.to_material_blasting.tungsten", "jaopca:silents_mechanisms.chunks_to_material_blasting.tungsten", "jaopca:thermal_expansion.ore_to_material_smelter.tungsten", "jaopca:appliedenergistics2.ore_to_dust.aluminum", "jaopca:appliedenergistics2.ore_to_dust.bismuth", "jaopca:appliedenergistics2.ore_to_dust.uranium", "jaopca:thermal_expansion.ore_to_dust.uranium", "jaopca:appliedenergistics2.ore_to_dust.copper", "jaopca:appliedenergistics2.ore_to_dust.lead", "jaopca:appliedenergistics2.ore_to_dust.nickel", "jaopca:appliedenergistics2.ore_to_dust.platinum", "jaopca:appliedenergistics2.ore_to_dust.tin", "jaopca:appliedenergistics2.ore_to_dust.zinc", "jaopca:thermal_expansion.create_crushed_ore_to_material.tungsten", "jaopca:create.crushed_to_nugget.tungsten", "jaopca:silents_mechanisms.ore_to_material.fluorite", "jaopca:create.ore_to_material_crushing.fluorite", "jaopca:thermal_expansion.ore_to_material_pulverizer.fluorite", "jaopca:thermal_expansion.ore_to_material_smelter.fluorite", "jaopca:mekanism.ore_to_material.certus_quartz", "jaopca:silents_mechanisms.ore_to_material.certus_quartz", "jaopca:create.ore_to_material_crushing.certus_quartz", "jaopca:create.ore_to_material_crushing.cinnabar", "jaopca:silents_mechanisms.ore_to_material_crushing.cinnabar", "jaopca:mekanism.ore_to_material_crushing.cinnabar", "jaopca:create.ore_to_material_crushing.sulfur", "jaopca:silents_mechanisms.chunks_to_material.osmium", "jaopca:thermal_expansion.ore_to_dust.aluminum", "jaopca:mekanism.ore_to_dust.silver"]
 
 #Configurations related to loot tables.
 [lootTables]
