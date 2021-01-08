@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+      "tag": "forge:gems/apatite"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:apatite_dust"
+    }
+  },
+  "turns": 6
+}

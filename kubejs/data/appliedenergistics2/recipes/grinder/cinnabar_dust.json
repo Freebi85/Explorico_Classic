@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+      "tag": "forge:gems/cinnabar"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:cinnabar_dust"
+    }
+  },
+  "turns": 6
+}

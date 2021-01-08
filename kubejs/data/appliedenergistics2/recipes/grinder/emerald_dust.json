@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+      "tag": "forge:gems/emerald"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:emerald_dust" 
+    }
+  },
+  "turns": 8
+}

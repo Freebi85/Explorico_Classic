@@ -1,0 +1,89 @@
+
+#Configurations related to materials.
+[materials]
+	#Should the mod find gem materials without ores.
+	gemPlain = true
+	#Should the mod find dust materials without ores.
+	dustPlain = true
+	#Should the mod find crystal materials with ores.
+	crystal = true
+	#Should the mod find ingot materials with ores.
+	ingot = true
+	#Should the mod find ingot materials without ores.
+	ingotPlain = true
+	#Should the mod find crystal materials without ores.
+	crystalPlain = true
+	#Should the mod find dust materials with ores.
+	dust = true
+	#Should the mod find gem materials with ores.
+	gem = true
+
+#Configurations related to material overrides.
+[materialOverrides]
+	#List of materials that should be crystals.
+	crystal = []
+	#List of materials that should be dusts.
+	dust = ["glowstone", "redstone"]
+	#List of materials that should be gems.
+	gem = ["diamond", "emerald", "lapis", "prismarine", "quartz"]
+
+#Configurations related to item selection.
+[itemSelection]
+	#List of mods that are preferred when selecting items in recipes.
+	preferredMods = ["minecraft", "silents_mechanisms", "moreplates", "iceandfire", "bluepower", "thermal", "mekanism"]
+
+#Configurations related to block tags.
+[blockTags]
+	#List of block tags that should be considered as defined.
+	customDefined = []
+	#List of block tags that should not be added.
+	blacklist = []
+
+#Configurations related to item tags.
+[itemTags]
+	#List of item tags that should be considered as defined.
+	customDefined = []
+	#List of item tags that should not be added.
+	blacklist = []
+
+#Configurations related to fluid tags.
+[fluidTags]
+	#List of fluid tags that should be considered as defined.
+	customDefined = []
+	#List of fluid tags that should not be added.
+	blacklist = []
+
+#Configurations related to entity type tags.
+[entityTypeTags]
+	#List of entity type tags that should be considered as defined.
+	customDefined = []
+	#List of entity type tags that should not be added.
+	blacklist = []
+
+#Configurations related to recipes.
+[recipes]
+	#List of recipes that should not be added.
+	blacklist = ["jaopca:dusts.to_material_blasting.tungsten", "jaopca:silents_mechanisms.chunks_to_material_blasting.tungsten", "jaopca:thermal_expansion.ore_to_material_smelter.tungsten", "jaopca:appliedenergistics2.ore_to_dust.aluminum", "jaopca:appliedenergistics2.ore_to_dust.bismuth", "jaopca:appliedenergistics2.ore_to_dust.uranium", "jaopca:thermal_expansion.ore_to_dust.uranium", "jaopca:appliedenergistics2.ore_to_dust.copper", "jaopca:appliedenergistics2.ore_to_dust.lead", "jaopca:appliedenergistics2.ore_to_dust.nickel", "jaopca:appliedenergistics2.ore_to_dust.platinum", "jaopca:appliedenergistics2.ore_to_dust.tin", "jaopca:appliedenergistics2.ore_to_dust.zinc", "jaopca:thermal_expansion.create_crushed_ore_to_material.tungsten", "jaopca:create.crushed_to_nugget.tungsten", "jaopca:silents_mechanisms.ore_to_material.fluorite", "jaopca:create.ore_to_material_crushing.fluorite", "jaopca:thermal_expansion.ore_to_material_pulverizer.fluorite", "jaopca:thermal_expansion.ore_to_material_smelter.fluorite", "jaopca:mekanism.ore_to_material.certus_quartz", "jaopca:silents_mechanisms.ore_to_material.certus_quartz", "jaopca:create.ore_to_material_crushing.certus_quartz", "jaopca:create.ore_to_material_crushing.cinnabar", "jaopca:silents_mechanisms.ore_to_material_crushing.cinnabar", "jaopca:mekanism.ore_to_material_crushing.cinnabar"]
+
+#Configurations related to loot tables.
+[lootTables]
+	#List of loot tables that should not be added.
+	blacklist = []
+
+#Configurations related to advancements.
+[advancements]
+	#List of advancements that should not be added.
+	blacklist = []
+
+#Configurations related to color generation.
+[colors]
+	#The gamma value used to blend colors.
+	gammaValue = 2.0
+
+#Configurations related to material localization.
+[materialLocalization]
+	#The update interval of localization files in days.
+	updateInterval = 3.0
+	#Should the mod check for material localization updates.
+	checkL10nUpdates = true
+

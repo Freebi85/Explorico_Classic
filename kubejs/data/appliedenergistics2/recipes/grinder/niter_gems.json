@@ -1,0 +1,13 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+      "tag": "forge:ores/niter"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:niter",
+	  "count": 6
+    }
+  },
+  "turns": 8
+}

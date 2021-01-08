@@ -1,0 +1,9 @@
+#The max width of a single tiled texture.
+#Range: > 1
+maxTextureWidth = 256
+#Should hardness be shown on the tooltip
+showHardness = true
+#How many system threads to keep free when generating textures. Smaller values mean faster generation but can cause 100% CPU utilization. Will always use at least 1 thread
+#Range: > 0
+threadsToKeepFree = 2
+

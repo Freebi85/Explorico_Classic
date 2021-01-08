@@ -1,0 +1,13 @@
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#735 biomesoplenty:coniferous_forest
+#010 minecraft:forest
+#3F9 minecraft:giant_spruce_taiga_hills
+#042 minecraft:giant_tree_taiga
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#108 biomesoplenty:seasonal_forest
+#0B4 biomesoplenty:seasonal_orchard
+#65A biomesoplenty:seasonal_pumpkin_patch
+#169 minecraft:taiga
+#452 minecraft:wooded_hills

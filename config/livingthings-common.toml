@@ -1,0 +1,336 @@
+
+#General Configuration
+[General]
+	#if set to true no modspecific mobs will attack, overrides the canAttack of every mob
+	AmbientMode = false
+
+#Mob-Config for Elephant
+[Elephant]
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 7.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 60.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass-blocks where lightlevel is higher than 8
+	[Elephant.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 5
+		#Range: 1 ~ 32767
+		MinSpawns = 3
+		SpawnBoimes = ["minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 15
+
+#Mob-Config for Giraffe
+[Giraffe]
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 4.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 30.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.3
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass-blocks where lightlevel is higher than 8
+	[Giraffe.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 5
+		#Range: 1 ~ 32767
+		MinSpawns = 3
+		SpawnBoimes = ["minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 15
+
+	#the values are considered as weighted-random
+	[Giraffe.ColorVariantWeights]
+		Color2Weight = 50
+		Color1Weight = 50
+		AlbinoWeight = 1
+
+#Mob-Config for Lion
+[Lion]
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 5.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 20.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.33
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass-blocks where lightlevel is higher than 8
+	[Lion.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 4
+		#Range: 1 ~ 32767
+		MinSpawns = 2
+		SpawnBoimes = ["minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 15
+
+	#the values are considered as weighted-random
+	[Lion.ColorVariantWeights]
+		Color1Weight = 99
+		AlbinoWeight = 1
+
+	#the values are considered as weighted-random
+	[Lion.GenderWeights]
+		GenderFemaleWeight = 50
+		GenderMaleWeight = 50
+
+#Mob-Config for Shark
+[Shark]
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 6.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 22.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 1.05
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn in water
+	[Shark.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 3
+		#Range: 1 ~ 32767
+		MinSpawns = 2
+		SpawnBoimes = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 13
+
+#Mob-Config for Penguin
+[Penguin]
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass-blocks where lightlevel is higher than 8
+	[Penguin.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 6
+		#Range: 1 ~ 32767
+		MinSpawns = 3
+		SpawnBoimes = ["minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:snowy_beach", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 12
+
+#Mob-Config for Flamingo
+[Flamingo]
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass-blocks where lightlevel is higher than 8
+	[Flamingo.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 6
+		#Range: 1 ~ 32767
+		MinSpawns = 3
+		SpawnBoimes = ["minecraft:swamp", "minecraft:swamp_hills", "minecraft:river"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 24
+
+#Mob-Config for Ostrich
+[Ostrich]
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 20.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+	CanBeRidden = true
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass-blocks where lightlevel is higher than 8
+	[Ostrich.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 5
+		#Range: 1 ~ 32767
+		MinSpawns = 3
+		SpawnBoimes = ["minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 15
+
+#Mob-Config for Crab
+[Crab]
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 1.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 8.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.2
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass/dirt and sand blocks
+	[Crab.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 8
+		#Range: 1 ~ 32767
+		MinSpawns = 5
+		SpawnBoimes = ["minecraft:river", "minecraft:beach", "minecraft:desert_lakes", "minecraft:swamp_hills", "minecraft:swamp"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 50
+
+	#the values are considered as weighted-random
+	[Crab.ColorVariantWeights]
+		Color2Weight = 50
+		Color1Weight = 50
+		AlbinoWeight = 1
+
+	#the values are considered as weighted-random
+	[Crab.ScalingWeights]
+		Scaling1Weight = 30
+		Scaling3Weight = 25
+		Scaling4Weight = 15
+		Scaling2Weight = 30
+
+#Mob-Config for Mantaray
+[Mantaray]
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 1.0
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn in water
+	[Mantaray.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 7
+		#Range: 1 ~ 32767
+		MinSpawns = 4
+		SpawnBoimes = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 15
+
+	#the values are considered as weighted-random
+	[Mantaray.ColorVariantWeights]
+		Color2Weight = 50
+		Color1Weight = 50
+
+	#the values are considered as weighted-random
+	[Mantaray.ScalingWeights]
+		Scaling1Weight = 25
+		Scaling3Weight = 25
+		Scaling4Weight = 25
+		Scaling2Weight = 25
+
+#Mob-Config for Raccoon
+[Raccoon]
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 2.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.23
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass-blocks where lightlevel is higher than 8
+	[Raccoon.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 6
+		#Range: 1 ~ 32767
+		MinSpawns = 2
+		SpawnBoimes = ["minecraft:plains", "minecraft:forest", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills", "minecraft:sunflower_plains", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:flower_forest"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 20
+
+#Mob-Config for Owl
+[Owl]
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	FlyingSpeed = 0.5
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass-blocks where lightlevel is higher than 8
+	[Owl.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 6
+		#Range: 1 ~ 32767
+		MinSpawns = 3
+		SpawnBoimes = ["minecraft:forest", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:flower_forest", "minecraft:wooded_hills", "minecraft:wooded_mountains", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 20
+
+	#the values are considered as weighted-random
+	[Owl.ColorVariantWeights]
+		colorWhiteWeight = 33
+		colorBrownWeight = 33
+		colorBlackWeight = 33
+
+#Mob-Config for AncientBlaze
+[AncientBlaze]
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 6.0
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 250.0
+	#chance for the attack to be a large fireball | requires Client and Server restart
+	#Range: 0 ~ 100
+	LargeFireballChance = 20
+	#time in ticks, until the entity can be damaged | requires Client and Server restart
+	#Range: 10 ~ 32767
+	InvulnerableTime = 200
+	#amount of blazes spawned on death | requires Client and Server restart
+	#Range: 0 ~ 16
+	BlazeSpawnCount = 4
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+	#wether or not the entity shall despawn when peaceful is turned on
+	PeacefulDespawn = true
+	#max amount of large fireballs to shoot | requires Client and Server restart
+	#Range: 0 ~ 10
+	LargeFireballCount = 6
+
+#Mob-Config for Koala
+[Koala]
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have high a impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.17
+
+	#requires Client and Server restart | to disable spawning, leave the array SpawnBoimes empty | can spawn on grass-blocks where lightlevel is higher than 8
+	[Koala.Spawns]
+		#Range: 1 ~ 32767
+		MaxSpawns = 5
+		#Range: 1 ~ 32767
+		MinSpawns = 3
+		SpawnBoimes = ["minecraft:jungle", "minecraft:jungle_edge", "minecraft:jungle_hills", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "minecraft:modified_jungle", "minecraft:modified_jungle_edge", "minecraft:savanna_plateau"]
+		#Range: 1 ~ 32767
+		SpawnWeight = 50
+

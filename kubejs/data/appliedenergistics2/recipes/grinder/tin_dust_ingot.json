@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ingots/tin"
+  },
+  "result": {
+    "primary": {
+      "item": "silents_mechanisms:tin_dust"
+    }
+  },
+  "turns": 4
+}

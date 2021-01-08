@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ingots/graphite"
+  },
+  "result": {
+    "primary": {
+      "item": "bigreactors:graphite_dust"
+    }
+  },
+  "turns": 4
+}

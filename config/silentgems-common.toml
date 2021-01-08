@@ -1,0 +1,343 @@
+
+[general]
+	#The burn time (in ticks) of chaos coal (normal coal is 1600)
+	#Range: > 0
+	chaosCoalBurnTime = 6400
+
+[chaos]
+	#The most chaos the any source (player or world) can accumulate
+	#Range: > 0
+	maxValue = 10000000
+	#If true, players will not experience chaos events until they have used a bed (set a respawn point)
+	noEventsUntilPlayerHasBed = true
+
+[debug]
+	#Display text on-screen with various information, such as player/world chaos
+	showOverlay = true
+	#Add additional tooltip information to some items
+	extraTooltipInfo = true
+	#Must be true for any other debug settings to take effect
+	masterSwitch = false
+
+#Settings for entities and mobs
+[entity]
+
+	[entity.wisp]
+		#Fire and lightning wisps can light blocks on fire
+		canCauseFire = true
+
+	[entity.enderSlime]
+
+		#Ender slime spawn properties (REQUIRES RESTART)
+		[entity.enderSlime.spawn]
+
+			[entity.enderSlime.spawn.spawn]
+				#Smallest possible group size
+				#Range: > 1
+				minGroupSize = 1
+				#Spawn weight of ender slimes in The End. Set to zero to disable spawns.
+				#Range: > 0
+				weight = 3
+				#Largest possible group size
+				#Range: > 1
+				maxGroupSize = 2
+
+[gearSoul]
+	#If true, gear souls can gain XP when being used by fake players (certain machines)
+	fakePlayersGetXp = false
+
+[glowrose]
+	#The light level of free-standing glowroses.
+	#Existing glowroses may not update until broken and replaced.
+	#Requires a Minecraft restart
+	#Range: 0 ~ 15
+	normalLight = 10
+	#The light level of glowroses planted in vanilla flower pots
+	#Existing blocks may not update until broken and replaced.
+	#Requires a Minecraft restart
+	#Range: 0 ~ 15
+	pottedLight = 15
+
+	[glowrose.world]
+		#The number of placement attempts when generating new chunks (higher numbers = bigger patches)
+		#Note this is the number of 'attempts', not the actual number you will likely see in any given patch
+		#Range: > 0
+		placeTryCount = 40
+		#The most glowroses that can be in a single patch
+		#Range: > 0
+		maxPerPatch = 16
+
+[returnHomeCharm]
+	#Durability of return home charms. 0 means unlimited. Charms with durability will still generate chaos when used.
+	#Range: > 0
+	maxUses = 0
+	#Only allow return home charms to be bound to teleporters made with the same gem
+	sameGemOnly = false
+	#Allow return home charms to be bound to teleporter anchors
+	allowAnchors = true
+	#The time (in ticks) the player must use a return home charm to activate it
+	#Range: > 0
+	useTime = 16
+
+[soulGem]
+
+	#Drop rate of soul gems is randomly selected based on the world seed.
+	#There is an average and a deviation, which makes a normal distribution.
+	#The numbers will tend to be close to average, but could occasionally be plus/minus a couple deviations.
+	[soulGem.dropRate]
+		#Average drop rate of soul gems (1 = 100%)
+		#Range: 0.0 ~ 1.0
+		average = 0.025
+		#The drop rate for boss creatures (overrides normal calculation)
+		#Range: 0.0 ~ 1.0
+		boss = 1.0
+		#Standard deviation of drop rate (should be no more than a quarter of the average, preferably less) [0 ~ 1]
+		#Range: 0.0 ~ 1.0
+		deviation = 0.002
+
+[teleporter]
+	#Only allow teleporters to be linked to teleporters made with the same gem
+	sameGemOnly = false
+	#Allow teleporters to link to teleporter anchors
+	allowAnchors = true
+
+	[teleporter.chaos]
+		#The chaos produced per block traveled (ignores Y-axis)
+		# Does not apply when teleporting to another dimension
+		#Range: > 0
+		perBlock = 50
+		#The chaos produced when traveling between dimensions using a teleport
+		#Range: > 0
+		crossDimension = 50000
+		#When teleporting this distance or less, no chaos is produced (ignores Y-axis)
+		#Range: > 0
+		freeRange = 64
+
+	[teleporter.redstone]
+		#All entities within this distance of a redstone teleporter will teleport when activated with redstone.
+		#Default is 2 blocks, restricted to [1,16]
+		#Range: 1 ~ 16
+		searchRadius = 2
+
+[world]
+
+	#World generation settings (ores, etc.) Most of these REQUIRE A RESTART!
+	[world.generation]
+
+		[world.generation.ores]
+
+			[world.generation.ores.chaos]
+				#Number of chaos ore veins per chunk (overworld and mod dimensions)
+				#Range: 0 ~ 1000
+				veinCount = 2
+
+			[world.generation.ores.silver]
+				#Number of veins of silver ore per chunk. Set 0 to disable.
+				#Default: 0 if Silent's Mechanisms is installed when config is created, 2 otherwise
+				#Range: > 0
+				veinCount = 0
+
+			[world.generation.ores.ender]
+				#Number of ender ore veins per chunk in The End. Set zero to disable.
+				#Range: 0 ~ 1000
+				veinCount = 2
+
+		[world.generation.plants]
+			#Generate wild fluffy puff plants. If disabled, you will need to add some other way to obtain fluffy puff seeds.
+			wildFluffyPuffs = true
+
+		[world.generation.overworld]
+
+			[world.generation.overworld.geode]
+				#The base chance of a chunk having a gem geode.
+				# Setting to zero will disable geodes. A value of one would make every chunk have a geode.
+				#Range: 0.0 ~ 1.0
+				baseChance = 0.05
+				#Max variation in geode chance. The final chance is a normal distribution, with this being the standard deviation.
+				#This will tend to be close to the base chance, but could be more/less by several times this value.
+				#The chance is rolled separately for each biome.
+				#Range: 0.0 ~ 1.0
+				chanceVariation = 0.0025
+
+		#Region sizes for gem generation. Each 'size x size' chunk area is a 'region', which will contain a couple types of gems.
+		#A size of '10' would make each region 10x10 chunks, or 160x160 blocks
+		#Setting to zero will disable gem and glowrose generation for that dimension.
+		#Larger regions will make finding many types of gems more difficult.
+		#Keeping the region size for The Nether/End lower is recommended, as they are more difficult to navigate.
+		#Glowroses in the region will also match the gems that can be found there.
+		[world.generation.regionSize]
+			#Region size for The Nether dimension
+			#Range: > 0
+			the_nether = 6
+			#Region size for the overworld only (not modded dimensions)
+			#Range: > 0
+			overworld = 10
+			#Region size for The End dimension
+			#Range: > 0
+			the_end = 6
+			#Region size for non-vanilla dimensions.
+			#Overworld gems will attempt to spawn, but may be unable to depending on the stone in the world.
+			#Range: > 0
+			others = 8
+
+		#Gem weights control how frequently certain gems are selected over others when generating ores.
+		#Higher values increase the chances of that gem being selecting, lower values decrease chances.
+		#Changing weights has no affect on the total number of gems that will generate.
+		#Setting the weight of a gem to zero (0) will stop that gem from being chosen at all.
+		[world.generation.gemWeights]
+
+			[world.generation.gemWeights.overworld]
+				#Range: > 0
+				ruby = 0
+				#Range: > 0
+				garnet = 10
+				#Range: > 0
+				topaz = 10
+				#Range: > 0
+				amber = 10
+				#Range: > 0
+				heliodor = 10
+				#Range: > 0
+				peridot = 10
+				#Range: > 0
+				green_sapphire = 10
+				#Range: > 0
+				phosphophyllite = 10
+				#Range: > 0
+				aquamarine = 0
+				#Range: > 0
+				sapphire = 0
+				#Range: > 0
+				tanzanite = 10
+				#Range: > 0
+				amethyst = 0
+				#Range: > 0
+				agate = 10
+				#Range: > 0
+				morganite = 10
+				#Range: > 0
+				onyx = 10
+				#Range: > 0
+				opal = 10
+
+			[world.generation.gemWeights.the_nether]
+				#Range: > 0
+				carnelian = 10
+				#Range: > 0
+				spinel = 10
+				#Range: > 0
+				citrine = 10
+				#Range: > 0
+				jasper = 10
+				#Range: > 0
+				zircon = 10
+				#Range: > 0
+				moldavite = 10
+				#Range: > 0
+				malachite = 10
+				#Range: > 0
+				turquoise = 10
+				#Range: > 0
+				euclase = 10
+				#Range: > 0
+				benitoite = 10
+				#Range: > 0
+				iolite = 10
+				#Range: > 0
+				alexandrite = 10
+				#Range: > 0
+				lepidolite = 10
+				#Range: > 0
+				ametrine = 10
+				#Range: > 0
+				black_diamond = 10
+				#Range: > 0
+				moonstone = 10
+
+			[world.generation.gemWeights.the_end]
+				#Range: > 0
+				pyrope = 10
+				#Range: > 0
+				coral = 10
+				#Range: > 0
+				sunstone = 10
+				#Range: > 0
+				cats_eye = 10
+				#Range: > 0
+				yellow_diamond = 10
+				#Range: > 0
+				jade = 10
+				#Range: > 0
+				chrysoprase = 10
+				#Range: > 0
+				apatite = 0
+				#Range: > 0
+				fluorite = 0
+				#Range: > 0
+				kyanite = 10
+				#Range: > 0
+				sodalite = 10
+				#Range: > 0
+				ammolite = 10
+				#Range: > 0
+				kunzite = 10
+				#Range: > 0
+				rose_quartz = 10
+				#Range: > 0
+				tektite = 10
+				#Range: > 0
+				pearl = 10
+
+			#All non-vanilla dimensions. Gems will only replace stone.
+			[world.generation.gemWeights.mod_dims]
+				#Range: > 0
+				ruby = 10
+				#Range: > 0
+				garnet = 10
+				#Range: > 0
+				topaz = 10
+				#Range: > 0
+				amber = 10
+				#Range: > 0
+				heliodor = 10
+				#Range: > 0
+				peridot = 10
+				#Range: > 0
+				green_sapphire = 10
+				#Range: > 0
+				phosphophyllite = 10
+				#Range: > 0
+				aquamarine = 10
+				#Range: > 0
+				sapphire = 10
+				#Range: > 0
+				tanzanite = 10
+				#Range: > 0
+				amethyst = 10
+				#Range: > 0
+				agate = 10
+				#Range: > 0
+				morganite = 10
+				#Range: > 0
+				onyx = 10
+				#Range: > 0
+				opal = 10
+
+	[world.chaos]
+
+		[world.chaos.events]
+			#Spawn several lightning bolts that do not cause fire
+			"silentgems:chaos_lightning" = true
+			#Create a patch of corrupted blocks
+			"silentgems:corrupt_blocks" = true
+			#Spawn a group of corrupted slimes
+			"silentgems:corrupted_slimes" = true
+			#Changes the weather to a thunderstorm
+			"silentgems:thunderstorm" = true
+			#Spawn a regular lightning bolt (can cause fire)
+			"silentgems:lightning" = true
+			#Spawn a group of wisps (random element)
+			"silentgems:spawn_wisps" = true
+			#Applies negative potion effects to the player
+			"silentgems:chaos_sickness" = true
+

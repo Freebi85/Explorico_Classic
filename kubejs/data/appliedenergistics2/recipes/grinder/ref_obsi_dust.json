@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+      "tag": "forge:ingots/refined_obsidian"
+  },
+  "result": {
+    "primary": {
+      "item": "mekanism:dust_refined_obsidian" 
+    }
+  },
+  "turns": 8
+}

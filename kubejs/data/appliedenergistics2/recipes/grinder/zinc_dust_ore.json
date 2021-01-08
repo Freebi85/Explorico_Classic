@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/zinc"
+  },
+  "result": {
+    "primary": {
+      "item": "silents_mechanisms:zinc_dust"
+    },
+    "optional": [
+      {
+        "item": "silents_mechanisms:zinc_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

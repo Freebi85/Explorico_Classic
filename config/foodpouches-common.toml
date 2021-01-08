@@ -1,0 +1,22 @@
+
+#General settings
+[general]
+	#Enable automatic pouch recipes
+	auto_enabled = true
+	#Enable creative pouch recipe
+	creative_enabled = false
+	#Enable long use time (48 ticks instead of 32 ticks)
+	long_use_time = true
+
+	#Pouch settings
+	#Sizes in meals (1 full hunger bar)
+	[general.pouches]
+		#Range: > 0
+		medium_size = 50
+		#Range: > 1
+		massive_size = 500
+		#Range: > 0
+		small_size = 25
+		#Range: > 0
+		large_size = 100
+

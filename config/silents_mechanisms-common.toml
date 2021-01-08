@@ -1,0 +1,169 @@
+
+[general]
+	#Shows a message in chat warning the player that the mod is early in development
+	showBetaWelcomeMessage = false
+
+[machine]
+
+	[machine.fluidGenerators]
+		#The amount of fluid (in milliBuckets, or mB) fluid generators consume at once.
+		#Lower values reduce waste, but may cause lag as the generator more frequently turns on/off.
+		#A generator with less fluid in the tank will not be able to run.
+		#Range: 1 ~ 1000
+		injectionVolume = 100
+
+[world]
+	#Set to 'false' to completely disable ore generation from this mod, ignoring all other settings.
+	#You can also enable/disable ores individually, but this is useful if you plan to use another mod for ore generation.
+	masterSwitch = true
+
+	[world.oilLake]
+		#Chance of oil lakes spawning (1 in chance). Higher numbers = less common. Set 0 to disable.
+		#Water is 4, lava is 80. Oil lakes will spawn underground about 90% of the time.
+		#Note that disabling oil will make some items uncraftable unless recipes are changed
+		#Range: > 0
+		chance = 6
+
+	#Configs for specific ores. Set veinCount to zero to disable an ore.
+	[world.ores]
+
+		[world.ores.copper]
+			#Number of veins per chunk
+			#Range: > 0
+			veinCount = 8
+			#Size of veins
+			#Range: 0 ~ 100
+			veinSize = 8
+			#Minimum Y-coordinate (base height) of veins
+			#Range: 0 ~ 255
+			minHeight = 40
+			#Maximum Y-coordinate (highest level) of veins
+			#Range: 0 ~ 255
+			maxHeight = 90
+
+		[world.ores.tin]
+			#Number of veins per chunk
+			#Range: > 0
+			veinCount = 8
+			#Size of veins
+			#Range: 0 ~ 100
+			veinSize = 8
+			#Minimum Y-coordinate (base height) of veins
+			#Range: 0 ~ 255
+			minHeight = 20
+			#Maximum Y-coordinate (highest level) of veins
+			#Range: 0 ~ 255
+			maxHeight = 80
+
+		[world.ores.silver]
+			#Number of veins per chunk
+			#Range: > 0
+			veinCount = 4
+			#Size of veins
+			#Range: 0 ~ 100
+			veinSize = 8
+			#Minimum Y-coordinate (base height) of veins
+			#Range: 0 ~ 255
+			minHeight = 0
+			#Maximum Y-coordinate (highest level) of veins
+			#Range: 0 ~ 255
+			maxHeight = 40
+
+		[world.ores.lead]
+			#Number of veins per chunk
+			#Range: > 0
+			veinCount = 4
+			#Size of veins
+			#Range: 0 ~ 100
+			veinSize = 8
+			#Minimum Y-coordinate (base height) of veins
+			#Range: 0 ~ 255
+			minHeight = 0
+			#Maximum Y-coordinate (highest level) of veins
+			#Range: 0 ~ 255
+			maxHeight = 30
+
+		[world.ores.nickel]
+			#Number of veins per chunk
+			#Range: > 0
+			veinCount = 1
+			#Size of veins
+			#Range: 0 ~ 100
+			veinSize = 6
+			#Minimum Y-coordinate (base height) of veins
+			#Range: 0 ~ 255
+			minHeight = 0
+			#Maximum Y-coordinate (highest level) of veins
+			#Range: 0 ~ 255
+			maxHeight = 24
+
+		[world.ores.platinum]
+			#Number of veins per chunk
+			#Range: > 0
+			veinCount = 1
+			#Size of veins
+			#Range: 0 ~ 100
+			veinSize = 8
+			#Minimum Y-coordinate (base height) of veins
+			#Range: 0 ~ 255
+			minHeight = 5
+			#Maximum Y-coordinate (highest level) of veins
+			#Range: 0 ~ 255
+			maxHeight = 20
+
+		[world.ores.zinc]
+			#Number of veins per chunk
+			#Range: > 0
+			veinCount = 4
+			#Size of veins
+			#Range: 0 ~ 100
+			veinSize = 8
+			#Minimum Y-coordinate (base height) of veins
+			#Range: 0 ~ 255
+			minHeight = 20
+			#Maximum Y-coordinate (highest level) of veins
+			#Range: 0 ~ 255
+			maxHeight = 60
+
+		[world.ores.bismuth]
+			#Number of veins per chunk
+			#Range: > 0
+			veinCount = 4
+			#Size of veins
+			#Range: 0 ~ 100
+			veinSize = 8
+			#Minimum Y-coordinate (base height) of veins
+			#Range: 0 ~ 255
+			minHeight = 16
+			#Maximum Y-coordinate (highest level) of veins
+			#Range: 0 ~ 255
+			maxHeight = 64
+
+		[world.ores.bauxite]
+			#Number of veins per chunk
+			#Range: > 0
+			veinCount = 6
+			#Size of veins
+			#Range: 0 ~ 100
+			veinSize = 8
+			#Minimum Y-coordinate (base height) of veins
+			#Range: 0 ~ 255
+			minHeight = 15
+			#Maximum Y-coordinate (highest level) of veins
+			#Range: 0 ~ 255
+			maxHeight = 50
+
+		[world.ores.uranium]
+			#Number of veins per chunk
+			#Range: > 0
+			veinCount = 1
+			#Size of veins
+			#Range: 0 ~ 100
+			veinSize = 4
+			#Minimum Y-coordinate (base height) of veins
+			#Range: 0 ~ 255
+			minHeight = 0
+			#Maximum Y-coordinate (highest level) of veins
+			#Range: 0 ~ 255
+			maxHeight = 18
+

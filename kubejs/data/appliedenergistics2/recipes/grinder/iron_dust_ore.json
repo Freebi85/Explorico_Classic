@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/iron"
+  },
+  "result": {
+    "primary": {
+      "item": "silents_mechanisms:iron_dust"
+    },
+    "optional": [
+      {
+        "item": "silents_mechanisms:iron_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

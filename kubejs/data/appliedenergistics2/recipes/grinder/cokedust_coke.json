@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:coal_coke"
+  },
+  "result": {
+    "primary": {
+      "item": "immersiveengineering:dust_coke"
+    }
+  },
+  "turns": 4
+}

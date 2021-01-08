@@ -1,0 +1,35 @@
+{
+    "__comment": "Explorico Easy Welcome Message",
+    "display": {
+        "title": {
+            "text": "Welcome to Explorico Easy mode!",
+            "color": "green",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": "Spawn into the world. Which welcomes you to the modpack.",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "Block": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 0
+    }
+}

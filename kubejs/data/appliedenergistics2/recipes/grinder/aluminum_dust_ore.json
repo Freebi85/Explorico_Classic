@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/aluminum"
+  },
+  "result": {
+    "primary": {
+      "item": "silents_mechanisms:aluminum_dust"
+    },
+    "optional": [
+      {
+        "item": "silents_mechanisms:aluminum_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

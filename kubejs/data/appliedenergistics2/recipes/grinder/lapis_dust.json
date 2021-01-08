@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:gems/lapis"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:lapis_dust"
+    }
+  },
+  "turns": 4
+}

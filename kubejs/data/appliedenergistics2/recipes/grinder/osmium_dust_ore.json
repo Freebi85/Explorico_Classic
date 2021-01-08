@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/osmium"
+  },
+  "result": {
+    "primary": {
+      "item": "mekanism:dust_osmium"
+    },
+    "optional": [
+      {
+        "item": "mekanism:dust_osmium"
+      }
+    ]
+  },
+  "turns": 8
+}

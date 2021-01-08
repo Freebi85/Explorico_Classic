@@ -1,0 +1,12 @@
+	{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ingots/platinum"
+  },
+  "result": {
+    "primary": {
+      "item": "silents_mechanisms:platinum_dust"
+    }
+  },
+  "turns": 4
+}

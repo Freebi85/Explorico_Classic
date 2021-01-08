@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:gems/sulfur"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:sulfur_dust"
+    }
+  },
+  "turns": 6
+}

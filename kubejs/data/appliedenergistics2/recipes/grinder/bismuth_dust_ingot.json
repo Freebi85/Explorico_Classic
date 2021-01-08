@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ingots/bismuth"
+  },
+  "result": {
+    "primary": {
+      "item": "silents_mechanisms:bismuth_dust"
+    }
+  },
+  "turns": 4
+}

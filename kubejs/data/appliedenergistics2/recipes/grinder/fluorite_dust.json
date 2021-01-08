@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+      "tag": "forge:gems/fluorite"
+  },
+  "result": {
+    "primary": {
+      "item": "mekanism:dust_fluorite" 
+    }
+  },
+  "turns": 6
+}

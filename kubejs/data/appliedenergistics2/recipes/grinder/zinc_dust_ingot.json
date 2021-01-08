@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ingots/zinc"
+  },
+  "result": {
+    "primary": {
+      "item": "silents_mechanisms:zinc_dust"
+    }
+  },
+  "turns": 4
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Freebi85",
+      "uniqueId": "a64315a2-2c44-44e3-baf2-4f200ef3e597"
+    },
+    "time": 1608562951874,
+    "type": "Sampler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/#zlcUHq3vKN"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Freebi85",
+      "uniqueId": "a64315a2-2c44-44e3-baf2-4f200ef3e597"
+    },
+    "time": 1608562772652,
+    "type": "Sampler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/#s3xCihacnL"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Freebi85",
+      "uniqueId": "a64315a2-2c44-44e3-baf2-4f200ef3e597"
+    },
+    "time": 1608562614007,
+    "type": "Sampler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/#ivC0sUs7kg"
+    }
+  }
+]

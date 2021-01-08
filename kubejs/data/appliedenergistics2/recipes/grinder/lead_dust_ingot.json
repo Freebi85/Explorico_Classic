@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ingots/lead"
+  },
+  "result": {
+    "primary": {
+      "item": "silents_mechanisms:lead_dust"
+    }
+  },
+  "turns": 4
+}

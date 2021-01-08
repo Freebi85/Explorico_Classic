@@ -1,0 +1,23 @@
+#False to disable RoR sounds
+"Activate RoR sounds" = true
+#The Infusion max health cap
+#Range: 20 ~ 200
+"Infusion cap" = 60
+#True if Gunner Drones are to spawn naturally
+"Spawn Gunner Drones" = true
+#True if Lemurians are to spawn naturally
+"Spawn Lemurians" = true
+#True if Stone Golems are to spawn naturally
+"Spawn Stone Golems" = true
+#The weight of Gunner Drones in vanilla spawn rate
+#Range: 1 ~ 100
+"Gunner Drone spawn weight" = 1
+#The weight of Lemurians in vanilla's spawn rate
+#Range: 1 ~ 100
+"Lemurian spawn weight" = 80
+#The weight of Stone Golems in vanilla's spawn rate
+#Range: 1 ~ 100
+"Stone Golem spawn weight" = 10
+#Whitelisted RoR spawn biomes. Use the format like "minecraft:plains" 
+riskOfRainSpawnBiomes = ["minecraft:giant_tree_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:frozen_river", "minecraft:snowy_taiga", "minecraft:forest", "minecraft:gravelly_mountains", "minecraft:dark_forest_hills", "minecraft:savanna_plateau", "minecraft:wooded_badlands_plateau", "minecraft:ice_spikes", "minecraft:snowy_beach", "minecraft:giant_tree_taiga", "minecraft:river", "minecraft:beach", "minecraft:desert_lakes", "minecraft:taiga", "minecraft:bamboo_jungle_hills", "minecraft:jungle", "minecraft:wooded_hills", "minecraft:modified_badlands_plateau", "minecraft:modified_jungle", "minecraft:modified_gravelly_mountains", "minecraft:jungle_hills", "minecraft:tall_birch_forest", "minecraft:sunflower_plains", "minecraft:wooded_mountains", "minecraft:desert_hills", "minecraft:shattered_savanna", "minecraft:taiga_mountains", "minecraft:stone_shore", "minecraft:mountains", "minecraft:swamp", "minecraft:birch_forest", "minecraft:mountain_edge", "minecraft:badlands_plateau", "minecraft:flower_forest", "minecraft:birch_forest_hills", "minecraft:modified_wooded_badlands_plateau", "minecraft:desert", "minecraft:eroded_badlands", "minecraft:modified_jungle_edge", "minecraft:snowy_taiga_hills", "minecraft:dark_forest", "minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:jungle_edge", "minecraft:bamboo_jungle", "minecraft:taiga_hills", "minecraft:savanna", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_spruce_taiga", "minecraft:swamp_hills", "minecraft:badlands", "minecraft:shattered_savanna_plateau", "minecraft:plains"]
+

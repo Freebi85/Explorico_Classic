@@ -1,0 +1,13 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+      "tag": "forge:ores/apatite"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:apatite",
+	"count": 12
+    }
+  },
+  "turns": 8
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "simulatedMobs": [
+    {
+      "mob": "minecraft:sheep",
+      "simulatedKills": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "learnedDrops": []
+    }
+  ]
+}

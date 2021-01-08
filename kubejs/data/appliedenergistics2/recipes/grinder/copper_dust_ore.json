@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/copper"
+  },
+  "result": {
+    "primary": {
+      "item": "silents_mechanisms:copper_dust"
+    },
+    "optional": [
+      {
+        "item": "silents_mechanisms:copper_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

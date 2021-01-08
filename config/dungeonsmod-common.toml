@@ -1,0 +1,151 @@
+
+#Dungeons Mod Configuration Settings
+[general]
+	#Should players leave a ghost when they die? 0 to disable, 1 to always, 100/positiveValues chance
+	#Range: > 0
+	"Ghost Players" = 20
+
+[items]
+	#Home Gem Cast Time in Ticks
+	#Range: > 0
+	"Home Gem Cast Time" = 200
+	#Sun Overdrive Cast Time in Ticks
+	#Range: > 0
+	"Sun Overdrive Cast Time" = 200
+	#Sun Overdrive Cooldown in Ticks
+	#Range: > 0
+	"Sun Overdrive Cooldown" = 144000
+	#Home Gem Cooldown in Ticks
+	#Range: > 0
+	"Home Gem Cooldown" = 18000
+
+#Each mob spawn chance is calculated by Weight. 0 to disable it
+[mobs]
+
+	[mobs.rogue]
+		#Range: > 0
+		"Rogue Weight" = 1
+
+	[mobs.anthermite]
+		#Range: > 0
+		"Anthermite Weight" = 2
+
+	[mobs.piranha]
+		#Range: > 0
+		"Piranha Weight" = 5
+
+	[mobs.notehead]
+		#Range: > 0
+		"Note Head Weight" = 1
+
+	[mobs.crow]
+		#Range: > 0
+		"Crow Weight" = 10
+
+	[mobs.mimic]
+		#Range: > 0
+		"Mimic Weight" = 5
+
+	[mobs.slimond]
+		#Range: > 0
+		"Slimond Weight" = 1
+
+	[mobs.haunter]
+		#Range: > 0
+		"Haunter Weight" = 100
+
+[structures]
+
+	[structures.the_ship]
+		#Range: > 0
+		"Seed Modifier" = 1788430
+		#Range: > 0
+		Separation = 20
+		#1 to always, 100/positiveValues chance
+		#Range: > 1
+		"Spawing Chance" = 1
+		#Range: > 0
+		Spacing = 80
+
+	[structures.the_castle]
+		#Range: > 0
+		"Seed Modifier" = 5284629
+		#Range: > 0
+		Separation = 20
+		#1 to always, 100/positiveValues chance
+		#Range: > 1
+		"Spawing Chance" = 1
+		#Range: > 0
+		Spacing = 80
+
+	[structures.the_iron_mines]
+		#Range: > 0
+		"Seed Modifier" = 9326560
+		#Range: > 0
+		Separation = 20
+		#1 to always, 100/positiveValues chance
+		#Range: > 1
+		"Spawing Chance" = 1
+		#Range: > 0
+		Spacing = 80
+
+	[structures.the_origin]
+		#Range: > 0
+		"Seed Modifier" = 3241280
+		#Range: > 0
+		Separation = 20
+		#1 to always, 100/positiveValues chance
+		#Range: > 1
+		"Spawing Chance" = 1
+		#Range: > 0
+		Spacing = 80
+
+	[structures.the_lab]
+		#Range: > 0
+		"Seed Modifier" = 3241280
+		#Range: > 0
+		Separation = 20
+		#1 to always, 100/positiveValues chance
+		#Range: > 1
+		"Spawing Chance" = 1
+		#Range: > 0
+		Spacing = 80
+
+	[structures.the_chapel]
+		#Range: > 0
+		"Seed Modifier" = 31632
+		#Range: > 0
+		Separation = 8
+		#1 to always, 100/positiveValues chance
+		#Range: > 1
+		"Spawing Chance" = 1
+		#Range: > 0
+		Spacing = 32
+
+	[structures.the_camp]
+		#Range: > 0
+		"Seed Modifier" = 14357617
+		#Range: > 0
+		Separation = 8
+		#1 to always, 100/positiveValues chance
+		#Range: > 1
+		"Spawing Chance" = 1
+		#Range: > 0
+		Spacing = 32
+
+	[structures.the_house]
+		#Range: > 0
+		"Seed Modifier" = 9326560
+		#Range: > 0
+		Separation = 20
+		#1 to always, 100/positiveValues chance
+		#Range: > 1
+		"Spawing Chance" = 1
+		#Range: > 0
+		Spacing = 80
+
+[traveler]
+	#Traveler does not spawn in this radius if theres another traveler near
+	#Range: 0 ~ 256
+	"The One radius" = 10
+

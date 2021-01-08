@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/quartz"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:quartz_dust"
+    },
+    "optional": [
+      {
+        "item": "thermal:quartz_dust"
+      }
+    ]
+  },
+  "turns": 8
+}
