@@ -234,7 +234,7 @@
 				#Range: > 0
 				moldavite = 10
 				#Range: > 0
-				malachite = 10
+				malachite = 0
 				#Range: > 0
 				turquoise = 10
 				#Range: > 0
@@ -291,7 +291,7 @@
 			#All non-vanilla dimensions. Gems will only replace stone.
 			[world.generation.gemWeights.mod_dims]
 				#Range: > 0
-				ruby = 10
+				ruby = 0
 				#Range: > 0
 				garnet = 10
 				#Range: > 0
@@ -307,13 +307,13 @@
 				#Range: > 0
 				phosphophyllite = 10
 				#Range: > 0
-				aquamarine = 10
+				aquamarine = 0
 				#Range: > 0
-				sapphire = 10
+				sapphire = 0
 				#Range: > 0
 				tanzanite = 10
 				#Range: > 0
-				amethyst = 10
+				amethyst = 0
 				#Range: > 0
 				agate = 10
 				#Range: > 0

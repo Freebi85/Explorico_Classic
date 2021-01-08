@@ -56,7 +56,7 @@
 	#Define how ores generates in the world
 	[common.worldgen]
 		#Enable generation of Yellorite Ore.
-		yelloriteOreEnableWorldGen = false
+		yelloriteOreEnableWorldGen = true
 		#If false, disables all world gen from Extreme Reactors;
 		#all other worldgen settings are automatically ignored.
 		enableWorldGen = true
