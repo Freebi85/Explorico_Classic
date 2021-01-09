@@ -13,4 +13,6 @@
 	#How often to auto-refresh a network (one second is 20 ticks)
 	#Range: 2 ~ 4096
 	autoRefreshTicks = 20
+	#Set to false to disable the automatic focus of the searchbar
+	enableAutoSearchFocus = true
 

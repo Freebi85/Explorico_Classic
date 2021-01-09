@@ -56,4 +56,6 @@ minimap_visibility = 255
 minimap_zone = true
 #Enables debug info
 debug_info = false
+#Enables creation of death waypoints
+death_waypoints = true
 

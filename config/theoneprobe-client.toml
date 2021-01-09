@@ -82,6 +82,8 @@ chestContentsBorderColor = "ff006699"
 showBreakProgress = 1
 #true means shows harvestability with vanilla style icons
 harvestStyleVanilla = true
+#This is a list of entities that will not be rendered by TOP. This option also works if it is set client-side alone
+renderBlacklist = []
 
 [style]
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."

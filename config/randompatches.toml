@@ -189,6 +189,7 @@
 	max_client_custom_payload_packet_size = 16777216
 
 # Options related to player speed limits.
+# These options are used to fix MC-90062: https://bugs.mojang.com/browse/MC-90062
 [player_speed_limits]
 	# The maximum player speed when not riding a vehicle or flying with elytra.
 	# The vanilla default is 100.0.
@@ -256,10 +257,11 @@
 	#   - Required for making the forward movement key not conflict with the secondary sprint key.
 	#   - Required for making the sneak key not conflict with the dismount key.
 	#   - Required for making standalone modifier keys not conflict with key combinations with that modifier key.
-	# - KeyboardListener: Required for the narrator toggle, escape, GUI toggle and debug key bindings.
+	# - KeyboardListener: Required for the narrator toggle, pause, GUI toggle and debug key bindings.
 	# - Minecraft:
 	#   - Required for changing Minecraft window options.
 	#   - Required for disabling the warning that displays when loading a world that uses experimental settings.
+	# - MouseHelper: Required for using mouse buttons for the narrator toggle, pause, GUI toggle and debug key bindings.
 	# - NettyCompressionDecoder: Required for setting the maximum compressed packet size.
 	# - PacketBuffer: Required for setting the maximum NBT compound tag packet size.
 	# - PotionItem: Required for removing the glowing effect from potions.

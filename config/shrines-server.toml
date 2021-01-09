@@ -12,10 +12,10 @@
 		#Ballon Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Ballon Distance (in chunks) [default: 80]
+		#Ballon Distance (in chunks) [default: 50]
 		#Range: 1 ~ 500
 		distance = 80
-		#Ballon Minimum Separation (in chunks) [default: 15]
+		#Ballon Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 15
 		#Ballon Seed (Only Change if you know what you are doing)[default: 143665]
@@ -25,6 +25,10 @@
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Biomes the Ballon can NOT generate in
 		biome_blacklist = []
+		#Needs Ballon Ground? [default: false]
+		needs_ground = false
+		#Use Random Varianting for Ballon? [default: true]
+		varianting = true
 
 	[structures.bees]
 		#Generate Beess?
@@ -45,6 +49,10 @@
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Biomes the Bees can NOT generate in
 		biome_blacklist = []
+		#Needs Bees Ground? [default: true]
+		needs_ground = true
+		#Use Random Varianting for Bees? [default: false]
+		varianting = false
 
 	[structures.high_tempel]
 		#Generate High Tempels?
@@ -65,6 +73,13 @@
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Biomes the High Tempel can NOT generate in
 		biome_blacklist = []
+		#Needs High Tempel Ground? [default: true]
+		needs_ground = true
+		#Use Random Varianting for High Tempel? [default: true]
+		varianting = true
+		#High Tempel Generate Loot Chance [default: 1.0]
+		#Range: 0.0 ~ 1.0
+		loot_chance = 1.0
 
 	[structures.nether_pyramid]
 		#Generate Nether Pyramids?
@@ -88,6 +103,10 @@
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Biomes the Nether Pyramid can NOT generate in
 		biome_blacklist = []
+		#Needs Nether Pyramid Ground? [default: true]
+		needs_ground = true
+		#Use Random Varianting for Nether Pyramid? [default: true]
+		varianting = true
 
 	[structures.nether_shrine]
 		#Generate Nether Shrines?
@@ -111,6 +130,10 @@
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Biomes the Nether Shrine can NOT generate in
 		biome_blacklist = []
+		#Needs Nether Shrine Ground? [default: true]
+		needs_ground = true
+		#Use Random Varianting for Nether Shrine? [default: true]
+		varianting = true
 
 	[structures.player_house]
 		#Generate Player Houses?
@@ -134,6 +157,10 @@
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Biomes the Player House can NOT generate in
 		biome_blacklist = []
+		#Needs Player House Ground? [default: true]
+		needs_ground = true
+		#Use Random Varianting for Player House? [default: true]
+		varianting = true
 
 	[structures.small_tempel]
 		#Generate Small Tempels?
@@ -154,6 +181,10 @@
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Biomes the Small Tempel can NOT generate in
 		biome_blacklist = []
+		#Needs Small Tempel Ground? [default: true]
+		needs_ground = true
+		#Use Random Varianting for Small Tempel? [default: true]
+		varianting = true
 
 	[structures.water_shrine]
 		#Generate Water Shrines?
@@ -167,11 +198,69 @@
 		#Water Shrine Minimum Separation (in chunks) [default: 15]
 		#Range: 1 ~ 500
 		separation = 15
-		#Water Shrine Seed (Only Change if you know what you are doing)[default: 143665]
+		#Water Shrine Seed (Only Change if you know what you are doing)[default: 643168754]
 		#Range: > -2147483648
 		seed = 1520586
 		#Biome Types the Water Shrine can generate in
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Biomes the Water Shrine can NOT generate in
 		biome_blacklist = []
+		#Needs Water Shrine Ground? [default: true]
+		needs_ground = true
+		#Use Random Varianting for Water Shrine? [default: true]
+		varianting = true
+
+	[structures.mineral_temple]
+		#Generate Mineral Temples?
+		generate = true
+		#Needs Mineral Temple Ground? [default: true]
+		needs_ground = true
+		#Mineral Temple Spawn Chance [default: 0.6]
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.6
+		#Mineral Temple Distance (in chunks) [default: 50]
+		#Range: 1 ~ 500
+		distance = 50
+		#Mineral Temple Minimum Separation (in chunks) [default: 10]
+		#Range: 1 ~ 500
+		separation = 10
+		#Mineral Temple Seed (Only Change if you know what you are doing)[default: 576143753]
+		#Range: > -2147483648
+		seed = 576143753
+		#Biome Types the Mineral Temple can generate in
+		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
+		#Biomes the Mineral Temple can NOT generate in
+		biome_blacklist = []
+		#Use Random Varianting for Mineral Temple? [default: false]
+		varianting = false
+		#Mineral Temple Generate Loot Chance [default: 1.0]
+		#Range: 0.0 ~ 1.0
+		loot_chance = 1.0
+
+	[structures.flooded_temple]
+		#Generate Flooded Temples?
+		generate = true
+		#Needs Flooded Temple Ground? [default: true]
+		needs_ground = true
+		#Flooded Temple Spawn Chance [default: 0.6]
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.6
+		#Flooded Temple Distance (in chunks) [default: 50]
+		#Range: 1 ~ 500
+		distance = 50
+		#Flooded Temple Minimum Separation (in chunks) [default: 10]
+		#Range: 1 ~ 500
+		separation = 10
+		#Flooded Temple Seed (Only Change if you know what you are doing)[default: 54315143]
+		#Range: > -2147483648
+		seed = 54315143
+		#Biome Types the Flooded Temple can generate in
+		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
+		#Biomes the Flooded Temple can NOT generate in
+		biome_blacklist = []
+		#Use Random Varianting for Flooded Temple? [default: false]
+		varianting = false
+		#Flooded Temple Generate Loot Chance [default: 1.0]
+		#Range: 0.0 ~ 1.0
+		loot_chance = 1.0
 
