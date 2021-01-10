@@ -15,13 +15,13 @@ craftingTable.removeRecipe(<item:mysticalagriculture:infusion_altar>);
 
 craftingTable.addShaped("infpedestal", <item:mysticalagriculture:infusion_pedestal>, [
 [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>], 
-[<item:minecraft:red_carpet>, <tag:forge:stone>, <item:minecraft:red_carpet>],
-[<item:minecraft:red_carpet>, <tag:forge:ingots/gold>, <item:minecraft:red_carpet>]]);
+[<item:minecraft:red_carpet>, <tag:items:forge:stone>, <item:minecraft:red_carpet>],
+[<item:minecraft:red_carpet>, <tag:items:forge:ingots/gold>, <item:minecraft:red_carpet>]]);
 
 craftingTable.addShaped("infaltar", <item:mysticalagriculture:infusion_altar>, [
 [<item:mysticalagriculture:inferium_block>, <item:minecraft:red_carpet>, <item:mysticalagriculture:inferium_block>], 
 [<item:minecraft:red_carpet>, <item:overloaded_cb:compressed_stone_1>, <item:minecraft:red_carpet>],
-[<item:minecraft:red_carpet>, <tag:forge:storage_blocks/gold>, <item:minecraft:red_carpet>]]);
+[<item:minecraft:red_carpet>, <tag:items:forge:storage_blocks/gold>, <item:minecraft:red_carpet>]]);
 
 
 // Master Crystal =============================================================================================

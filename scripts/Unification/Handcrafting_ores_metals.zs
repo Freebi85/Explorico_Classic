@@ -29,15 +29,15 @@ craftingTable.addShapeless("enderdust_m", <item:thermal:ender_pearl_dust>, [<ite
 
 // Fluix   =============================================================================================
 craftingTable.removeRecipe(<item:appliedenergistics2:fluix_dust>);
-craftingTable.addShapeless("fluixdust_m", <item:appliedenergistics2:fluix_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:appliedenergistics2:crystals/fluix>], null);
+craftingTable.addShapeless("fluixdust_m", <item:appliedenergistics2:fluix_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:appliedenergistics2:crystals/fluix>], null);
 
 // Certus  =============================================================================================
 craftingTable.removeRecipe(<item:appliedenergistics2:certus_quartz_dust>);
-craftingTable.addShapeless("certusdust_m", <item:appliedenergistics2:certus_quartz_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:gems/certus_quartz>], null);
+craftingTable.addShapeless("certusdust_m", <item:appliedenergistics2:certus_quartz_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:gems/certus_quartz>], null);
 
 // Cyanite  =============================================================================================
 craftingTable.removeRecipe(<item:bigreactors:cyanite_dust>);
-craftingTable.addShapeless("cyanitedust_m", <item:bigreactors:cyanite_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/cyanite>], null);
+craftingTable.addShapeless("cyanitedust_m", <item:bigreactors:cyanite_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/cyanite>], null);
 
 // Graphite  =============================================================================================
 craftingTable.removeRecipe(<item:bigreactors:graphite_dust>);
@@ -45,156 +45,156 @@ craftingTable.addShapeless("graphiteedust_m", <item:bigreactors:graphite_dust>, 
 
 // Coke  =============================================================================================
 craftingTable.removeRecipe(<item:immersiveengineering:dust_coke>);
-craftingTable.addShapeless("cokedust_m", <item:immersiveengineering:dust_coke>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(2),<tag:forge:coal_coke>], null);
+craftingTable.addShapeless("cokedust_m", <item:immersiveengineering:dust_coke>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(2),<tag:items:forge:coal_coke>], null);
 
 // Lapis   =============================================================================================
 craftingTable.removeRecipe(<item:thermal:lapis_dust>);
-craftingTable.addShapeless("lapisdust_m", <item:thermal:lapis_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:gems/lapis>], null);
+craftingTable.addShapeless("lapisdust_m", <item:thermal:lapis_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:gems/lapis>], null);
 
 // Emerald   =============================================================================================
 craftingTable.removeRecipe(<item:thermal:emerald_dust>);
-craftingTable.addShapeless("emeralddust_m", <item:thermal:emerald_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(20),<tag:forge:gems/emerald>], null);
+craftingTable.addShapeless("emeralddust_m", <item:thermal:emerald_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(20),<tag:items:forge:gems/emerald>], null);
 
 // Diamond   =============================================================================================
 craftingTable.removeRecipe(<item:thermal:diamond_dust>);
-craftingTable.addShapeless("diadust_m", <item:thermal:diamond_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(20),<tag:forge:gems/diamond>], null);
+craftingTable.addShapeless("diadust_m", <item:thermal:diamond_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(20),<tag:items:forge:gems/diamond>], null);
 
 // Netherrite   =============================================================================================
 craftingTable.removeRecipe(<item:mekanism:dust_netherite>);
-craftingTable.addShapeless("netherritedust_m", <item:mekanism:dust_netherite>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(10),<tag:forge:ingots/netherite>], null);
+craftingTable.addShapeless("netherritedust_m", <item:mekanism:dust_netherite>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(10),<tag:items:forge:ingots/netherite>], null);
 
 // Refined Obsidian  =============================================================================================
 craftingTable.removeRecipe(<item:mekanism:dust_refined_obsidian>);
-craftingTable.addShapeless("refindobsidust_m", <item:mekanism:dust_refined_obsidian>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/refined_obsidian>], null);
+craftingTable.addShapeless("refindobsidust_m", <item:mekanism:dust_refined_obsidian>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/refined_obsidian>], null);
 
 // Fluorite   =============================================================================================
 craftingTable.removeRecipe(<item:mekanism:dust_fluorite>);
-craftingTable.addShapeless("fluoritedust_m", <item:mekanism:dust_fluorite>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:gems/fluorite>], null);
+craftingTable.addShapeless("fluoritedust_m", <item:mekanism:dust_fluorite>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:gems/fluorite>], null);
 
 // Osmium  =============================================================================================
 craftingTable.removeRecipe(<item:mekanism:dust_osmium>);
-craftingTable.addShapeless("osmiumdust_m", <item:mekanism:dust_osmium>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/osmium>], null);
+craftingTable.addShapeless("osmiumdust_m", <item:mekanism:dust_osmium>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/osmium>], null);
 
 // Apatite   =============================================================================================
 craftingTable.removeRecipe(<item:thermal:apatite_dust>);
-craftingTable.addShapeless("apatitedust_m", <item:thermal:apatite_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:gems/apatite>], null);
+craftingTable.addShapeless("apatitedust_m", <item:thermal:apatite_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:gems/apatite>], null);
 
 // Cinnabar   =============================================================================================
 craftingTable.removeRecipe(<item:thermal:cinnabar_dust>);
-craftingTable.addShapeless("cinnabar_m", <item:thermal:cinnabar_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:gems/cinnabar>], null);
+craftingTable.addShapeless("cinnabar_m", <item:thermal:cinnabar_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:gems/cinnabar>], null);
 
 // Niter   =============================================================================================
 craftingTable.removeRecipe(<item:thermal:niter_dust>);
-craftingTable.addShapeless("niter_m", <item:thermal:niter_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:gems/niter>], null);
+craftingTable.addShapeless("niter_m", <item:thermal:niter_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:gems/niter>], null);
 
 // Quartz  =============================================================================================
 craftingTable.removeRecipe(<item:thermal:quartz_dust>);
-craftingTable.addShapeless("quartz_m", <item:thermal:quartz_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:gems/quartz>], null);
+craftingTable.addShapeless("quartz_m", <item:thermal:quartz_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:gems/quartz>], null);
 
 // Redstone Alloy  =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:redstone_alloy_dust>);
-craftingTable.addShapeless("redalloy_m", <item:silents_mechanisms:redstone_alloy_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/redstone_alloy>], null);
+craftingTable.addShapeless("redalloy_m", <item:silents_mechanisms:redstone_alloy_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/redstone_alloy>], null);
 
 // Copper  =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:copper_dust>);
-craftingTable.addShapeless("copper_m", <item:silents_mechanisms:copper_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/copper>], null);
+craftingTable.addShapeless("copper_m", <item:silents_mechanisms:copper_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/copper>], null);
 
 // Tin =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:tin_dust>);
-craftingTable.addShapeless("tin_m", <item:silents_mechanisms:tin_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/tin>], null);
+craftingTable.addShapeless("tin_m", <item:silents_mechanisms:tin_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/tin>], null);
 
 // Silver   =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:silver_dust>);
-craftingTable.addShapeless("silver_m", <item:silents_mechanisms:silver_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/silver>], null);
+craftingTable.addShapeless("silver_m", <item:silents_mechanisms:silver_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/silver>], null);
 
 // Nickel   =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:nickel_dust>);
-craftingTable.addShapeless("nickel_m", <item:silents_mechanisms:nickel_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/nickel>], null);
+craftingTable.addShapeless("nickel_m", <item:silents_mechanisms:nickel_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/nickel>], null);
 
 // Platinum   =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:platinum_dust>);
-craftingTable.addShapeless("platinum_m", <item:silents_mechanisms:platinum_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/platinum>], null);
+craftingTable.addShapeless("platinum_m", <item:silents_mechanisms:platinum_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/platinum>], null);
 
 // Zinc  =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:zinc_dust>);
-craftingTable.addShapeless("zinc_m", <item:silents_mechanisms:zinc_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/zinc>], null);
+craftingTable.addShapeless("zinc_m", <item:silents_mechanisms:zinc_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/zinc>], null);
 
 // Bismuth   =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:bismuth_dust>);
-craftingTable.addShapeless("bismuth_m", <item:silents_mechanisms:bismuth_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/bismuth>], null);
+craftingTable.addShapeless("bismuth_m", <item:silents_mechanisms:bismuth_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/bismuth>], null);
 
 // Aluminum  =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:aluminum_dust>);
-craftingTable.addShapeless("alum_m", <item:silents_mechanisms:aluminum_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/aluminum>], null);
+craftingTable.addShapeless("alum_m", <item:silents_mechanisms:aluminum_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/aluminum>], null);
 
 // Uranium =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:uranium_dust>);
-craftingTable.addShapeless("uranium_m", <item:silents_mechanisms:uranium_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/uranium>], null);
+craftingTable.addShapeless("uranium_m", <item:silents_mechanisms:uranium_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/uranium>], null);
 
 
 // Bronze  =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:bronze_dust>);
-craftingTable.addShapeless("bronze_m", <item:silents_mechanisms:bronze_dust> * 4, [<tag:forge:dusts/copper>,<tag:forge:dusts/copper>,<tag:forge:dusts/copper>,<tag:forge:dusts/tin>], null);
-craftingTable.addShapeless("bronze_m2", <item:silents_mechanisms:bronze_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/bronze>], null);
+craftingTable.addShapeless("bronze_m", <item:silents_mechanisms:bronze_dust> * 4, [<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/tin>], null);
+craftingTable.addShapeless("bronze_m2", <item:silents_mechanisms:bronze_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/bronze>], null);
 
 // Brass  =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:brass_dust>);
-craftingTable.addShapeless("brass_m", <item:silents_mechanisms:brass_dust> * 4, [<tag:forge:dusts/copper>,<tag:forge:dusts/copper>,<tag:forge:dusts/copper>,<tag:forge:dusts/zinc>], null);
-craftingTable.addShapeless("brass_m2", <item:silents_mechanisms:brass_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/brass>], null);
+craftingTable.addShapeless("brass_m", <item:silents_mechanisms:brass_dust> * 4, [<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/zinc>], null);
+craftingTable.addShapeless("brass_m2", <item:silents_mechanisms:brass_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/brass>], null);
 
 // Invar  =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:invar_dust>);
-craftingTable.addShapeless("invar_m", <item:silents_mechanisms:invar_dust> * 3, [<tag:forge:dusts/iron>,<tag:forge:dusts/iron>,<tag:forge:dusts/nickel>], null);
-craftingTable.addShapeless("invar_m2", <item:silents_mechanisms:invar_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/invar>], null);
+craftingTable.addShapeless("invar_m", <item:silents_mechanisms:invar_dust> * 3, [<tag:items:forge:dusts/iron>,<tag:items:forge:dusts/iron>,<tag:items:forge:dusts/nickel>], null);
+craftingTable.addShapeless("invar_m2", <item:silents_mechanisms:invar_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/invar>], null);
 
 // Electrum =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:electrum_dust>);
-craftingTable.addShapeless("electrum_m", <item:silents_mechanisms:electrum_dust> * 2, [<tag:forge:dusts/gold>,<tag:forge:dusts/silver>], null);
-craftingTable.addShapeless("electrum_m2", <item:silents_mechanisms:electrum_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/electrum>], null);
+craftingTable.addShapeless("electrum_m", <item:silents_mechanisms:electrum_dust> * 2, [<tag:items:forge:dusts/gold>,<tag:items:forge:dusts/silver>], null);
+craftingTable.addShapeless("electrum_m2", <item:silents_mechanisms:electrum_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/electrum>], null);
 
 // Steel =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:steel_dust>);
-craftingTable.addShapeless("steel_m", <item:silents_mechanisms:steel_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/steel>], null);
+craftingTable.addShapeless("steel_m", <item:silents_mechanisms:steel_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/steel>], null);
 
 // Bismuth-Brass =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:bismuth_brass_dust>);
-craftingTable.addShapeless("bis_brass_m", <item:silents_mechanisms:bismuth_brass_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/bismuth_brass>], null);
+craftingTable.addShapeless("bis_brass_m", <item:silents_mechanisms:bismuth_brass_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/bismuth_brass>], null);
 
 // ALu-Steel =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:aluminum_steel_dust>);
-craftingTable.addShapeless("alu-steel_m", <item:silents_mechanisms:aluminum_steel_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/aluminum_steel>], null);
+craftingTable.addShapeless("alu-steel_m", <item:silents_mechanisms:aluminum_steel_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/aluminum_steel>], null);
 
 // Bismuth-Steel =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:bismuth_steel_dust>);
-craftingTable.addShapeless("bis-steel_m", <item:silents_mechanisms:bismuth_steel_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/bismuth_steel>], null);
+craftingTable.addShapeless("bis-steel_m", <item:silents_mechanisms:bismuth_steel_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/bismuth_steel>], null);
 
 // Signalum =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:signalum_dust>);
-craftingTable.addShapeless("signalum_m", <item:silents_mechanisms:signalum_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/signalum>], null);
-craftingTable.addShapeless("signalum_m2", <item:silents_mechanisms:signalum_dust> * 4, [<tag:forge:dusts/copper>,<tag:forge:dusts/copper>,<tag:forge:dusts/copper>,<tag:forge:dusts/silver>, <tag:forge:dusts/redstone>,<tag:forge:dusts/redstone>,<tag:forge:dusts/redstone>,<tag:forge:dusts/redstone>], null);
+craftingTable.addShapeless("signalum_m", <item:silents_mechanisms:signalum_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/signalum>], null);
+craftingTable.addShapeless("signalum_m2", <item:silents_mechanisms:signalum_dust> * 4, [<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/silver>, <tag:items:forge:dusts/redstone>,<tag:items:forge:dusts/redstone>,<tag:items:forge:dusts/redstone>,<tag:items:forge:dusts/redstone>], null);
 
 // Lumium =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:lumium_dust>);
 craftingTable.removeRecipe(<item:thermal:lumium_dust>);
-craftingTable.addShapeless("lumium_m", <item:silents_mechanisms:lumium_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/lumium>], null);
-craftingTable.addShapeless("lumium_m2", <item:silents_mechanisms:lumium_dust> * 4, [<tag:forge:dusts/tin>,<tag:forge:dusts/tin>,<tag:forge:dusts/tin>,<tag:forge:dusts/silver>, <tag:forge:dusts/glowstone>,<tag:forge:dusts/glowstone>], null);
+craftingTable.addShapeless("lumium_m", <item:silents_mechanisms:lumium_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/lumium>], null);
+craftingTable.addShapeless("lumium_m2", <item:silents_mechanisms:lumium_dust> * 4, [<tag:items:forge:dusts/tin>,<tag:items:forge:dusts/tin>,<tag:items:forge:dusts/tin>,<tag:items:forge:dusts/silver>, <tag:items:forge:dusts/glowstone>,<tag:items:forge:dusts/glowstone>], null);
 
 // Enderium =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:enderium_dust>);
-craftingTable.addShapeless("enderium_m", <item:silents_mechanisms:enderium_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/lumium>], null);
-craftingTable.addShapeless("enderium_m2", <item:silents_mechanisms:enderium_dust> * 4, [<tag:forge:dusts/lead>,<tag:forge:dusts/lead>,<tag:forge:dusts/lead>,<tag:forge:dusts/diamond>, <tag:forge:dusts/ender_pearl>,<tag:forge:dusts/ender_pearl>], null);
+craftingTable.addShapeless("enderium_m", <item:silents_mechanisms:enderium_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/lumium>], null);
+craftingTable.addShapeless("enderium_m2", <item:silents_mechanisms:enderium_dust> * 4, [<tag:items:forge:dusts/lead>,<tag:items:forge:dusts/lead>,<tag:items:forge:dusts/lead>,<tag:items:forge:dusts/diamond>, <tag:items:forge:dusts/ender_pearl>,<tag:items:forge:dusts/ender_pearl>], null);
 
 // Coal =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:coal_dust>);
-craftingTable.addShapeless("coal_m", <item:silents_mechanisms:coal_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:gems/coal>], null);
+craftingTable.addShapeless("coal_m", <item:silents_mechanisms:coal_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:gems/coal>], null);
 
 // Starmetal =============================================================================================
 craftingTable.removeRecipe(<item:astralsorcery:stardust>);
-craftingTable.addShapeless("starmetal_m", <item:astralsorcery:stardust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:astralsorcery:starmetal>], null);
+craftingTable.addShapeless("starmetal_m", <item:astralsorcery:stardust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:astralsorcery:starmetal>], null);
 
 // Tungsten =============================================================================================
 craftingTable.removeRecipe(<item:jaopca:dusts.tungsten>);
-craftingTable.addShapeless("tungsten_m", <item:jaopca:dusts.tungsten>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:forge:ingots/tungsten>], null);
+craftingTable.addShapeless("tungsten_m", <item:jaopca:dusts.tungsten>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/tungsten>], null);
 
 
 

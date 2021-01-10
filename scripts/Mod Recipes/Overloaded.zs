@@ -17,25 +17,25 @@ mods.jei.JEI.hideItem(<item:overloaded:instant_furnace>);
 craftingTable.removeRecipe(<item:overloaded:multi_chestplate>);
 
 craftingTable.addShaped("multichest", <item:overloaded:multi_chestplate>, [
-[<tag:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:forge:storage_blocks/nether_star>], 
-[<tag:forge:storage_blocks/nether_star>, <item:botania:terrasteel_chestplate>, <tag:forge:storage_blocks/nether_star>],
-[<tag:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:forge:storage_blocks/nether_star>]]);
+[<tag:items:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:items:forge:storage_blocks/nether_star>], 
+[<tag:items:forge:storage_blocks/nether_star>, <item:botania:terrasteel_chestplate>, <tag:items:forge:storage_blocks/nether_star>],
+[<tag:items:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:items:forge:storage_blocks/nether_star>]]);
 
 // Leggins =============================================================================================
 craftingTable.removeRecipe(<item:overloaded:multi_leggings>);
 
 craftingTable.addShaped("multilegs", <item:overloaded:multi_leggings>, [
-[<tag:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:forge:storage_blocks/nether_star>], 
-[<tag:forge:storage_blocks/nether_star>, <item:botania:terrasteel_leggings>, <tag:forge:storage_blocks/nether_star>],
-[<tag:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:forge:storage_blocks/nether_star>]]);
+[<tag:items:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:items:forge:storage_blocks/nether_star>], 
+[<tag:items:forge:storage_blocks/nether_star>, <item:botania:terrasteel_leggings>, <tag:items:forge:storage_blocks/nether_star>],
+[<tag:items:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:items:forge:storage_blocks/nether_star>]]);
 
 
 // Helmet=============================================================================================
 craftingTable.removeRecipe(<item:overloaded:multi_helmet>);
 
 craftingTable.addShaped("multihelmet", <item:overloaded:multi_helmet>, [
-[<tag:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:forge:storage_blocks/nether_star>], 
-[<tag:forge:storage_blocks/nether_star>, <item:botania:terrasteel_helmet>, <tag:forge:storage_blocks/nether_star>],
+[<tag:items:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:items:forge:storage_blocks/nether_star>], 
+[<tag:items:forge:storage_blocks/nether_star>, <item:botania:terrasteel_helmet>, <tag:items:forge:storage_blocks/nether_star>],
 [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
 
 // Boots =============================================================================================
@@ -43,5 +43,5 @@ craftingTable.removeRecipe(<item:overloaded:multi_boots>);
 
 craftingTable.addShaped("multiboots", <item:overloaded:multi_boots>, [
 [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-[<tag:forge:storage_blocks/nether_star>, <item:botania:terrasteel_boots>, <tag:forge:storage_blocks/nether_star>],
-[<tag:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:forge:storage_blocks/nether_star>]]);
+[<tag:items:forge:storage_blocks/nether_star>, <item:botania:terrasteel_boots>, <tag:items:forge:storage_blocks/nether_star>],
+[<tag:items:forge:storage_blocks/nether_star>, <item:overloaded:energy_core>, <tag:items:forge:storage_blocks/nether_star>]]);
