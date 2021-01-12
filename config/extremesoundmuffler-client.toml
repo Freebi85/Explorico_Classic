@@ -12,4 +12,6 @@
 	disableInventoryButton = false
 	#Blacklisted Sounds - add the name of the sounds to blacklist, separated with comma
 	forbiddenSounds = ["ui.", "music.", "ambient."]
+	#Set to true to move the muffle and play buttons to the left side of the GUI
+	leftButtons = false
 
