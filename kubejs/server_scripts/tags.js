@@ -20,7 +20,7 @@ event.get('forge:ores/sapphire').add('iceandfire:sapphire_ore')
 event.get('forge:ores/amythest').add('iceandfire:amythest_ore')
 
 // Yellorite Ore
-event.get('#forge:ores/uranium').add('bigreactors:yellorite_ore')
+event.get('forge:ores/uranium').add('bigreactors:yellorite_ore')
 
 
 // Charged Quartz Ore and Gems
