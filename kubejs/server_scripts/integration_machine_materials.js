@@ -26,8 +26,6 @@ event.remove({id: 'thermal:machine/pulverizer/pulverizer_sulfur'})
 event.remove({id: 'thermal:machine/pulverizer/pulverizer_sapphire_ore'})
 event.remove({id: 'thermal:machine/pulverizer/pulverizer_emerald'})
 event.remove({id: 'thermal:machine/press/press_emerald_gem_to_gear'})
-event.remove({id: 'mekanism:processing/refined_glowstone/ingot/from_dust'})
-event.remove({id: 'mekanism:processing/refined_obsidian/ingot/from_dust'})
 event.remove({id: 'mekanism:processing/emerald/to_dust'})
 event.remove({id: 'silents_mechanisms:crushing/cinnabar_gems'})
 
