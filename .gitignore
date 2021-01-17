@@ -26,7 +26,15 @@ scriptsFormatted/*
 ESM/*
 */mods/*
 mods/*
-*.json
+minecraftinstance.json
+patchouli_data.json
+realms_persistence.json
+TrashSlotState.json
+TrashSlotSaveState.json
+usercache.json
+usernamecache.json
+woot/*
 *.txt
 *.toml
 *.dat
+!defaultconfigs/*
