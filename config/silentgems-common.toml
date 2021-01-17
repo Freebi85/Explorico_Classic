@@ -323,6 +323,17 @@
 				#Range: > 0
 				opal = 10
 
+		#Number of veins of gems to spawn per chunk, by dimension. 'others' is all non-vanilla dimensions.
+		[world.generation.veinCounts]
+			#Range: 0 ~ 100
+			overworld = 10
+			#Range: 0 ~ 100
+			the_nether = 10
+			#Range: 0 ~ 100
+			the_end = 10
+			#Range: 0 ~ 100
+			others = 10
+
 	[world.chaos]
 
 		[world.chaos.events]

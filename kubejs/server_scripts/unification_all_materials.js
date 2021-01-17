@@ -152,7 +152,7 @@ event.replaceOutput({}, '#forge:gears/constantan', 'thermal:constantan_gear')
 
 event.replaceOutput({}, '#forge:dusts/diamond', 'thermal:diamond_dust') 
 event.replaceOutput({}, '#forge:dusts/emerald', 'thermal:emerald_dust') 
-event.replaceOutput({}, '#forge:dusts/emerald', 'thermal:lapis_dust') 
+event.replaceOutput({}, '#forge:dusts/lapis', 'thermal:lapis_dust') 
 event.replaceOutput({}, '#forge:dusts/ender_pearl', 'thermal:ender_pearl_dust') 
 event.replaceOutput({}, '#appliedenergistics2:dusts/ender', 'thermal:ender_pearl_dust') 
 event.replaceOutput({}, '#forge:dusts/saltpeter', 'thermal:niter_dust') 

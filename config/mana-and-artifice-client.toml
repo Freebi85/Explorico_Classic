@@ -16,3 +16,8 @@
 	#Range: 0 ~ 2
 	hudMode = 0
 
+#Mana and Artifice // Performance Settings
+[ma_performance]
+	#Enable fancy magelights (disable this if you're getting FPS issues)
+	ma_fancy_magelights = true
+

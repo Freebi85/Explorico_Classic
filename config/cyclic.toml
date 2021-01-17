@@ -142,7 +142,7 @@
 			#Power per use forester
 			#Range: 0 ~ 64000
 			forester = 150
-			#Power per tick beacon
+			#Power per tick while in use
 			#Range: 0 ~ 64000
 			beacon = 150
 			#Power per use crafter
@@ -157,6 +157,12 @@
 			#Power per tick while in use
 			#Range: 0 ~ 64000
 			structure = 10
+			#Power per tick while in use
+			#Range: 0 ~ 64000
+			placer = 0
+			#Power per tick while in use
+			#Range: 0 ~ 64000
+			breaker = 0
 
 		#####################################################################################
 		# Fuel gained by consuming items

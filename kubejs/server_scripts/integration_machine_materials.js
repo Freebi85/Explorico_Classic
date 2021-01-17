@@ -38,15 +38,15 @@ event.recipes.mekanism.crushing('thermal:sulfur_dust', '#forge:gems/sulfur')
 
 
 // Iron Dust/Ingots in missing machines ======================================================================
-event.recipes.immersiveengineering.crusher(item.of('silents_mechanisms:iron_dust').count(2), '#forge:ores/iron', item.of('silents_mechanisms:nickel_dust').chance(0.1)) //in - out - in_seconds
+event.recipes.immersiveengineering.crusher(item.of('silents_mechanisms:iron_dust', 2), '#forge:ores/iron', item.of('silents_mechanisms:nickel_dust').chance(0.1)) //in - out - in_seconds
 event.recipes.mekanism.crushing('silents_mechanisms:iron_dust', '#forge:ingots/iron')
 event.recipes.mekanism.enriching('silents_mechanisms:iron_dust', '#mekanism:dirty_dusts/iron')
-event.recipes.mekanism.enriching(item.of('silents_mechanisms:iron_dust').count(2), '#forge:ores/iron')
+event.recipes.mekanism.enriching(item.of('silents_mechanisms:iron_dust', 2), '#forge:ores/iron')
 
 // Gold Dust/Ingots in missing machines ======================================================================
-event.recipes.immersiveengineering.crusher(item.of('silents_mechanisms:gold_dust').count(2), '#forge:ores/gold', item.of('thermal:cinnabar').chance(0.05)) 
+event.recipes.immersiveengineering.crusher(item.of('silents_mechanisms:gold_dust', 2), '#forge:ores/gold', item.of('thermal:cinnabar').chance(0.05)) 
 event.recipes.mekanism.enriching('silents_mechanisms:gold_dust', '#mekanism:dirty_dusts/gold')
-event.recipes.mekanism.enriching(item.of('silents_mechanisms:gold_dust').count(2), '#forge:ores/gold')
+event.recipes.mekanism.enriching(item.of('silents_mechanisms:gold_dust', 2), '#forge:ores/gold')
 event.recipes.mekanism.crushing('silents_mechanisms:gold_dust', '#forge:ingots/gold')
 
 
@@ -77,7 +77,6 @@ event.recipes.mekanism.crushing('immersiveengineering:dust_coke', '#forge:coal_c
 event.recipes.thermal.pulverizer('immersiveengineering:dust_coke', '#forge:coal_coke')
 
 // Lapis Dust/Ingots in missing machines ======================================================================
-event.recipes.mekanism.crushing('thermal:lapis_dust', '#forge:gems/lapis')
 event.recipes.immersiveengineering.crusher('thermal:lapis_dust', '#forge:gems/lapis')
 
 // Charcoal Dust/Ingots in missing machines ======================================================================
@@ -87,6 +86,7 @@ event.recipes.immersiveengineering.crusher('mekanism:dust_charcoal', '#forge:cha
 // Emerald Dust/Ingots in missing machines ======================================================================
 event.recipes.mekanism.crushing('thermal:emerald_dust', '#forge:gems/emerald')
 event.recipes.immersiveengineering.crusher('thermal:emerald_dust', '#forge:gems/emerald')
+event.recipes.thermal.pulverizer('thermal:emerald_dust', '#forge:gems/emerald')
 
 // Diamond Dust/Ingots in missing machines ======================================================================
 event.recipes.mekanism.crushing('thermal:diamond_dust', '#forge:gems/diamond')
@@ -101,34 +101,34 @@ event.recipes.thermal.pulverizer('mekanism:dust_refined_obsidian', '#forge:ingot
 event.recipes.immersiveengineering.crusher('mekanism:dust_refined_obsidian', '#forge:ingots/refined_obsidian')
 
 // Obsidian Dust/Ingots in missing machines ======================================================================
-event.recipes.thermal.pulverizer(item.of('mekanism:dust_obsidian').count(4), '#forge:obsidian')
-event.recipes.immersiveengineering.crusher(item.of('mekanism:dust_obsidian').count(4), '#forge:obsidian')
+event.recipes.thermal.pulverizer(item.of('mekanism:dust_obsidian', 4), '#forge:obsidian')
+event.recipes.immersiveengineering.crusher(item.of('mekanism:dust_obsidian', 4), '#forge:obsidian')
 
 // Flurotie Dust/Ingots/Ores in missing machines ======================================================================
 event.recipes.thermal.pulverizer('mekanism:dust_fluorite', '#forge:gems/fluorite')
 event.recipes.immersiveengineering.crusher('mekanism:dust_fluorite', '#forge:gems/fluorite')
-event.recipes.thermal.pulverizer(item.of('mekanism:fluorite_gem').count(6), '#forge:ores/fluorite')
+event.recipes.thermal.pulverizer(item.of('mekanism:fluorite_gem', 6), '#forge:ores/fluorite')
 
 // Apatite Dust/Ingots/Ores in missing machines ======================================================================
 event.recipes.mekanism.crushing('thermal:apatite_dust', '#forge:gems/apatite')
 event.recipes.immersiveengineering.crusher('thermal:apatite_dust', '#forge:gems/apatite')
-event.recipes.immersiveengineering.crusher(item.of('thermal:apatite').count(12), '#forge:ores/apatite')
-event.recipes.mekanism.enriching(item.of('thermal:apatite').count(12), '#forge:ores/apatite')
+event.recipes.immersiveengineering.crusher(item.of('thermal:apatite', 12), '#forge:ores/apatite')
+event.recipes.mekanism.enriching(item.of('thermal:apatite', 12), '#forge:ores/apatite')
 
 // Cinnabar Dust/Ingots/Ores in missing machines ======================================================================
 event.recipes.mekanism.crushing('thermal:cinnabar_dust', '#forge:gems/cinnabar')
 event.recipes.immersiveengineering.crusher('thermal:cinnabar_dust', '#forge:gems/cinnabar')
-event.recipes.immersiveengineering.crusher(item.of('thermal:cinnabar').count(2), '#forge:ores/cinnabar')
+event.recipes.immersiveengineering.crusher(item.of('thermal:cinnabar', 2), '#forge:ores/cinnabar')
 
 // Niter Dust/Ingots/Ores in missing machines ======================================================================
 event.recipes.mekanism.crushing('thermal:niter_dust', '#forge:gems/niter')
 event.recipes.immersiveengineering.crusher('thermal:niter_dust', '#forge:gems/niter')
-event.recipes.immersiveengineering.crusher(item.of('thermal:niter').count(6), '#forge:ores/niter')
-event.recipes.mekanism.enriching(item.of('thermal:niter').count(6), '#forge:ores/niter')
+event.recipes.immersiveengineering.crusher(item.of('thermal:niter', 6), '#forge:ores/niter')
+event.recipes.mekanism.enriching(item.of('thermal:niter', 6), '#forge:ores/niter')
 
 // Quartz Dust/Ingots/Ores in missing machines ======================================================================
 event.recipes.immersiveengineering.crusher('thermal:quartz_dust', '#forge:gems/quartz')
-event.recipes.immersiveengineering.crusher(item.of('minecraft:quartz').count(4), '#forge:ores/quartz')
+event.recipes.immersiveengineering.crusher(item.of('minecraft:quartz', 4), '#forge:ores/quartz')
 
 // Redstone Alloy Dust/Ingots/Ores in missing machines ======================================================================
 event.recipes.mekanism.crushing('silents_mechanisms:redstone_alloy_dust', '#forge:ingots/redstone_alloy')
@@ -146,13 +146,13 @@ event.recipes.appliedenergistics2.grinder({
 
 
 // Silver Dust/Ingots/Ores in missing machines ======================================================================
-event.recipes.mekanism.enriching(item.of('silents_mechanisms:silver_dust').count(2), '#forge:ores/silver')
+event.recipes.mekanism.enriching(item.of('silents_mechanisms:silver_dust', 2), '#forge:ores/silver')
 event.recipes.mekanism.crushing('silents_mechanisms:silver_dust', '#forge:ingots/silver')
 
 // Lead Dust/Ingots/Ores in missing machines ======================================================================
 event.recipes.immersiveengineering.crusher('silents_mechanisms:lead_dust', '#forge:ingots/lead')
 event.recipes.mekanism.enriching('silents_mechanisms:lead_dust', '#mekanism:dirty_dusts/lead')
-event.recipes.mekanism.enriching(item.of('silents_mechanisms:lead_dust').count(2), '#forge:ores/lead')
+event.recipes.mekanism.enriching(item.of('silents_mechanisms:lead_dust', 2), '#forge:ores/lead')
 event.recipes.mekanism.crushing('silents_mechanisms:lead_dust', '#forge:ingots/lead')
 
 // Nickel Dust/Ingots/Ores in missing machines ======================================================================
@@ -234,8 +234,8 @@ event.recipes.appliedenergistics2.grinder({
 // Sapphire Dust/Ingots/Ores in missing machines ======================================================================
 event.replaceOutput({}, '#forge:gems/sapphire', 'iceandfire:sapphire_gem')
 event.replaceOutput({}, '#forge:storage_blocks/sapphire', 'iceandfire:sapphire_block')
-event.recipes.immersiveengineering.crusher(item.of('iceandfire:sapphire_gem').count(2), '#forge:ores/sapphire')
-event.recipes.thermal.pulverizer(item.of('iceandfire:sapphire_gem').count(2), '#forge:ores/sapphire')
+event.recipes.immersiveengineering.crusher(item.of('iceandfire:sapphire_gem', 2), '#forge:ores/sapphire')
+event.recipes.thermal.pulverizer(item.of('iceandfire:sapphire_gem', 2), '#forge:ores/sapphire')
 event.recipes.appliedenergistics2.grinder({
     input: ingredient.of('#forge:ores/sapphire').toJson(),
     result: {
@@ -246,8 +246,8 @@ event.recipes.appliedenergistics2.grinder({
   }) 
 
 // Amethyst Dust/Ingots/Ores in missing machines ======================================================================
-event.recipes.immersiveengineering.crusher(item.of('iceandfire:amythest_gem').count(2), '#forge:ores/amethyst')
-event.recipes.thermal.pulverizer(item.of('iceandfire:amythest_gem').count(2), '#forge:ores/amethyst')
+event.recipes.immersiveengineering.crusher(item.of('iceandfire:amythest_gem', 2), '#forge:ores/amethyst')
+event.recipes.thermal.pulverizer(item.of('iceandfire:amythest_gem', 2), '#forge:ores/amethyst')
 event.recipes.appliedenergistics2.grinder({
     input: ingredient.of('#forge:ores/amethyst').toJson(),
     result: {
@@ -259,7 +259,7 @@ event.recipes.appliedenergistics2.grinder({
 
 
 // Ruby Dust/Ingots/Ores in missing machines ======================================================================
-event.recipes.immersiveengineering.crusher(item.of('bluepower:ruby_gem').count(2), '#forge:ores/ruby')
+event.recipes.immersiveengineering.crusher(item.of('bluepower:ruby_gem', 2), '#forge:ores/ruby')
 event.replaceOutput({}, '#forge:gems/ruby', 'bluepower:ruby_gem')
 event.replaceOutput({}, '#forge:storage_blocks/ruby', 'bluepower:ruby_block')
 event.recipes.appliedenergistics2.grinder({
@@ -272,8 +272,8 @@ event.recipes.appliedenergistics2.grinder({
   }) 
 
 // Malachite Dust/Ingots/Ores in missing machines ======================================================================
-event.recipes.immersiveengineering.crusher(item.of('bluepower:malachite_gem').count(2), '#forge:ores/malachite')
-event.recipes.thermal.pulverizer(item.of('bluepower:malachite_gem').count(2), '#forge:ores/malachite')
+event.recipes.immersiveengineering.crusher(item.of('bluepower:malachite_gem', 2), '#forge:ores/malachite')
+event.recipes.thermal.pulverizer(item.of('bluepower:malachite_gem', 2), '#forge:ores/malachite')
 event.recipes.appliedenergistics2.grinder({
     input: ingredient.of('#forge:ores/malachite').toJson(),
     result: {
@@ -284,8 +284,8 @@ event.recipes.appliedenergistics2.grinder({
   }) 
 
 // Certus Quartz Dust/Ingots/Ores in missing machines ======================================================================
-event.recipes.thermal.pulverizer(item.of('appliedenergistics2:certus_quartz_crystal').count(4), '#forge:ores/certus_quartz') 
-event.recipes.immersiveengineering.crusher(item.of('appliedenergistics2:certus_quartz_crystal').count(4), '#forge:ores/certus_quartz') 
+event.recipes.thermal.pulverizer(item.of('appliedenergistics2:certus_quartz_crystal', 4), '#forge:ores/certus_quartz') 
+event.recipes.immersiveengineering.crusher(item.of('appliedenergistics2:certus_quartz_crystal', 4), '#forge:ores/certus_quartz') 
 event.recipes.silents_mechanisms.crushing({ingredient: ingredient.of('#forge:ores/certus_quartz').toJson(),results: [item.of('appliedenergistics2:certus_quartz_crystal', 4).toResultJson()], process_time: 200})
 
 event.recipes.create.crushing({
@@ -301,8 +301,8 @@ processingTime: 100})
 
 
 // Certus Quartz Charged Dust/Ingots/Ores in missing machines ======================================================================
-event.recipes.thermal.pulverizer(item.of('appliedenergistics2:charged_certus_quartz_crystal').count(4), '#forge:ores/certus_quartz_charged') 
-event.recipes.immersiveengineering.crusher(item.of('appliedenergistics2:charged_certus_quartz_crystal').count(4), '#forge:ores/certus_quartz_charged') 
+event.recipes.thermal.pulverizer(item.of('appliedenergistics2:charged_certus_quartz_crystal', 4), '#forge:ores/certus_quartz_charged') 
+event.recipes.immersiveengineering.crusher(item.of('appliedenergistics2:charged_certus_quartz_crystal', 4), '#forge:ores/certus_quartz_charged') 
 event.recipes.silents_mechanisms.crushing({ingredient: ingredient.of('#forge:ores/certus_quartz_charged').toJson(),results: [item.of('appliedenergistics2:charged_certus_quartz_crystal', 4).toResultJson()], process_time: 200})
 
 event.recipes.create.crushing({

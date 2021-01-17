@@ -203,7 +203,7 @@
 	"Hippogryph Spawn Weight" = 2
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Roost Chance" = 500
+	"Generate Dragon Roost Chance" = 400
 	#Maximum ghost attack strength.
 	#Range: 0.0 ~ 10000.0
 	"Ghost Attack Strength" = 3.0
@@ -224,7 +224,7 @@
 	"Trolls Drop Weapon" = true
 	#Troll spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Troll Spawn Weight" = 4
+	"Troll Spawn Weight" = 2
 	#Glacier Spawn Weight. Higher number = more common
 	#Range: 1 ~ 10000
 	"Glacier Spawn Weight" = 4

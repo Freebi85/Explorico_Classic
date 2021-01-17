@@ -30,11 +30,6 @@
 		#Range: 0 ~ 255
 		netherStrongholdMinHeight = 33
 		#
-		#Allow Nether-styled Stronghold to
-		#generate in modded Nether biomes.
-		#
-		"addNetherStrongholdToModdedBiomes " = true
-		#
 		# How rare are Chains in this Stronghold. (Can have Soul Lantern attached)
 		#
 		#Range: 0 ~ 1000
@@ -55,6 +50,11 @@
 		# Setting this to below min height config will make strongholds spawn only at min height.
 		#Range: 0 ~ 255
 		netherStrongholdMaxHeight = 36
+		#
+		#Allow Nether-styled Stronghold to
+		#generate in modded Nether biomes.
+		#
+		addNetherStrongholdToModdedBiomes = true
 
 	[Stronghold.Stonebrick]
 		#

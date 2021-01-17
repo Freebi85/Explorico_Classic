@@ -74,3 +74,10 @@
 				#Range: 4.9E-324 ~ 1.7976931348623157E308
 				size = 4.0
 
+			[client.client.performance.models]
+
+				[client.client.performance.models.cache]
+					#mod.chiselsandbits.config.client.performance.models.cache.size.comment
+					#Range: -9223372036854775808 ~ 9223372036854775807
+					size = 1000000
+

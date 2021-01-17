@@ -2,7 +2,7 @@
 #Server and Client side changes.
 [common]
 	#Obsidian Spire rarity (higher number = lower spawnrate)
-	obsidianSpireSpawnRate = 11
+	obsidianSpireSpawnRate = 16
 	#Disables the Looter's ability to take the player's weapon (This makes them spawn with a random weapon, good and bad)
 	disableLooterStealing = true
 	#Farlander Loot Well rarity (higher number = lower spawnrate)

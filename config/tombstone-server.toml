@@ -65,6 +65,12 @@
 	cooldown_to_pray = 3
 	#Sets the decorative graves unbreakable [false/true|default:false]
 	unbreakable_decorative_grave = false
+	#Cooldown in second after using a tablet other than Tablet of Cupidity [30..1200|default:60]
+	#Range: 30 ~ 1200
+	tablet_cooldown = 60
+	#Cooldown in second after using a Tablet of Cupidity [300..3600|default:900]
+	#Range: 300 ~ 3600
+	tablet_of_cupidity_cooldown = 900
 
 #Allows to disable some magic items
 [allowedMagicItems]
