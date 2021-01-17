@@ -28,6 +28,7 @@ event.remove({id: 'thermal:machine/pulverizer/pulverizer_emerald'})
 event.remove({id: 'thermal:machine/press/press_emerald_gem_to_gear'})
 event.remove({id: 'mekanism:processing/emerald/to_dust'})
 event.remove({id: 'silents_mechanisms:crushing/cinnabar_gems'})
+event.remove({id: 'silentgems:crushing/apatite'})
 
 
 // Sulfur Dust in missing machines  ======================================================================

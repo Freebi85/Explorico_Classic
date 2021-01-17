@@ -188,6 +188,7 @@ event.replaceOutput({}, '#forge:gems/ruby', 'bluepower:ruby_gem')
 event.replaceOutput({}, '#forge:storage_blocks/ruby', 'bluepower:ruby_block') 
 event.replaceOutput({}, '#forge:gems/malachite', 'bluepower:malachite_gem') 
 event.replaceOutput({}, '#forge:storage_blocks/malachite', 'bluepower:malachite_block') 
+event.replaceOutput({}, '#forge:gems/apatite', 'thermal:apatite') 
 
 event.replaceOutput({}, '#forge:coal_coke', 'thermal:coal_coke') 
  

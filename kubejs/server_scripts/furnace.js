@@ -39,6 +39,7 @@ event.remove({type: 'minecraft:smelting', output: '#forge:gems/sapphire'})
 event.remove({type: 'minecraft:smelting', output: '#forge:gems/amethyst'})
 event.remove({type: 'minecraft:smelting', output: '#forge:gems/ruby'})
 event.remove({type: 'minecraft:smelting', output: '#forge:gems/malachite'})
+event.remove({type: 'minecraft:smelting', output: '#forge:gems/apatite'})
 
 
 // Additions and cleanups =======================================================================
@@ -106,7 +107,7 @@ s('iceandfire:amythest_gem', '#forge:ores/amethyst').xp(0.1)
 s('bluepower:ruby_gem', '#forge:ores/ruby').xp(0.1)
 s('bluepower:malachite_gem', '#forge:ores/malachite').xp(0.1)
 s('silents_mechanisms:uranium_ingot', 'bigreactors:yellorite_ore').xp(0.1)
-
+s('thermal:apatite', '#forge:ores/apatite').xp(0.1)
 
 
 
