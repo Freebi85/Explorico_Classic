@@ -54,6 +54,10 @@
 		#Range: > 0
 		"Haunter Weight" = 100
 
+	#Blacklisted biomes in which no mobs will spawn
+	[mobs.blacklisted-biomes]
+		"Blacklisted Biomes" = ["minecraft:modified_jungle_edge"]
+
 [structures]
 
 	[structures.the_ship]
@@ -143,6 +147,21 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+
+	[structures.the_catacombs]
+		#Range: > 0
+		Spacing = 80
+		#Range: > 0
+		Separation = 20
+		#Range: > 0
+		"Seed Modifier" = 3252381
+		#1 to always, 100/positiveValues chance
+		#Range: > 1
+		"Spawing Chance" = 1
+
+	#Blacklisted biomes in which no structures will spawn
+	[structures.blacklisted-biomes]
+		"Blacklisted Biomes" = ["minecraft:modified_jungle_edge"]
 
 [traveler]
 	#Traveler does not spawn in this radius if theres another traveler near

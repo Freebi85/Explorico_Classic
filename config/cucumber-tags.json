@@ -18,7 +18,7 @@
   "forge:dusts/saltpeter": "bloodmagic:saltpeter",
   "forge:ingots/steel": "mekanism:ingot_steel",
   "forge:ingots/titanium": "null",
-  "forge:rubber": "null",
+  "forge:rubber": "industrialforegoing:dryrubber",
   "forge:ingots/platinum": "silents_mechanisms:platinum_ingot",
   "forge:dusts/sulfur": "mekanism:dust_sulfur",
   "forge:ingots/lead": "mekanism:ingot_lead",

@@ -159,7 +159,7 @@ event.replaceOutput({}, '#forge:dusts/saltpeter', 'thermal:niter_dust')
 event.replaceOutput({}, '#forge:dusts/niter', 'thermal:niter_dust') 
 event.replaceOutput({}, '#forge:dusts/sulfur', 'thermal:sulfur_dust') 
 event.replaceOutput({}, '#forge:dusts/quartz', 'thermal:quartz_dust') 
-event.replaceOutput({}, '#appliedenergistics2:dusts/quartz', 'thermal:quartz_dust') 
+event.replaceOutput({}, '#appliedenergistics2:dusts/certus-quartz', 'appliedenergistics2:certus_quartz_dust') 
 
 event.replaceOutput({}, '#forge:dusts/wood', 'thermal:sawdust') 
 event.replaceOutput({}, '#forge:sawdust', 'thermal:sawdust')
@@ -190,9 +190,15 @@ event.replaceOutput({}, '#forge:gems/malachite', 'bluepower:malachite_gem')
 event.replaceOutput({}, '#forge:storage_blocks/malachite', 'bluepower:malachite_block') 
 event.replaceOutput({}, '#forge:gems/apatite', 'thermal:apatite') 
 
+
+
 event.replaceOutput({}, '#forge:coal_coke', 'thermal:coal_coke') 
  
   
+// Rubber ==================================================================================================================
+  
+event.replaceOutput({}, '#forge:rubber', 'industrialforegoing:dryrubber') 
+event.replaceInput({}, 'thermal:rubber', 'industrialforegoing:dryrubber') 
 })
 
 

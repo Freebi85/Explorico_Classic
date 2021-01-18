@@ -73,9 +73,6 @@ mods.jei.JEI.hideItem(<item:immersiveengineering:storage_aluminum>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:nugget_aluminum>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:ingot_aluminum>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:dust_aluminum>);
-mods.jei.JEI.hideItem(<item:immersiveengineering:stick_iron>);
-mods.jei.JEI.hideItem(<item:immersiveengineering:stick_steel>);
-mods.jei.JEI.hideItem(<item:immersiveengineering:stick_aluminum>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:dust_sulfur>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:dust_saltpeter>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:dust_wood>);
@@ -90,9 +87,6 @@ craftingTable.removeRecipe(<item:immersiveengineering:plate_gold>);
 craftingTable.removeRecipe(<item:immersiveengineering:plate_copper>);
 craftingTable.removeRecipe(<item:immersiveengineering:plate_silver>);
 craftingTable.removeRecipe(<item:immersiveengineering:plate_nickel>);
-craftingTable.removeRecipe(<item:immersiveengineering:stick_iron>);
-craftingTable.removeRecipe(<item:immersiveengineering:stick_steel>);
-craftingTable.removeRecipe(<item:immersiveengineering:stick_aluminum>);
 craftingTable.removeRecipe(<item:immersiveengineering:dust_sulfur>);
 craftingTable.removeRecipe(<item:immersiveengineering:dust_saltpeter>);
 
@@ -354,5 +348,10 @@ mods.jei.JEI.hideItem(<item:create:brass_ingot>);
 // MoreVanillaLib ===========================================
 mods.jei.JEI.hideItem(<item:morevanillalib:obsidian_shard>);
 craftingTable.removeRecipe(<item:morevanillalib:obsidian_shard>);
+
+
+// Industrial Foregoing ===========================================
+mods.jei.JEI.hideItem(<item:thermal:rubber>);
+
 
 

@@ -1,6 +1,10 @@
 
 events.listen('item.tags', function (event) {
 
+// Removals
+event.get('appliedenergistics2:dusts/quartz').remove('thermal:quartz_dust')
+event.get('appliedenergistics2:dusts/quartz').remove('mekanism:dust_quartz')
+event.get('appliedenergistics2:dusts/quartz').remove('appliedenergistics2:nether_quartz_dust')
 
 // Silicone
 event.get('appliedenergistics2:silicon').add('refinedstorage:silicon')
@@ -11,6 +15,10 @@ event.get('refinedstorage:silicon').add('appliedenergistics2:silicon')
 
 // Sawdust
 event.get('forge:dusts/wood').add('thermal:sawdust')
+
+// Rubber
+event.get('forge:rubber').add('industrialforegoing:dryrubber')
+event.get('forge:rubber').add('thermal:rubber')
 
 
 // Sapphire Ore

@@ -30,7 +30,6 @@ event.remove({id: 'mekanism:processing/emerald/to_dust'})
 event.remove({id: 'silents_mechanisms:crushing/cinnabar_gems'})
 event.remove({id: 'silentgems:crushing/apatite'})
 
-
 // Sulfur Dust in missing machines  ======================================================================
 event.recipes.immersiveengineering.crusher('thermal:sulfur_dust', '#forge:gems/sulfur', item.of('thermal:sulfur_dust').chance(0.1)) //in - out - seconds
 event.recipes.thermal.pulverizer(['thermal:sulfur_dust', item.of('thermal:sulfur_dust').chance(0.1)], '#forge:gems/sulfur')

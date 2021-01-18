@@ -5,12 +5,33 @@ settings.logRemovedRecipes = false
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
-console.info('Hello, World! (You will see this line every time server resources reload)')
 
 events.listen('recipes', event => {
-  // Change recipes here
+	
+// Cured Rubber ================================================================================
+event.remove({output: 'thermal:cured_rubber'})
+event.remove({id: 'mysticalagriculture:essence/common/rubber'})
+
+event.shaped(Item.of('thermal:cured_rubber', 5), [
+    'SAS',
+    'ASA',
+    'SAS'
+  ], {
+    'A': '#forge:gems/coal',
+    'S': '#forge:rubber'
+  })
+  
+ event.shaped(Item.of('industrialforegoing:dryrubber', 4), [
+    'SSS',
+    'S S',
+    'SSS'
+  ], {
+    'S': 'mysticalagriculture:rubber_essence'
+  }) 
+  
+  
+  
+  
+  
 })
 
-events.listen('item.tags', event => {
-  // Change item tags here
-})
