@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/glowstone"
+    },
+    {
+      "tag": "forge:dusts/glowstone"
+    },
+    {
+      "tag": "forge:dusts/glowstone"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:chromatic_compound"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

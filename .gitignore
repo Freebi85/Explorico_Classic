@@ -33,6 +33,7 @@ TrashSlotState.json
 TrashSlotSaveState.json
 usercache.json
 usernamecache.json
+config.json
 woot/*
 *.txt
 *.toml

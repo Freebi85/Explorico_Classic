@@ -29,7 +29,7 @@
 	#Copper Min Y
 	minCopperY = 35
 	#Volcano Spawn Chance
-	volcanoSpawnChance = 0.005
+	volcanoSpawnChance = 0.002
 	#Vein Count Ruby
 	veinCountRuby = 2
 	#Vein Size Silver
