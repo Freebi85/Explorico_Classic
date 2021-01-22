@@ -20,6 +20,8 @@ event.get('forge:dusts/wood').add('thermal:sawdust')
 event.get('forge:rubber').add('industrialforegoing:dryrubber')
 event.get('forge:rubber').add('thermal:rubber')
 
+// Black Dye
+event.get('forge:dyes/black').add('minecraft:ink_sac')
 
 // Sapphire Ore
 event.get('forge:ores/sapphire').add('iceandfire:sapphire_ore')

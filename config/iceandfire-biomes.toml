@@ -74,7 +74,7 @@
 	mausoleumBiomes = ["&#overworld+&#snowy+|@icy+|#cold+"]
 	graveyardBiomes = ["&#overworld+!@ocean+!#ocean+!@beach+!#beach"]
 	cockatriceBiomes = ["&#overworld+|@savanna+|#savanna"]
-	deathwormBiomes = ["&#overworld+|@desert"]
+	deathwormBiomes = ["&#overworld+|@desert", "!biomesoplenty:shrubland_hills+!biomesoplenty:shrubland"]
 	wanderingCyclopsBiomes = ["&#overworld+|@plains+|#plains"]
 	lightningDragonSkeletonBiomes = ["&#overworld+|@savanna+|#savanna"]
 	fireDragonSkeletonBiomes = ["&#overworld+|@desert"]
