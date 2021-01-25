@@ -186,7 +186,6 @@ mods.jei.JEI.hideItem(<item:bno:netherosmium_ore>);
 
 // Silentstuff ===========================================
 mods.jei.JEI.hideItem(<item:silents_mechanisms:compressed_iron_ingot>);
-mods.jei.JEI.hideItem(<item:silents_mechanisms:refined_iron_ingot>);
 
 // Bluepower ===========================================
 mods.jei.JEI.hideItem(<item:bluepower:silver_ore>);

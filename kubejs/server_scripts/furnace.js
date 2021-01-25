@@ -6,7 +6,6 @@ var s = event.recipes.minecraft.smelting
 
 
 // Removals =======================================================================
-event.remove({output: '#forge:ingots/refined_iron'})
 event.remove({output: 'silents_mechanisms:compressed_iron_ingot'})
 event.remove({id: 'silents_mechanisms:compressing/compressed_iron_ingot'})
 
