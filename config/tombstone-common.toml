@@ -154,6 +154,8 @@
 	lost_tablet_search_outside_world = true
 	#Allows lost tablets to find modded structures [false/true|default:true]
 	lost_tablet_modded_structure = true
+	#Allows to replace a grave plate already set on a grave [false/true|default:true]
+	can_replace_grave_plate = true
 
 #Allows to customize or disable the enchantments
 [enchantments]
