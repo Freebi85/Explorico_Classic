@@ -8,10 +8,10 @@
 [ore_rarity]
 	#Maximum vein size for an diamondsand Ore vein. For reference, diamonds have a max vein size of 8. Default = 7
 	#Range: 0 ~ 64
-	diamondsand_max_vein_size = 7
+	diamondsand_max_vein_size = 2
 	#Maximum spawn height size for an diamondsand ore vein. Default = 16
 	#Range: 1 ~ 255
-	diamondsand_max_spawn_height_overworld = 16
+	diamondsand_max_spawn_height_overworld = 30
 
 [network]
 	#Sync your config to the server upon joining? (Requires a Minecraft restart afterwards)
