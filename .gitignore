@@ -34,9 +34,9 @@ TrashSlotSaveState.json
 usercache.json
 usernamecache.json
 config.json
+reauth.toml
 servers.dat_old
 woot/*
 *.txt
-*.toml
 *.dat
 !defaultconfigs/*
