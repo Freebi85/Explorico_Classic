@@ -15,9 +15,15 @@
 	enableFluidSupplier = false
 	#Remove all recipe to make tanks.
 	RemoveRecipe = false
+	#Debug Mode
+	debug = false
 
 	#Recipe settings
 	[common.recipe]
 		#True to use easy recipe.
 		easyRecipe = false
+		#False to prohibit invisible tanks to be used in recipes
+		usableInvisibleInRecipe = true
+		#False to prohibit tanks with no recipe to be used in recipes of other tanks
+		usableUnavailableTankInRecipe = true
 

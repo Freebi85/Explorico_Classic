@@ -73,7 +73,69 @@ event.shaped('mysticalagradditions:insanium_farmland', [
     'F': 'mysticalagriculture:supremium_farmland'
   })
 
-})
+
+
+// Fluorite Essence ================================================================================
+event.shaped(Item.of('mekanism:fluorite_gem', 3), [
+    'EEE',
+    'E E',
+    'EEE'
+  ], {
+    'E': 'mysticalagriculture:fluorite_essence'
+  })
+
+
+
+// Azure Silver ================================================================================
+event.shaped(Item.of('silentgear:azure_silver_ingot', 2), [
+    'EEE',
+    'E E',
+    'EEE'
+  ], {
+    'E': 'mysticalagriculture:azure_silver_essence'
+  })
+
+
+
+// Azure Eelctrum ================================================================================
+event.shaped(Item.of('silentgear:azure_electrum_ingot', 2), [
+    'EEE',
+    'E E',
+    'EEE'
+  ], {
+    'E': 'mysticalagriculture:azure_electrum_essence'
+  })
+
+
+
+// Crimson Steel ================================================================================
+event.shaped(Item.of('silentgear:crimson_steel_ingot', 2), [
+    'EEE',
+    'E E',
+    'EEE'
+  ], {
+    'E': 'mysticalagriculture:crimson_steel_essence'
+  })
+
+// Crimson Iron ================================================================================
+event.shaped(Item.of('silentgear:crimson_iron_ingot', 2), [
+    'EEE',
+    'E E',
+    'EEE'
+  ], {
+    'E': 'mysticalagriculture:crimson_iron_essence'
+  })
+
+
+
+
+
+
+
+
+
+
+
 
 
 

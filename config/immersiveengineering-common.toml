@@ -24,4 +24,5 @@ importantInfo = true
 [compat]
 	computercraft = true
 	crafttweaker = true
+	theoneprobe = true
 

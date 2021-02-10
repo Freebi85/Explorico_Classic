@@ -40,6 +40,8 @@
 	#How frequently should the Pneumatic Helmet Coordinate Tracker pathfinder path be recalculated?
 	#Allowed Values: SLOW, NORMAL, FAST
 	path_update_setting = "NORMAL"
+	#Should enchantment glint be shown on Pneumatic Armor pieces? Disable if you don't like the enchantment glint messing up your carefully chosen colour scheme...
+	show_enchant_glint = true
 
 [sound]
 	#Volume level of the Jet Boots in normal flight mode

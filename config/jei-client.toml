@@ -2,7 +2,7 @@
 [advanced]
 	#How items should be handed to you
 	#Allowed Values: INVENTORY, MOUSE_PICKUP
-	GiveMode = "MOUSE_PICKUP"
+	GiveMode = "INVENTORY"
 	#Debug mode enabled
 	DebugMode = false
 	#Display search bar in the center

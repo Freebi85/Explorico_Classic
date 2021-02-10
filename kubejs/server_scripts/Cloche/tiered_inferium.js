@@ -2,8 +2,6 @@ onEvent('recipes', event => {
 
 var cloche = event.recipes.immersiveengineering.cloche
 
-
-
 function inferium(amount, time, soil) {
     cloche({
       results: [{

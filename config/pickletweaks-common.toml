@@ -67,4 +67,8 @@
 	apples = true
 	#Enable Meshes?
 	meshes = true
+	#Enable Sickles?
+	sickles = true
+	#Enable Scythes?
+	scythes = true
 

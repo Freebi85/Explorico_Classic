@@ -3,4 +3,6 @@
 [General]
 	#Enable tag list tooltips for blocks/items?
 	tagTooltips = true
+	#Enable NBT tooltips for items?
+	nbtTooltips = false
 

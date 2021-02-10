@@ -57,4 +57,6 @@
 	show_shadow_step = true
 	#Shows shield particles on villager [false/true|default:true]
 	show_shield_particle = true
+	#Denies to create a grave with your items when you die [false/true|default:false]
+	deny_grave_on_death = false
 

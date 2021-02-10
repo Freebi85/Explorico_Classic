@@ -27,6 +27,10 @@
 			crude = 0.3499999940395355
 			#Range: 0.0 ~ 10.0
 			azure = 0.5
+			#Repair efficiency with loose materials if no repair kit is used.
+			#Setting a value greater than zero makes repair kits optional.
+			#Range: 0.0 ~ 10.0
+			missing = 0.0
 
 		#Capacity is the number of materials that can be stored (all types combined)
 		#Setting to zero would make the repair kit unusable.

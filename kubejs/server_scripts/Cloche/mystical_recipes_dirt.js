@@ -923,11 +923,11 @@ event.custom({
 
 event.custom({
 	type:'immersiveengineering:cloche',
-	results:[{item:'mysticalagriculture:fluorite_gems_essence',count:2}],
-	input:{item:'mysticalagriculture:fluorite_gems_seeds'},
+	results:[{item:'mysticalagriculture:fluorite_essence',count:2}],
+	input:{item:'mysticalagriculture:fluorite_seeds'},
 	soil:{item:'minecraft:dirt'},
 	time:1000,
-	render:{type:'crop',block:'mysticalagriculture:fluorite_gems_crop'}
+	render:{type:'crop',block:'mysticalagriculture:fluorite_crop'}
 })
 
 event.custom({

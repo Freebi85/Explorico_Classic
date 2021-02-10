@@ -70,6 +70,9 @@
 			#Experience given when eating a poisoned heart
 			#Range: 0 ~ 99999
 			experience = 500
+			#Maximum number of hearts that can be attained (including initial 10)
+			#Range: 1 ~ 200
+			maximum = 100
 
 		#Wand settings
 		[cyclic.items.teleport_wand]

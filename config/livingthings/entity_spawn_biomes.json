@@ -1,0 +1,260 @@
+{
+  "livingthings:elephant": [
+    {
+      "weight": 15,
+      "minCount": 3,
+      "maxCount": 5,
+      "biomes": [
+        "minecraft:savanna",
+        "minecraft:savanna_plateau",
+        "minecraft:shattered_savanna",
+        "minecraft:shattered_savanna_plateau"
+      ]
+    }
+  ],
+  "livingthings:lion": [
+    {
+      "weight": 15,
+      "minCount": 2,
+      "maxCount": 4,
+      "biomes": [
+        "minecraft:savanna",
+        "minecraft:savanna_plateau",
+        "minecraft:shattered_savanna",
+        "minecraft:shattered_savanna_plateau"
+      ]
+    }
+  ],
+  "livingthings:penguin": [
+    {
+      "weight": 12,
+      "minCount": 3,
+      "maxCount": 6,
+      "biomes": [
+        "minecraft:snowy_tundra",
+        "minecraft:snowy_mountains",
+        "minecraft:snowy_beach"
+      ]
+    },
+    {
+      "weight": 15,
+      "minCount": 3,
+      "maxCount": 6,
+      "biomes": [
+        "minecraft:snowy_taiga",
+        "minecraft:snowy_taiga_hills",
+        "minecraft:snowy_taiga_mountains"
+      ]
+    }
+  ],
+  "livingthings:flamingo": [
+    {
+      "weight": 24,
+      "minCount": 3,
+      "maxCount": 6,
+      "biomes": [
+        "minecraft:river",
+        "minecraft:swamp_hills",
+        "minecraft:swamp"
+      ]
+    }
+  ],
+  "livingthings:shark": [
+    {
+      "weight": 13,
+      "minCount": 2,
+      "maxCount": 3,
+      "biomes": [
+        "minecraft:ocean",
+        "minecraft:deep_ocean",
+        "minecraft:frozen_ocean",
+        "minecraft:deep_frozen_ocean",
+        "minecraft:cold_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:warm_ocean",
+        "minecraft:deep_warm_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:deep_lukewarm_ocean"
+      ]
+    }
+  ],
+  "livingthings:owl": [
+    {
+      "weight": 20,
+      "minCount": 3,
+      "maxCount": 6,
+      "biomes": [
+        "minecraft:forest",
+        "minecraft:birch_forest",
+        "minecraft:birch_forest_hills",
+        "minecraft:tall_birch_forest",
+        "minecraft:tall_birch_hills",
+        "minecraft:dark_forest",
+        "minecraft:dark_forest_hills",
+        "minecraft:flower_forest",
+        "minecraft:wooded_hills",
+        "minecraft:wooded_mountains",
+        "minecraft:taiga",
+        "minecraft:taiga_hills",
+        "minecraft:taiga_mountains"
+      ]
+    }
+  ],
+  "livingthings:raccoon": [
+    {
+      "weight": 20,
+      "minCount": 2,
+      "maxCount": 6,
+      "biomes": [
+        "minecraft:plains",
+        "minecraft:forest",
+        "minecraft:birch_forest",
+        "minecraft:birch_forest_hills",
+        "minecraft:tall_birch_forest",
+        "minecraft:tall_birch_hills",
+        "minecraft:sunflower_plains",
+        "minecraft:dark_forest",
+        "minecraft:dark_forest_hills",
+        "minecraft:flower_forest"
+      ]
+    }
+  ],
+  "livingthings:monkey": [
+    {
+      "weight": 50,
+      "minCount": 4,
+      "maxCount": 7,
+      "biomes": [
+        "minecraft:jungle",
+        "minecraft:jungle_edge",
+        "minecraft:jungle_hills",
+        "minecraft:modified_jungle",
+        "minecraft:modified_jungle_edge"
+      ]
+    },
+    {
+      "weight": 25,
+      "minCount": 4,
+      "maxCount": 7,
+      "biomes": [
+        "minecraft:bamboo_jungle",
+        "minecraft:bamboo_jungle_hills"
+      ]
+    }
+  ],
+  "livingthings:snail": [
+    {
+      "weight": 12,
+      "minCount": 3,
+      "maxCount": 5,
+      "biomes": [
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "minecraft:swamp",
+        "minecraft:swamp_hills",
+        "minecraft:forest",
+        "minecraft:birch_forest",
+        "minecraft:flower_forest",
+        "minecraft:river"
+      ]
+    },
+    {
+      "weight": 15,
+      "minCount": 4,
+      "maxCount": 6,
+      "biomes": [
+        "minecraft:mushroom_fields"
+      ]
+    }
+  ],
+  "livingthings:crab": [
+    {
+      "weight": 50,
+      "minCount": 5,
+      "maxCount": 8,
+      "biomes": [
+        "minecraft:river",
+        "minecraft:beach",
+        "minecraft:desert_lakes",
+        "minecraft:swamp_hills",
+        "minecraft:swamp"
+      ]
+    }
+  ],
+  "livingthings:ostrich": [
+    {
+      "weight": 15,
+      "minCount": 3,
+      "maxCount": 5,
+      "biomes": [
+        "minecraft:savanna",
+        "minecraft:savanna_plateau",
+        "minecraft:shattered_savanna",
+        "minecraft:shattered_savanna_plateau"
+      ]
+    }
+  ],
+  "livingthings:giraffe": [
+    {
+      "weight": 15,
+      "minCount": 3,
+      "maxCount": 5,
+      "biomes": [
+        "minecraft:savanna",
+        "minecraft:savanna_plateau",
+        "minecraft:shattered_savanna",
+        "minecraft:shattered_savanna_plateau"
+      ]
+    }
+  ],
+  "livingthings:koala": [
+    {
+      "weight": 50,
+      "minCount": 3,
+      "maxCount": 5,
+      "biomes": [
+        "minecraft:jungle",
+        "minecraft:jungle_edge",
+        "minecraft:jungle_hills",
+        "minecraft:modified_jungle",
+        "minecraft:modified_jungle_edge"
+      ]
+    },
+    {
+      "weight": 25,
+      "minCount": 3,
+      "maxCount": 5,
+      "biomes": [
+        "minecraft:bamboo_jungle",
+        "minecraft:bamboo_jungle_hills"
+      ]
+    },
+    {
+      "weight": 10,
+      "minCount": 3,
+      "maxCount": 5,
+      "biomes": [
+        "minecraft:savanna_plateau"
+      ]
+    }
+  ],
+  "livingthings:mantaray": [
+    {
+      "weight": 15,
+      "minCount": 2,
+      "maxCount": 5,
+      "biomes": [
+        "minecraft:ocean",
+        "minecraft:deep_ocean",
+        "minecraft:frozen_ocean",
+        "minecraft:deep_frozen_ocean",
+        "minecraft:cold_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:warm_ocean",
+        "minecraft:deep_warm_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:deep_lukewarm_ocean"
+      ]
+    }
+  ]
+}
