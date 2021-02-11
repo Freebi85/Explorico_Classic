@@ -110,7 +110,7 @@
 	#Range: 0 ~ 3
 	enableButtons = 3
 	#Enable auto-refill
-	autoRefill = true
+	autoRefill = false
 	#0 = disable sorting
 	#1 = player sorting only
 	#2 = external sorting only
