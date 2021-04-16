@@ -16,7 +16,7 @@
 
 	[WorldGen.Copper]
 		#Generate Copper
-		generateCopper = true
+		generateCopper = false
 		#Copper Min Y
 		minCopperY = 35
 		#Copper Max Y
@@ -28,7 +28,7 @@
 
 	[WorldGen.Zinc]
 		#Generate Zinc
-		generateZinc = true
+		generateZinc = false
 		#Zinc Min Y
 		minZincY = 15
 		#Zinc Max Y
@@ -40,7 +40,7 @@
 
 	[WorldGen.Silver]
 		#Generate Silver
-		generateSilver = true
+		generateSilver = false
 		#Silver Min Y
 		minSilverY = 1
 		#Silver Max Y
@@ -100,7 +100,7 @@
 
 	[WorldGen.GreenSapphire]
 		#Generate Green Sapphire
-		generateGreenSapphire = true
+		generateGreenSapphire = false
 		#Green Sapphire Min Y
 		minGreenSapphireY = 0
 		#Green Sapphire Max Y

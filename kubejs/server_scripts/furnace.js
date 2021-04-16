@@ -104,7 +104,7 @@ s('thermal:cinnabar', '#forge:ores/cinnabar')
 s('iceandfire:sapphire_gem', '#forge:ores/sapphire').xp(0.1)
 s('iceandfire:amythest_gem', '#forge:ores/amethyst').xp(0.1)
 s('bluepower:ruby_gem', '#forge:ores/ruby').xp(0.1)
-s('bluepower:green_sapphire', '#forge:ores/green_sapphire').xp(0.1)
+s('bluepower:green_sapphire_gem', '#forge:ores/green_sapphire').xp(0.1)
 s('silents_mechanisms:uranium_ingot', 'bigreactors:yellorite_ore').xp(0.1)
 s('thermal:apatite', '#forge:ores/apatite').xp(0.1)
 
