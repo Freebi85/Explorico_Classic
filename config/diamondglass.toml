@@ -2,20 +2,26 @@
 #Note that almost all config changes require a server restart and/or a full minecraft restart. Dimensional Ore Configuration
 [dimensional_ore]
 	#Spawn diamondsand in the overworld? Default = true
-	spawn_diamondsand_overworld = true
-
-#Rarity Configuration
-[ore_rarity]
-	#Maximum vein size for an diamondsand Ore vein. For reference, diamonds have a max vein size of 8. Default = 7
-	#Range: 0 ~ 64
-	diamondsand_max_vein_size = 2
-	#Maximum spawn height size for an diamondsand ore vein. Default = 16
-	#Range: 1 ~ 255
-	diamondsand_max_spawn_height_overworld = 30
+	overworld = true
 
 [network]
 	#Sync your config to the server upon joining? (Requires a Minecraft restart afterwards)
 	enable_server_config_sync = true
 	#Sends a packet that attempts to sync the client config file to the server?
 	send_config_sync_packet = true
+
+#Rarity Configuration
+["Diamond Sand Overworld"]
+	#Rarity of diamond sand veins. Default = 6
+	#Range: 0 ~ 100
+	rarity = 6
+	#Maximum vein size for an diamondsand Ore vein. For reference, diamonds have a max vein size of 8. Default = 7
+	#Range: 0 ~ 64
+	vein_size = 7
+	#Maximum spawn height size for an diamondsand ore vein. Default = 16
+	#Range: 1 ~ 255
+	max_spawn_height = 64
+	#Maximum spawn height size for an diamondsand ore vein. Default = 16
+	#Range: 1 ~ 255
+	min_spawn_height = 20
 

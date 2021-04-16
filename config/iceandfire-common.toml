@@ -284,7 +284,7 @@
 	#How many blocks away can ampitheres detect villagers being hurt. Note that increasing this could cause lag.
 	#Range: 1 ~ 10000
 	"Amphithere Villager Search Length" = 30
-	#Deathworm spawn weight. Lower = lower chance to spawn
+	#Deathworm spawn weight. Higher = lower chance to spawn
 	#Range: 1 ~ 10000
 	"Death Worm Spawn Weight" = 15
 	#Percentage of critical strike that will disarm with easter egg tinkers material.

@@ -19,6 +19,8 @@
 	#The percentage chance that a passive or hostile mob will drop an Inferium Essence when killed.
 	#Range: 0.0 ~ 1.0
 	inferiumDropChance = 0.2
+	#Should right clicking on Farmland with an Essence create Essence Farmland?
+	essenceFarmlandConversion = true
 
 #World generation options.
 [World]

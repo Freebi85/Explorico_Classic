@@ -19,6 +19,8 @@
 	programmer_difficulty = "EASY"
 	#Always show the pressure durability bar for pressurizable items, even when full?
 	always_show_pressure_durability_bar = true
+	#Should players holding an Amadron Tablet get a notification message when offers are shuffled periodically?
+	notify_amadron_offer_updates = true
 
 [armor]
 	#Use fancy models for Pneumatic Armor (currently unimplemented)

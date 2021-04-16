@@ -6,57 +6,119 @@
 	"Ghost Players" = 20
 
 [items]
-	#Home Gem Cast Time in Ticks
-	#Range: > 0
-	"Home Gem Cast Time" = 200
-	#Sun Overdrive Cast Time in Ticks
-	#Range: > 0
-	"Sun Overdrive Cast Time" = 200
-	#Sun Overdrive Cooldown in Ticks
-	#Range: > 0
-	"Sun Overdrive Cooldown" = 144000
-	#Home Gem Cooldown in Ticks
-	#Range: > 0
-	"Home Gem Cooldown" = 18000
 
-#Each mob spawn chance is calculated by Weight. 0 to disable it
+	[items.times]
+		#Home Gem Cooldown in Ticks
+		#Range: > 0
+		"Home Gem Cooldown" = 18000
+		#Home Gem Cast Time in Ticks
+		#Range: > 0
+		"Home Gem Cast Time" = 200
+		#Sun Overdrive Cooldown in Ticks
+		#Range: > 0
+		"Sun Overdrive Cooldown" = 144000
+		#Sun Overdrive Cast Time in Ticks
+		#Range: > 0
+		"Sun Overdrive Cast Time" = 200
+
+	[items.activations]
+
+		[items.activations.back_pergamine]
+			Enable = true
+
+		[items.activations.home_gem]
+			Enable = true
+
+		[items.activations.golden_bone]
+			Enable = true
+
+		[items.activations.sun_overdrive]
+			Enable = true
+
+		[items.activations.unstable_map]
+			Enable = true
+
 [mobs]
 
 	[mobs.rogue]
 		#Range: > 0
 		"Rogue Weight" = 1
+		"Rogue Loot Table" = "dungeonsmod:entities/rogue"
 
 	[mobs.anthermite]
 		#Range: > 0
 		"Anthermite Weight" = 2
+		"Anthermite Loot Table" = "dungeonsmod:entities/anthermite"
 
 	[mobs.piranha]
 		#Range: > 0
 		"Piranha Weight" = 5
+		"Piranha Loot Table" = "dungeonsmod:entities/piranha"
 
 	[mobs.notehead]
 		#Range: > 0
-		"Note Head Weight" = 1
+		"Notehead Weight" = 1
+		"Notehead Loot Table" = "dungeonsmod:entities/notehead"
 
 	[mobs.crow]
 		#Range: > 0
 		"Crow Weight" = 10
+		"Crow Loot Table" = "dungeonsmod:entities/crow"
 
 	[mobs.mimic]
 		#Range: > 0
 		"Mimic Weight" = 5
+		"Mimic Loot Table" = "dungeonsmod:entities/mimic"
 
 	[mobs.slimond]
 		#Range: > 0
 		"Slimond Weight" = 1
+		"Slimond Loot Table" = "dungeonsmod:entities/slimond"
 
 	[mobs.haunter]
 		#Range: > 0
 		"Haunter Weight" = 100
+		"Haunter Loot Table" = "dungeonsmod:entities/haunter"
 
 	#Blacklisted biomes in which no mobs will spawn
 	[mobs.blacklisted-biomes]
 		"Blacklisted Biomes" = ["minecraft:modified_jungle_edge"]
+
+	[mobs.lordskeleton]
+		"Lordskeleton Loot Table" = "dungeonsmod:entities/lordskeleton"
+
+	[mobs.deadhound]
+		"Deadhound Loot Table" = "dungeonsmod:entities/deadhound"
+
+	[mobs.winterhunter]
+		"Winterhunter Loot Table" = "dungeonsmod:entities/winterhunter"
+
+	[mobs.pice]
+		#Range: > 0
+		"Pice Weight" = 3
+		"Pice Loot Table" = "dungeonsmod:entities/pice"
+
+	[mobs.pitcher]
+		"Pitcher Loot Table" = "dungeonsmod:entities/pitcher"
+
+	[mobs.whirlwind]
+		#Range: > 0
+		"Whirlwind Weight" = 1
+
+	[mobs.guard]
+		#Range: 0 ~ 100
+		"Guard Weight(Percentage)" = 100
+		"Guard Loot Table" = "dungeonsmod:entities/guard"
+
+	[mobs.scientist]
+		#Range: 0 ~ 100
+		"Scientist Weight(Percentage)" = 100
+		"Scientist Loot Table" = "dungeonsmod:entities/scientist"
+
+	[mobs.slimewolf]
+		#Range: 0 ~ 100
+		"Slimewolf Weight(Percentage)" = 100
+		"Slimewolf Loot Table" = "dungeonsmod:entities/slimewolf"
 
 [structures]
 
@@ -66,10 +128,12 @@
 		#Range: > 0
 		Separation = 20
 		#1 to always, 100/positiveValues chance
-		#Range: > 1
+		#Range: > 0
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 8
 
 	[structures.the_castle]
 		#Range: > 0
@@ -77,10 +141,12 @@
 		#Range: > 0
 		Separation = 20
 		#1 to always, 100/positiveValues chance
-		#Range: > 1
+		#Range: > 0
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 15
 
 	[structures.the_iron_mines]
 		#Range: > 0
@@ -88,10 +154,12 @@
 		#Range: > 0
 		Separation = 20
 		#1 to always, 100/positiveValues chance
-		#Range: > 1
+		#Range: > 0
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 4
 
 	[structures.the_origin]
 		#Range: > 0
@@ -99,7 +167,7 @@
 		#Range: > 0
 		Separation = 20
 		#1 to always, 100/positiveValues chance
-		#Range: > 1
+		#Range: > 0
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
@@ -110,10 +178,12 @@
 		#Range: > 0
 		Separation = 20
 		#1 to always, 100/positiveValues chance
-		#Range: > 1
+		#Range: > 0
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 20
 
 	[structures.the_chapel]
 		#Range: > 0
@@ -121,7 +191,7 @@
 		#Range: > 0
 		Separation = 8
 		#1 to always, 100/positiveValues chance
-		#Range: > 1
+		#Range: > 0
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 32
@@ -132,7 +202,7 @@
 		#Range: > 0
 		Separation = 8
 		#1 to always, 100/positiveValues chance
-		#Range: > 1
+		#Range: > 0
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 32
@@ -143,10 +213,12 @@
 		#Range: > 0
 		Separation = 20
 		#1 to always, 100/positiveValues chance
-		#Range: > 1
+		#Range: > 0
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 2
 
 	[structures.the_catacombs]
 		#Range: > 0
@@ -156,15 +228,88 @@
 		#Range: > 0
 		"Seed Modifier" = 3252381
 		#1 to always, 100/positiveValues chance
-		#Range: > 1
+		#Range: > 0
 		"Spawing Chance" = 1
 
 	#Blacklisted biomes in which no structures will spawn
 	[structures.blacklisted-biomes]
 		"Blacklisted Biomes" = ["minecraft:modified_jungle_edge"]
 
+	[structures.the_nest]
+		#Range: > 0
+		Spacing = 16
+		#Range: > 0
+		Separation = 4
+		#Range: > 0
+		"Seed Modifier" = 58625
+		#1 to always, 100/positiveValues chance
+		#Range: > 0
+		"Spawing Chance" = 1
+
+	[structures.the_pitcher]
+		#Range: > 0
+		Spacing = 8
+		#Range: > 0
+		Separation = 2
+		#Range: > 0
+		"Seed Modifier" = 32127
+		#1 to always, 100/positiveValues chance
+		#Range: > 0
+		"Spawing Chance" = 1
+
+	[structures.the_sewers]
+		#Range: > 0
+		Spacing = 32
+		#Range: > 0
+		Separation = 8
+		#Range: > 0
+		"Seed Modifier" = 14341
+		#1 to always, 100/positiveValues chance
+		#Range: > 0
+		"Spawing Chance" = 1
+
 [traveler]
 	#Traveler does not spawn in this radius if theres another traveler near
 	#Range: 0 ~ 256
 	"The One radius" = 10
+
+[bosses]
+
+	[bosses.crawler]
+		"Crawler Loot Table" = "dungeonsmod:entities/crawler"
+
+	[bosses.deserted]
+		"Deserted Loot Table" = "dungeonsmod:entities/deserted"
+
+	[bosses.ironslime]
+		"Ironslime Loot Table" = "dungeonsmod:entities/ironslime"
+
+	[bosses.king]
+		"King Loot Table" = "dungeonsmod:entities/king"
+
+	[bosses.kraken]
+		"Kraken Loot Table" = "dungeonsmod:entities/kraken"
+
+	[bosses.sun]
+		"Sun Loot Table" = "dungeonsmod:entities/sun"
+
+	[bosses.voidmaster]
+		"Voidmaster Loot Table" = "dungeonsmod:entities/voidmaster"
+
+[difficulty]
+	#[BETA] For manual adjustment. Recommended number = (Highest Weapon Damage / 20) . For reference, Vanilla defaults equivalent : Easy = 0.25, Normal = 0.5, Hard = 0.75. Values > 1 requires Attribute Fix Mod. For using server difficulty = 0
+	#Range: -0.25 ~ 1000.0
+	"Custom Difficulty Value" = 0.0
+	#[BETA] This will make bosses to scale with the number of players near and the world difficulty 
+	"Multiplayer Scaling" = true
+
+[invocations]
+	#Enable Traveler invocation
+	"Traveler Invocation" = true
+	#Enable Sun invocation
+	"Sun Invocation" = true
+	#Enable Lord Skeleton invocation
+	"Lord Skeleton Invocation" = true
+	#Enable Winter Hunter invocation
+	"Winter Hunter Invocation" = true
 

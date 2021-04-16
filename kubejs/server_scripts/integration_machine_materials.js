@@ -271,12 +271,12 @@ event.recipes.appliedenergistics2.grinder({
   }) 
 
 // Malachite Dust/Ingots/Ores in missing machines ======================================================================
-event.recipes.immersiveengineering.crusher(item.of('bluepower:malachite_gem', 2), '#forge:ores/malachite')
-event.recipes.thermal.pulverizer(item.of('bluepower:malachite_gem', 2), '#forge:ores/malachite')
+event.recipes.immersiveengineering.crusher(item.of('bluepower:green_sapphire_gem', 2), '#forge:ores/green_sapphire')
+event.recipes.thermal.pulverizer(item.of('bluepower:green_sapphire_gem', 2), '#forge:ores/green_sapphire')
 event.recipes.appliedenergistics2.grinder({
-    input: ingredient.of('#forge:ores/malachite').toJson(),
+    input: ingredient.of('#forge:ores/green_sapphire').toJson(),
     result: {
-      primary: item.of('bluepower:malachite_gem').toResultJson(),
+      primary: item.of('bluepower:green_sapphire_gem').toResultJson(),
       optional: []
     },
     turns: 6

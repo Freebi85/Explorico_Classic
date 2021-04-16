@@ -23,6 +23,8 @@
 		#Note that disabling oil will make some items uncraftable unless recipes are changed
 		#Range: > 0
 		chance = 6
+		#The dimensions that oil lakes are not allow to generate in
+		dimensionBlacklist = ["minecraft:the_nether", "minecraft:the_end"]
 
 	#Configs for specific ores. Set veinCount to zero to disable an ore.
 	[world.ores]

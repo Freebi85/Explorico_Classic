@@ -126,7 +126,14 @@ event.shaped(Item.of('silentgear:crimson_iron_ingot', 2), [
     'E': 'mysticalagriculture:crimson_iron_essence'
   })
 
-
+// Sulfur ================================================================================
+event.shaped(Item.of('thermal:sulfur', 3), [
+    'EEE',
+    'E E',
+    'EEE'
+  ], {
+    'E': 'mysticalagriculture:sulfur_essence'
+  })
 
 
 

@@ -37,4 +37,6 @@
 		autoClimbLadder = false
 		#This prevents torches from being placed from your offhand if you have a block in your main hand.
 		noOffhandTorchWithBlock = true
+		#This prevents torches from being placed from your offhand at all.
+		noOffhandTorchAtAll = false
 

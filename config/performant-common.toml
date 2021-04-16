@@ -1,3 +1,5 @@
+#Enables logging the too large packets causing disconnects. , default = true
+displayTooLargePackets = true
 
 ["Load balancing settings"]
 
@@ -63,6 +65,8 @@
 	spawnInterval = 1
 	#Adapt entity speed to tps, makes entities struggle less with lag. default = true
 	adaptiveSpeed = true
+	#Slower updating of armor stands, default = true
+	slowArmorStands = true
 
 ["Entity AI Settings"]
 	#Sets the tick interval in which non-running AI tasks are rechecked. Vanilla default is 1(starting with 1.13+), this mods suggested default is 4(as it was in 1.12)

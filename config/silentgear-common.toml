@@ -87,6 +87,10 @@
 	#Allow parts to be crafted with mixed materials in a crafting grid, just like all recent versions.
 	#In 1.17, mixing will only be allowed in compound-crafting blocks.
 	allowClassicMaterialMixing = true
+	#If set to false all conversion recipes (type 'silentgear:conversion') will be disabled
+	#An example of a conversion recipe is placing a vanilla stone pickaxe into a crafting grid to make a Silent Gear stone pickaxe
+	#Note: This also affects conversion recipes added by data packs and other mods
+	allowConversionRecipes = true
 
 	[gear.repairs]
 		#DEPRECATED! Use repair kit configs instead.
@@ -120,6 +124,12 @@
 		#If true, upgrade parts may only be applied in an anvil.
 		applyInAnvilOnly = false
 
+	[gear.saw]
+		#Caps how far the saw can look for blocks when chopping down trees. Try decreasing this if you get stack overflow exceptions.
+		#Increasing this value is allowed, but not recommended unless you know what you are doing.
+		#Range: > 0
+		recursionDepth = 200
+
 #Settings for the salvager
 [salvager]
 
@@ -133,12 +143,6 @@
 		#Range: 0.0 ~ 1.0
 		max = 0.5
 
-[compat]
-
-	[compat.mineAndSlash]
-		#Enable compatibility with the Mine and Slash mod, if installed
-		enabled = true
-
 [debug]
 
 	[debug.logging]
@@ -150,6 +154,8 @@
 		#Log information on construction of gear and part models, as well as textures they attempt to load.
 		#This is intended to help find and fix rare issues that some users are experiencing.
 		modelAndTexture = true
+		#Log details about certain features being adding to biomes and other world generator details
+		worldGen = true
 
 #World generation options (REQUIRES GAME RESTART)
 [world]
@@ -176,4 +182,12 @@
 		#Attempts to place individual bort ore blocks per chunk.
 		#Range: 0 ~ 1000
 		count = 4
+
+	[world.wildFluffy]
+		#Number of patches of wild fluffy plants to attempt to place per chunk (some biomes only)
+		#Range: 0 ~ 100
+		patchCount = 1
+		#Block place attempts per wild fluffy plants cluster
+		#Range: 0 ~ 1000
+		tryCount = 16
 

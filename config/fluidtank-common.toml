@@ -22,8 +22,8 @@
 	[common.recipe]
 		#True to use easy recipe.
 		easyRecipe = false
-		#False to prohibit invisible tanks to be used in recipes
+		#False to prohibit invisible tanks from being used in recipes.
 		usableInvisibleInRecipe = true
-		#False to prohibit tanks with no recipe to be used in recipes of other tanks
+		#False to prohibit tanks with no recipe from being used in recipes of other tanks.
 		usableUnavailableTankInRecipe = true
 

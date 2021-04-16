@@ -6,8 +6,11 @@
 #in the /saves/myworld/serverconfig folder. If you want to change the serverconfig for all
 #new worlds, copy the config files in the /defaultconfigs folder.
 [keys]
-	#Press SHIFT+CTRL instead of SHIFT for changing wand mode/direction lock
-	ShiftCtrl = false
-	#Press SHIFT+CTRL instead of SHIFT for opening wand GUI
-	ShiftCtrlGUI = false
+	#Key code of OPTKEY (Default: Left Control). Look up key codes under https://www.glfw.org/docs/3.3/group__keys.html
+	#Range: 0 ~ 350
+	OptKey = 341
+	#Press SNEAK+OPTKEY instead of SNEAK for changing wand mode/direction lock
+	ShiftOpt = false
+	#Press SNEAK+OPTKEY instead of SNEAK for opening wand GUI
+	ShiftOptGUI = true
 

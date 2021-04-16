@@ -176,7 +176,7 @@ event.replaceOutput({}, '#forge:gems/amethyst', 'iceandfire:amythest_gem')
 event.replaceOutput({}, '#forge:storage_blocks/amethyst', '#forge:storage_blocks/amethyst') 
 event.replaceOutput({}, '#forge:gems/ruby', 'bluepower:ruby_gem') 
 event.replaceOutput({}, '#forge:storage_blocks/ruby', 'bluepower:ruby_block') 
-event.replaceOutput({}, '#forge:gems/malachite', 'bluepower:malachite_gem') 
+event.replaceOutput({}, '#forge:gems/green_sapphire', 'bluepower:green_sapphire') 
 event.replaceOutput({}, '#forge:storage_blocks/malachite', 'bluepower:malachite_block') 
 event.replaceOutput({}, '#forge:gems/apatite', 'thermal:apatite') 
 
