@@ -14,4 +14,8 @@
 	forbiddenSounds = ["ui.", "music.", "ambient."]
 	#Set to true to move the muffle and play buttons to the left side of the GUI
 	leftButtons = false
+	#Whether or not use the dark theme
+	useDarkTheme = false
+	#Set to true if this mod wont be present in the server; it will load and save the Anchors in ESM -> ServerWorld
+	isClientSide = false
 

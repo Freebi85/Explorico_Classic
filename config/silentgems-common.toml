@@ -80,6 +80,10 @@
 	useTime = 16
 
 [soulGem]
+	#A seed value to use for randomizing soul gem elements.
+	#If this is an empty string, the mod attempts to use the world seed.
+	#Setting a seed value (any string with any number and type of characters) will make the soul gem elements consistent across your Minecraft instance.
+	elementSeed = ""
 
 	#Drop rate of soul gems is randomly selected based on the world seed.
 	#There is an average and a deviation, which makes a normal distribution.

@@ -107,7 +107,6 @@ mods.jei.JEI.hideItem(<item:iceandfire:sapphire_ore>);
 mods.jei.JEI.hideItem(<item:appliedenergistics2:iron_dust>);
 mods.jei.JEI.hideItem(<item:appliedenergistics2:gold_dust>);
 mods.jei.JEI.hideItem(<item:appliedenergistics2:nether_quartz_dust>);
-mods.jei.JEI.hideItem(<item:appliedenergistics2:ender_dust>);
 mods.jei.JEI.hideItem(<item:appliedenergistics2:silicon>);
 
 
@@ -246,6 +245,7 @@ mods.jei.JEI.hideItem(<item:thermal:lead_ore>);
 mods.jei.JEI.hideItem(<item:thermal:nickel_ore>);
 mods.jei.JEI.hideItem(<item:thermal:copper_ore>);
 mods.jei.JEI.hideItem(<item:thermal:tin_ore>);
+mods.jei.JEI.hideItem(<item:thermal:ender_pearl_dust>);
 
 
 mods.jei.JEI.hideItem(<item:thermal:gold_plate>);
@@ -352,5 +352,9 @@ craftingTable.removeRecipe(<item:morevanillalib:obsidian_shard>);
 // Industrial Foregoing ===========================================
 mods.jei.JEI.hideItem(<item:thermal:rubber>);
 
-
+// Tinkers===========================================
+mods.jei.JEI.hideItem(<item:tconstruct:copper_block>);
+mods.jei.JEI.hideItem(<item:tconstruct:copper_ingot>);
+mods.jei.JEI.hideItem(<item:tconstruct:copper_ore>);
+mods.jei.JEI.hideItem(<item:tconstruct:copper_nugget>);
 

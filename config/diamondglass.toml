@@ -24,4 +24,10 @@
 	#Maximum spawn height size for an diamondsand ore vein. Default = 16
 	#Range: 1 ~ 255
 	min_spawn_height = 20
+	#List of biomes as strings separated with commas where this mod is allowed to spawn diamond sand ore. If this list is defined, normal generation no longer applies. Can be used with the blacklist. Use F3+h or a map mod to see biome names or turn on debug mode: example: minecraft:forest
+	"Whitelisted Biomes" = []
+	#List of biomes as strings separated with commas where this mod is not allowed to spawn diamond sand ore. If this list is defined, normal generation no longer applies. Can be used with the whitelist. Use F3+h or a map mod to see biome names or turn on debug mode: example: minecraft:warm_ocean
+	"Blacklisted Biomes" = []
+	#Toggle whether messages appear in console and logs about which biomes we have whitelisted or blacklisted or not
+	"Debug Biome Generation?" = false
 

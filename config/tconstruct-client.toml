@@ -6,4 +6,6 @@
 	tankFluidModel = false
 	#If true tools will show additional info in their tooltips
 	extraToolTips = true
+	#If true, the game will log all material textures which do not exist in resource packs but can be added, can be helpful for moddevs or resourcepack makers
+	logMissingMaterialTextures = false
 

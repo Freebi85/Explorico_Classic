@@ -319,7 +319,7 @@
 		#Infested Prison Minimum Separation (in chunks) [default: 11]
 		#Range: 1 ~ 500
 		separation = 11
-		#Infested Prison Seed (Only Change if you know what you are doing)[default: -567483014]
+		#Infested Prison Seed (Only Change if you know what you are doing)[default: 567483014]
 		#Range: > -2147483648
 		seed = -567483014
 		#Biome Types the Infested Prison can generate in
@@ -346,7 +346,7 @@
 		#Abandoned Witch House Minimum Separation (in chunks) [default: 11]
 		#Range: 1 ~ 500
 		separation = 11
-		#Abandoned Witch House Seed (Only Change if you know what you are doing)[default: -1721882513]
+		#Abandoned Witch House Seed (Only Change if you know what you are doing)[default: 1721882513]
 		#Range: > -2147483648
 		seed = -1721882513
 		#Biome Types the Abandoned Witch House can generate in
@@ -373,7 +373,7 @@
 		#Jungle Tower Minimum Separation (in chunks) [default: 11]
 		#Range: 1 ~ 500
 		separation = 11
-		#Jungle Tower Seed (Only Change if you know what you are doing)[default: -987531843]
+		#Jungle Tower Seed (Only Change if you know what you are doing)[default: 987531843]
 		#Range: > -2147483648
 		seed = -987531843
 		#Biome Types the Jungle Tower can generate in
@@ -410,6 +410,33 @@
 		#Use Random Varianting for Guardian Meeting? [default: false]
 		varianting = false
 		#Guardian Meeting Generate Loot Chance [default: 1.0]
+		#Range: 0.0 ~ 1.0
+		loot_chance = 1.0
+
+	[structures.end_temple]
+		#Generate End Temples?
+		generate = true
+		#Needs End Temple Ground? [default: true]
+		needs_ground = true
+		#End Temple Spawn Chance [default: 0.6]
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.6
+		#End Temple Distance (in chunks) [default: 60]
+		#Range: 1 ~ 500
+		distance = 60
+		#End Temple Minimum Separation (in chunks) [default: 11]
+		#Range: 1 ~ 500
+		separation = 11
+		#End Temple Seed (Only Change if you know what you are doing)[default: 478360]
+		#Range: > -2147483648
+		seed = 478360
+		#Biome Types the End Temple can generate in
+		biome_categories = ["THEEND"]
+		#Biomes the End Temple can NOT generate in
+		biome_blacklist = ["minecraft:the_end", "minecraft:the_void", "minecraft:small_end_islands"]
+		#Use Random Varianting for End Temple? [default: true]
+		varianting = true
+		#End Temple Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
 

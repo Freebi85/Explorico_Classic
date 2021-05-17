@@ -25,7 +25,8 @@ craftingTable.addShapeless("glowstone_m2", <item:minecraft:glowstone_dust> * 3, 
 
 // Ender  =============================================================================================
 craftingTable.removeRecipe(<item:thermal:ender_pearl_dust>);
-craftingTable.addShapeless("enderdust_m", <item:thermal:ender_pearl_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<item:minecraft:ender_pearl>], null);
+craftingTable.addShapeless("enderdust_block", <item:appliedenergistics2:ender_dust> *9, [<item:jaopca:storage_blocks.ender_pearl>], null);
+craftingTable.addShapeless("enderdust_m", <item:appliedenergistics2:ender_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<item:minecraft:ender_pearl>], null);
 
 // Fluix   =============================================================================================
 craftingTable.removeRecipe(<item:appliedenergistics2:fluix_dust>);
@@ -176,12 +177,10 @@ craftingTable.addShapeless("signalum_m2", <item:silents_mechanisms:signalum_dust
 // Lumium =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:lumium_dust>);
 craftingTable.removeRecipe(<item:thermal:lumium_dust>);
-craftingTable.addShapeless("lumium_m", <item:silents_mechanisms:lumium_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/lumium>], null);
 craftingTable.addShapeless("lumium_m2", <item:silents_mechanisms:lumium_dust> * 4, [<tag:items:forge:dusts/tin>,<tag:items:forge:dusts/tin>,<tag:items:forge:dusts/tin>,<tag:items:forge:dusts/silver>, <tag:items:forge:dusts/glowstone>,<tag:items:forge:dusts/glowstone>], null);
 
 // Enderium =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:enderium_dust>);
-craftingTable.addShapeless("enderium_m", <item:silents_mechanisms:enderium_dust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/lumium>], null);
 craftingTable.addShapeless("enderium_m2", <item:silents_mechanisms:enderium_dust> * 4, [<tag:items:forge:dusts/lead>,<tag:items:forge:dusts/lead>,<tag:items:forge:dusts/lead>,<tag:items:forge:dusts/diamond>, <tag:items:forge:dusts/ender_pearl>,<tag:items:forge:dusts/ender_pearl>], null);
 
 // Coal =============================================================================================

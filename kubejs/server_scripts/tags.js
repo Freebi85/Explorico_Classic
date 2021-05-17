@@ -16,6 +16,9 @@ event.get('refinedstorage:silicon').add('appliedenergistics2:silicon')
 // Sawdust
 event.get('forge:dusts/wood').add('thermal:sawdust')
 
+// Enderpearldust
+event.get('forge:dusts/ender_pearl').add('appliedenergistics2:ender_dust')
+
 // Rubber
 event.get('forge:rubber').add('industrialforegoing:dryrubber')
 event.get('forge:rubber').add('thermal:rubber')
@@ -43,24 +46,3 @@ event.get('forge:gems/certus_quartz_charged').add('appliedenergistics2:charged_c
 
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

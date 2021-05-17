@@ -188,6 +188,17 @@
 			#Range: 0 ~ 1000
 			l3LaserAmount = 140
 
+		[factory.perks.flayed]
+			#Percentage of mob health for flayed 1 perks
+			#Range: 0 ~ 1000
+			l1FlayedAmount = 90
+			#Percentage of mob health for flayed 2 perks
+			#Range: 0 ~ 1000
+			l2FlayedAmount = 100
+			#Percentage of mob health for flayed 3 perks
+			#Range: 0 ~ 1000
+			l3FlayedAmount = 110
+
 	[factory.premiumCell]
 		#Tank max transfer rate (mb/t per side)
 		#Range: > 1

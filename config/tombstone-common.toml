@@ -25,8 +25,6 @@
 	#Knowledge of Death loss why dying [0..500|default:0]
 	#Range: 0 ~ 500
 	knowledge_loss = 0
-	#Automatically equips any equipable items when respawning after a death [false/true|default:true]
-	auto_equip_on_death_respawn = true
 	#The percentage of items that are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	percent_loss_on_death = 0
@@ -104,6 +102,9 @@
 	time_for_phantom_spawn = 72000
 	#Allows players to be hurt by special damages related to some items [false/true|default:true]
 	allow_beyond_the_grave_damage = true
+	#Cooldown in minutes to use the perk Tomb Raider [0..1440|default:0]
+	#Range: 0 ~ 1440
+	cooldown_tomb_raiding = 60
 
 #Allows to define the conditions for a village siege to begin
 [village_siege]

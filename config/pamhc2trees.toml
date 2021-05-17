@@ -6,8 +6,6 @@
 	"Enable tall grass blocks dropping seeds" = false
 	#Disable/enable grass blocks dropping seeds.
 	"Enable grass blocks dropping seeds" = false
-	#Disable/enable right-click harvesting of crops.
-	"Enable right-click harvesting for crops" = true
 
 ["Dimensions Settings"]
 	#Enter a dimension id to whitelist feature generation
@@ -125,8 +123,4 @@
 	"Generate starfruit trees" = true
 	#Should paperbark trees generate in world
 	"Generate paperbark trees" = true
-
-["Right-click Harvesting Settings"]
-	#Disable/enable right-click harvesting of crops
-	"Enable right-click harvesting for crops" = true
 

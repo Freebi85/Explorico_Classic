@@ -108,6 +108,8 @@
 	allow_lost_tablet = true
 	#Tablet of Home [false/true|default:true]
 	allow_tablet_of_home = true
+	#Familiar Receptacle [false/true|default:true]
+	allow_familiar_receptacle = true
 
 #Allows to change the chance to drop some items
 [loot]

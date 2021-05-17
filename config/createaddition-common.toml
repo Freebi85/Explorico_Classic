@@ -63,13 +63,13 @@
 
 #Wires
 [wires]
-	#Connector max input (Energy transfer).
+	#Connector max input in FE/t (Energy transfer).
 	#Range: > 0
 	connector_max_input = 2048
-	#Connector max output (Energy transfer).
+	#Connector max output in FE/t (Energy transfer).
 	#Range: > 0
 	connector_max_output = 2048
-	#Connector internal capacity.
+	#Connector internal capacity in FE.
 	#Range: > 0
 	connector_capacity = 8196
 	#Loss per block in copper wire (Not implemented, currently no loss).
@@ -81,13 +81,13 @@
 
 #Accumulator
 [accumulator]
-	#Accumulator max input (Energy transfer).
+	#Accumulator max input in FE/t (Energy transfer).
 	#Range: > 0
 	accumulator_max_input = 8192
-	#Accumulator max output (Energy transfer).
+	#Accumulator max output in FE/t (Energy transfer).
 	#Range: > 0
 	accumulator_max_output = 8192
-	#Accumulator internal capacity.
+	#Accumulator internal capacity in FE.
 	#Range: > 0
 	accumulator_capacity = 4196000
 
@@ -96,4 +96,16 @@
 	#Diamond Grit Sandpaper durability (number of uses).
 	#Range: > 3
 	diamond_grit_sandpaper_uses = 1024
+
+#Charger
+[charger]
+	#Charger max input in FE/t (Energy transfer).
+	#Range: > 0
+	charger_max_input = 8192
+	#Charger charge rate in FE/t.
+	#Range: > 0
+	charger_charge_rate = 8192
+	#Charger internal capacity in FE.
+	#Range: > 0
+	charger_capacity = 32000
 
