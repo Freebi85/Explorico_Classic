@@ -5,7 +5,7 @@
 	logSpam = false
 	#
 	# How many itemstacks from the network are visible to external connections through the storagenetwork:exchange.  Too low and not all items can pass through, too large and there will be packet/buffer overflows.
-	#Range: 1 ~ 134217727
+	#Range: 1 ~ 5000
 	exchangeBufferSize = 1
 	#
 	# Disable these blocks from ever being able to connect to the network, they will be treated as a non-inventory.
@@ -24,4 +24,8 @@
 	# Maximum range of the Storage Remote and Crafting Remote.   -1 means unlimited.
 	#Range: -1 ~ 8388607
 	remoteMaxRange = -1
+	#
+	# When matching items to recipes in the JEI + button, this is the maximum number of tags to serialize over the network when on a server.  Reduce if you get errors relating to Packet Sizes being too large (Minecraft 1.12.2 had this hardcoded at 5).
+	#Range: 5 ~ 128
+	jeiMaximumRecipeTags = 64
 

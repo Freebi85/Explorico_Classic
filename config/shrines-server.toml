@@ -1,10 +1,5 @@
 
 [structures]
-	#Structure Generation Config
-	#Take care what you change, this changes may cant be undone
-	#
-	#Biomes in which Overworld Structures cant generate in
-	blacklisted_biomes = ["minecraft:ocean", "minecraft:river", "minecraft:nether_wastes", "minecraft:the_end", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:deep_ocean", "minecraft:small_end_islands", "minecraft:end_midlands", "minecraft:end_highlands", "minecraft:end_barrens", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:soul_sand_valley", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:basalt_deltas"]
 
 	[structures.ballon]
 		#Generate Ballons?
@@ -12,26 +7,26 @@
 		#Ballon Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Ballon Distance (in chunks) [default: 50]
+		#Ballon Distance (in chunks) [default: 50]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 80
-		#Ballon Minimum Separation (in chunks) [default: 8]
-		#Range: 1 ~ 500
-		separation = 15
 		#Ballon Seed (Only Change if you know what you are doing)[default: 143665]
 		#Range: > -2147483648
 		seed = 143665
-		#Biome Types the Ballon can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
-		#Biomes the Ballon can NOT generate in
-		biome_blacklist = []
-		#Needs Ballon Ground? [default: false]
-		needs_ground = false
-		#Use Random Varianting for Ballon? [default: true]
-		varianting = true
 		#Ballon Generate Loot Chance [default: 0.25]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 0.25
+		#Ballon Minimum Separation (in chunks) [default: 8]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 8
+		#Biome Types the Ballon can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the Ballon can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Ballon can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Ballon? [default: true]
+		use_random_varianting = true
 
 	[structures.bees]
 		#Generate Beess?
@@ -39,26 +34,26 @@
 		#Bees Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Bees Distance (in chunks) [default: 70]
+		#Bees Distance (in chunks) [default: 70]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 70
-		#Bees Minimum Separation (in chunks) [default: 12]
-		#Range: 1 ~ 500
-		separation = 12
 		#Bees Seed (Only Change if you know what you are doing)[default: 779806245]
 		#Range: > -2147483648
 		seed = 779806245
-		#Biome Types the Bees can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
-		#Biomes the Bees can NOT generate in
-		biome_blacklist = []
-		#Needs Bees Ground? [default: true]
-		needs_ground = true
-		#Use Random Varianting for Bees? [default: false]
-		varianting = false
 		#Bees Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
+		#Bees Minimum Separation (in chunks) [default: 12]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 12
+		#Biome Types the Bees can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the Bees can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Bees can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Bees? [default: false]
+		use_random_varianting = false
 
 	[structures.high_tempel]
 		#Generate High Tempels?
@@ -66,26 +61,26 @@
 		#High Tempel Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#High Tempel Distance (in chunks) [default: 85]
+		#High Tempel Distance (in chunks) [default: 85]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 85
-		#High Tempel Minimum Separation (in chunks) [default: 18]
-		#Range: 1 ~ 500
-		separation = 18
 		#High Tempel Seed (Only Change if you know what you are doing)[default: 536987987]
 		#Range: > -2147483648
 		seed = 536987987
-		#Biome Types the High Tempel can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
-		#Biomes the High Tempel can NOT generate in
-		biome_blacklist = []
-		#Needs High Tempel Ground? [default: true]
-		needs_ground = true
-		#Use Random Varianting for High Tempel? [default: true]
-		varianting = true
 		#High Tempel Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
+		#High Tempel Minimum Separation (in chunks) [default: 18]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 18
+		#Biome Types the High Tempel can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the High Tempel can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where High Tempel can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for High Tempel? [default: true]
+		use_random_varianting = true
 
 	[structures.nether_pyramid]
 		#Generate Nether Pyramids?
@@ -93,26 +88,26 @@
 		#Nether Pyramid Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.1
-		#Nether Pyramid Distance (in chunks) [default: 150]
+		#Nether Pyramid Distance (in chunks) [default: 150]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 150
-		#Nether Pyramid Minimum Separation (in chunks) [default: 50]
-		#Range: 1 ~ 500
-		separation = 50
 		#Nether Pyramid Seed (Only Change if you know what you are doing)[default: 7428394]
 		#Range: > -2147483648
 		seed = 7428394
 		#Nether Pyramid Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
+		#Nether Pyramid Minimum Separation (in chunks) [default: 50]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 50
 		#Biome Types the Nether Pyramid can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM", "NETHER"]
 		#Biomes the Nether Pyramid can NOT generate in
-		biome_blacklist = []
-		#Needs Nether Pyramid Ground? [default: true]
-		needs_ground = true
+		blacklist = []
+		#Here's a list of all dimensions where Nether Pyramid can spawn in
+		dimensions = ["minecraft:overworld", "minecraft:the_nether"]
 		#Use Random Varianting for Nether Pyramid? [default: true]
-		varianting = true
+		use_random_varianting = true
 
 	[structures.nether_shrine]
 		#Generate Nether Shrines?
@@ -120,26 +115,26 @@
 		#Nether Shrine Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Nether Shrine Distance (in chunks) [default: 80]
+		#Nether Shrine Distance (in chunks) [default: 80]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 80
-		#Nether Shrine Minimum Separation (in chunks) [default: 15]
-		#Range: 1 ~ 500
-		separation = 15
 		#Nether Shrine Seed (Only Change if you know what you are doing)[default: 653267]
 		#Range: > -2147483648
 		seed = 653267
 		#Nether Shrine Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
+		#Nether Shrine Minimum Separation (in chunks) [default: 15]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 15
 		#Biome Types the Nether Shrine can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM", "NETHER"]
 		#Biomes the Nether Shrine can NOT generate in
-		biome_blacklist = []
-		#Needs Nether Shrine Ground? [default: true]
-		needs_ground = true
+		blacklist = []
+		#Here's a list of all dimensions where Nether Shrine can spawn in
+		dimensions = ["minecraft:overworld", "minecraft:the_nether"]
 		#Use Random Varianting for Nether Shrine? [default: true]
-		varianting = true
+		use_random_varianting = true
 
 	[structures.player_house]
 		#Generate Player Houses?
@@ -147,26 +142,26 @@
 		#Player House Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.4
-		#Player House Distance (in chunks) [default: 80]
+		#Player House Distance (in chunks) [default: 80]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 80
-		#Player House Minimum Separation (in chunks) [default: 15]
-		#Range: 1 ~ 500
-		separation = 15
 		#Player House Seed (Only Change if you know what you are doing)[default: 751963298]
 		#Range: > -2147483648
 		seed = 751963298
 		#Player House Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
+		#Player House Minimum Separation (in chunks) [default: 15]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 15
 		#Biome Types the Player House can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
 		#Biomes the Player House can NOT generate in
-		biome_blacklist = []
-		#Needs Player House Ground? [default: true]
-		needs_ground = true
+		blacklist = []
+		#Here's a list of all dimensions where Player House can spawn in
+		dimensions = ["minecraft:overworld"]
 		#Use Random Varianting for Player House? [default: true]
-		varianting = true
+		use_random_varianting = true
 
 	[structures.small_tempel]
 		#Generate Small Tempels?
@@ -174,26 +169,26 @@
 		#Small Tempel Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Small Tempel Distance (in chunks) [default: 75]
+		#Small Tempel Distance (in chunks) [default: 75]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 75
-		#Small Tempel Minimum Separation (in chunks) [default: 13]
-		#Range: 1 ~ 500
-		separation = 13
 		#Small Tempel Seed (Only Change if you know what you are doing)[default: 4765321]
 		#Range: > -2147483648
 		seed = 4765321
-		#Biome Types the Small Tempel can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
-		#Biomes the Small Tempel can NOT generate in
-		biome_blacklist = []
-		#Needs Small Tempel Ground? [default: true]
-		needs_ground = true
-		#Use Random Varianting for Small Tempel? [default: true]
-		varianting = true
 		#Small Tempel Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
+		#Small Tempel Minimum Separation (in chunks) [default: 13]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 13
+		#Biome Types the Small Tempel can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the Small Tempel can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Small Tempel can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Small Tempel? [default: true]
+		use_random_varianting = true
 
 	[structures.water_shrine]
 		#Generate Water Shrines?
@@ -201,242 +196,318 @@
 		#Water Shrine Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Water Shrine Distance (in chunks) [default: 80]
+		#Water Shrine Distance (in chunks) [default: 80]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 80
-		#Water Shrine Minimum Separation (in chunks) [default: 15]
-		#Range: 1 ~ 500
-		separation = 15
 		#Water Shrine Seed (Only Change if you know what you are doing)[default: 643168754]
 		#Range: > -2147483648
 		seed = 1520586
-		#Biome Types the Water Shrine can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
-		#Biomes the Water Shrine can NOT generate in
-		biome_blacklist = []
-		#Needs Water Shrine Ground? [default: true]
-		needs_ground = true
-		#Use Random Varianting for Water Shrine? [default: true]
-		varianting = true
 		#Water Shrine Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
+		#Water Shrine Minimum Separation (in chunks) [default: 15]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 15
+		#Biome Types the Water Shrine can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the Water Shrine can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Water Shrine can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Water Shrine? [default: true]
+		use_random_varianting = true
 
 	[structures.mineral_temple]
 		#Generate Mineral Temples?
 		generate = true
-		#Needs Mineral Temple Ground? [default: true]
-		needs_ground = true
 		#Mineral Temple Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Mineral Temple Distance (in chunks) [default: 50]
+		#Mineral Temple Distance (in chunks) [default: 50]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 50
-		#Mineral Temple Minimum Separation (in chunks) [default: 10]
-		#Range: 1 ~ 500
-		separation = 10
 		#Mineral Temple Seed (Only Change if you know what you are doing)[default: 576143753]
 		#Range: > -2147483648
 		seed = 576143753
-		#Biome Types the Mineral Temple can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
-		#Biomes the Mineral Temple can NOT generate in
-		biome_blacklist = []
-		#Use Random Varianting for Mineral Temple? [default: false]
-		varianting = false
 		#Mineral Temple Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
+		#Mineral Temple Minimum Separation (in chunks) [default: 10]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 10
+		#Biome Types the Mineral Temple can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the Mineral Temple can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Mineral Temple can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Mineral Temple? [default: false]
+		use_random_varianting = false
 
 	[structures.flooded_temple]
 		#Generate Flooded Temples?
 		generate = true
-		#Needs Flooded Temple Ground? [default: true]
-		needs_ground = true
 		#Flooded Temple Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Flooded Temple Distance (in chunks) [default: 50]
+		#Flooded Temple Distance (in chunks) [default: 50]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 50
-		#Flooded Temple Minimum Separation (in chunks) [default: 10]
-		#Range: 1 ~ 500
-		separation = 10
 		#Flooded Temple Seed (Only Change if you know what you are doing)[default: 54315143]
 		#Range: > -2147483648
 		seed = 54315143
-		#Biome Types the Flooded Temple can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
-		#Biomes the Flooded Temple can NOT generate in
-		biome_blacklist = []
-		#Use Random Varianting for Flooded Temple? [default: false]
-		varianting = false
 		#Flooded Temple Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
+		#Flooded Temple Minimum Separation (in chunks) [default: 10]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 10
+		#Biome Types the Flooded Temple can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM", "DESERT", "MESA"]
+		#Biomes the Flooded Temple can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Flooded Temple can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Flooded Temple? [default: false]
+		use_random_varianting = false
 
 	[structures.harbour]
 		#Generate Harbours?
 		generate = true
-		#Needs Harbour Ground? [default: false]
-		needs_ground = false
 		#Harbour Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Harbour Distance (in chunks) [default: 50]
+		#Harbour Distance (in chunks) [default: 50]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 50
-		#Harbour Minimum Separation (in chunks) [default: 8]
-		#Range: 1 ~ 500
-		separation = 8
 		#Harbour Seed (Only Change if you know what you are doing)[default: 651398043]
 		#Range: > -2147483648
 		seed = 651398043
-		#Biome Types the Harbour can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "SWAMP", "MUSHROOM"]
-		#Biomes the Harbour can NOT generate in
-		biome_blacklist = []
-		#Use Random Varianting for Harbour? [default: true]
-		varianting = true
 		#Harbour Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
-		#Harbour Spawn Villagers [default: true]
-		spawn_villagers = true
+		#Harbour Minimum Separation (in chunks) [default: 8]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 8
+		#Biome Types the Harbour can generate in
+		categories = ["OCEAN"]
+		#Biomes the Harbour can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Harbour can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Harbour? [default: true]
+		use_random_varianting = true
 
 	[structures.infested_prison]
 		#Generate Infested Prisons?
 		generate = true
-		#Needs Infested Prison Ground? [default: true]
-		needs_ground = true
 		#Infested Prison Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Infested Prison Distance (in chunks) [default: 60]
+		#Infested Prison Distance (in chunks) [default: 60]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 60
-		#Infested Prison Minimum Separation (in chunks) [default: 11]
-		#Range: 1 ~ 500
-		separation = 11
 		#Infested Prison Seed (Only Change if you know what you are doing)[default: 567483014]
 		#Range: > -2147483648
 		seed = -567483014
-		#Biome Types the Infested Prison can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
-		#Biomes the Infested Prison can NOT generate in
-		biome_blacklist = []
-		#Use Random Varianting for Infested Prison? [default: true]
-		varianting = true
 		#Infested Prison Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
-
-	[structures.witch_house]
-		#Generate Abandoned Witch Houses?
-		generate = true
-		#Needs Abandoned Witch House Ground? [default: true]
-		needs_ground = true
-		#Abandoned Witch House Spawn Chance [default: 0.6]
-		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.6
-		#Abandoned Witch House Distance (in chunks) [default: 60]
+		#Infested Prison Minimum Separation (in chunks) [default: 11]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
-		distance = 60
-		#Abandoned Witch House Minimum Separation (in chunks) [default: 11]
-		#Range: 1 ~ 500
-		separation = 11
-		#Abandoned Witch House Seed (Only Change if you know what you are doing)[default: 1721882513]
-		#Range: > -2147483648
-		seed = -1721882513
-		#Biome Types the Abandoned Witch House can generate in
-		biome_categories = ["SWAMP", "FOREST"]
-		#Biomes the Abandoned Witch House can NOT generate in
-		biome_blacklist = ["minecraft:flower_forest", "minecraft:tall_birch_forest", "minecraft:forest", "minecraft:birch_forest", "minecraft:birch_forest_hills"]
-		#Use Random Varianting for Abandoned Witch House? [default: true]
-		varianting = true
-		#Abandoned Witch House Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
+		seperation = 11
+		#Biome Types the Infested Prison can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the Infested Prison can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Infested Prison can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Infested Prison? [default: true]
+		use_random_varianting = true
 
 	[structures.jungle_tower]
 		#Generate Jungle Towers?
 		generate = true
-		#Needs Jungle Tower Ground? [default: true]
-		needs_ground = true
 		#Jungle Tower Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Jungle Tower Distance (in chunks) [default: 60]
+		#Jungle Tower Distance (in chunks) [default: 60]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 60
-		#Jungle Tower Minimum Separation (in chunks) [default: 11]
-		#Range: 1 ~ 500
-		separation = 11
 		#Jungle Tower Seed (Only Change if you know what you are doing)[default: 987531843]
 		#Range: > -2147483648
 		seed = -987531843
-		#Biome Types the Jungle Tower can generate in
-		biome_categories = ["JUNGLE"]
-		#Biomes the Jungle Tower can NOT generate in
-		biome_blacklist = []
-		#Use Random Varianting for Jungle Tower? [default: true]
-		varianting = true
 		#Jungle Tower Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
+		#Jungle Tower Minimum Separation (in chunks) [default: 11]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 11
+		#Biome Types the Jungle Tower can generate in
+		categories = ["JUNGLE"]
+		#Biomes the Jungle Tower can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Jungle Tower can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Jungle Tower? [default: true]
+		use_random_varianting = true
 
 	[structures.guardian_meeting]
 		#Generate Guardian Meetings?
 		generate = true
-		#Needs Guardian Meeting Ground? [default: true]
-		needs_ground = true
 		#Guardian Meeting Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#Guardian Meeting Distance (in chunks) [default: 70]
+		#Guardian Meeting Distance (in chunks) [default: 70]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 70
-		#Guardian Meeting Minimum Separation (in chunks) [default: 17]
-		#Range: 1 ~ 500
-		separation = 17
 		#Guardian Meeting Seed (Only Change if you know what you are doing)[default: 1498473232]
 		#Range: > -2147483648
 		seed = 1498473232
-		#Biome Types the Guardian Meeting can generate in
-		biome_categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
-		#Biomes the Guardian Meeting can NOT generate in
-		biome_blacklist = []
-		#Use Random Varianting for Guardian Meeting? [default: false]
-		varianting = false
 		#Guardian Meeting Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
+		#Guardian Meeting Minimum Separation (in chunks) [default: 17]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 17
+		#Biome Types the Guardian Meeting can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the Guardian Meeting can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Guardian Meeting can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Guardian Meeting? [default: false]
+		use_random_varianting = false
 
 	[structures.end_temple]
 		#Generate End Temples?
 		generate = true
-		#Needs End Temple Ground? [default: true]
-		needs_ground = true
 		#End Temple Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.6
-		#End Temple Distance (in chunks) [default: 60]
+		#End Temple Distance (in chunks) [default: 60]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		distance = 60
-		#End Temple Minimum Separation (in chunks) [default: 11]
-		#Range: 1 ~ 500
-		separation = 11
 		#End Temple Seed (Only Change if you know what you are doing)[default: 478360]
 		#Range: > -2147483648
 		seed = 478360
-		#Biome Types the End Temple can generate in
-		biome_categories = ["THEEND"]
-		#Biomes the End Temple can NOT generate in
-		biome_blacklist = ["minecraft:the_end", "minecraft:the_void", "minecraft:small_end_islands"]
-		#Use Random Varianting for End Temple? [default: true]
-		varianting = true
 		#End Temple Generate Loot Chance [default: 1.0]
+		#Range: 0.0 ~ 1.0
+		loot_chance = 1.0
+		#End Temple Minimum Separation (in chunks) [default: 11]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 11
+		#Biome Types the End Temple can generate in
+		categories = ["THEEND"]
+		#Biomes the End Temple can NOT generate in
+		blacklist = ["minecraft:the_end", "minecraft:the_void", "minecraft:small_end_islands"]
+		#Here's a list of all dimensions where End Temple can spawn in
+		dimensions = ["minecraft:the_end"]
+		#Use Random Varianting for End Temple? [default: true]
+		use_random_varianting = true
+
+	[structures.abandoned_witch_house]
+		#Generate Abandoned Witch Houses?
+		generate = true
+		#Abandoned Witch House Spawn Chance [default: 0.6]
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.6
+		#Abandoned Witch House Distance (in chunks) [default: 60]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		distance = 60
+		#Abandoned Witch House Minimum Separation (in chunks) [default: 11]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 11
+		#Abandoned Witch House Seed (Only Change if you know what you are doing)[default: 1721882513]
+		#Range: > -2147483648
+		seed = 1721882513
+		#Biome Types the Abandoned Witch House can generate in
+		categories = ["SWAMP", "FOREST"]
+		#Biomes the Abandoned Witch House can NOT generate in
+		blacklist = ["minecraft:flower_forest", "minecraft:tall_birch_forest", "minecraft:forest", "minecraft:birch_forest", "minecraft:birch_forest_hills"]
+		#Here's a list of all dimensions where Abandoned Witch House can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Abandoned Witch House? [default: true]
+		use_random_varianting = true
+		#Abandoned Witch House Generate Loot Chance [default: 1.0]
+		#Range: 0.0 ~ 1.0
+		loot_chance = 1.0
+
+	[structures.oriental_sanctuary]
+		#Generate Oriental Sanctuarys?
+		generate = true
+		#Oriental Sanctuary Spawn Chance [default: 0.6]
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.6
+		#Oriental Sanctuary Distance (in chunks) [default: 50]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		distance = 50
+		#Oriental Sanctuary Minimum Separation (in chunks) [default: 14]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 14
+		#Oriental Sanctuary Seed (Only Change if you know what you are doing)[default: 143665]
+		#Range: > -2147483648
+		seed = 143665
+		#Biome Types the Oriental Sanctuary can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the Oriental Sanctuary can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Oriental Sanctuary can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Oriental Sanctuary? [default: true]
+		use_random_varianting = true
+
+	[structures.trader_house]
+		#Generate Trader Houses?
+		generate = true
+		#Trader House Spawn Chance [default: 0.6]
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.6
+		#Trader House Distance (in chunks) [default: 60]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		distance = 60
+		#Trader House Minimum Separation (in chunks) [default: 11]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 11
+		#Trader House Seed (Only Change if you know what you are doing)[default: 760055678]
+		#Range: > -2147483648
+		seed = 760055678
+		#Biome Types the Trader House can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the Trader House can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Trader House can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Trader House? [default: true]
+		use_random_varianting = true
+		#Trader House Generate Loot Chance [default: 1.0]
+		#Range: 0.0 ~ 1.0
+		loot_chance = 1.0
+
+	[structures.watchtower]
+		#Generate Watchtowers?
+		generate = true
+		#Watchtower Spawn Chance [default: 0.6]
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.6
+		#Watchtower Distance (in chunks) [default: 77]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		distance = 77
+		#Watchtower Minimum Separation (in chunks) [default: 16]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 16
+		#Watchtower Seed (Only Change if you know what you are doing)[default: 432189012]
+		#Range: > -2147483648
+		seed = 432189012
+		#Biome Types the Watchtower can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the Watchtower can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Watchtower can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Watchtower? [default: true]
+		use_random_varianting = true
+		#Watchtower Generate Loot Chance [default: 1.0]
 		#Range: 0.0 ~ 1.0
 		loot_chance = 1.0
 

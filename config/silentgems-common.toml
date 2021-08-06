@@ -59,13 +59,13 @@
 	pottedLight = 15
 
 	[glowrose.world]
-		#The number of placement attempts when generating new chunks (higher numbers = bigger patches)
-		#Note this is the number of 'attempts', not the actual number you will likely see in any given patch
+		#Max patches of glowroses per chunk. Setting to zero will stop glowroses from spawning.
+		#Requires a Minecraft restart
 		#Range: > 0
-		placeTryCount = 40
-		#The most glowroses that can be in a single patch
-		#Range: > 0
-		maxPerPatch = 16
+		patchCount = 2
+		#The dimensions that glowroses will never spawn in
+		#Requires a Minecraft restart
+		dimensionBlacklist = []
 
 [returnHomeCharm]
 	#Durability of return home charms. 0 means unlimited. Charms with durability will still generate chaos when used.

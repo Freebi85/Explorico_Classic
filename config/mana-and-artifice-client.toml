@@ -38,4 +38,6 @@
 [ma_helptips]
 	ma_ritual_tip = false
 	ma_pin_tip = false
+	ma_modifier_tip = false
+	ma_damage_stacking_tip = false
 

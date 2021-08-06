@@ -44,7 +44,7 @@
 		step = true
 		#Beheading enchant add player skin head drop, add any mob id and any skin
 		beheadingEntityMHF = ["minecraft:blaze:MHF_Blaze", "minecraft:cat:MHF_Ocelot", "minecraft:cave_spider:MHF_CaveSpider", "minecraft:chicken:MHF_Chicken", "minecraft:cow:MHF_Cow", "minecraft:enderman:MHF_Enderman", "minecraft:ghast:MHF_Ghast", "minecraft:iron_golem:MHF_Golem", "minecraft:magma_cube:MHF_LavaSlime", "minecraft:mooshroom:MHF_MushroomCow", "minecraft:ocelot:MHF_Ocelot", "minecraft:pig:MHF_Pig", "minecraft:zombie_pigman:MHF_PigZombie", "minecraft:sheep:MHF_Sheep", "minecraft:slime:MHF_Slime", "minecraft:spider:MHF_Spider", "minecraft:squid:MHF_Squid", "minecraft:villager:MHF_Villager", "minecraft:witch:MHF_Witch", "minecraft:wolf:MHF_Wolf", "minecraft:guardian:MHF_Guardian", "minecraft:elder_guardian:MHF_Guardian", "minecraft:snow_golem:MHF_SnowGolem", "minecraft:silverfish:MHF_Silverfish", "minecraft:endermite:MHF_Endermite"]
-		#Set false to disable enchantment
+		#Set false to disable Multi Jump enchantment
 		launch = true
 
 	#####################################################################################
@@ -87,26 +87,90 @@
 			#Block these from being picked up
 			disable_pickup = ["minecraft:spawner", "parabox:parabox", "extracells:fluidcrafter", "extracells:ecbaseblock", "extracells:fluidfiller"]
 
+		#####################################################################################
+		# Emerald gear settings
+		#####################################################################################
+		[cyclic.items.emerald]
+			#Armor toughness
+			#Range: 0.10000000149011612 ~ 99.0
+			toughness = 3.0
+			#Weapon damage
+			#Range: 0.10000000149011612 ~ 99.0
+			damage = 4.5
+			#Damage Reduction
+			#Range: 1 ~ 99
+			boots = 4
+			#Damage Reduction
+			#Range: 1 ~ 99
+			helm = 4
+			#Damage Reduction
+			#Range: 1 ~ 99
+			chest = 9
+			#Damage Reduction
+			#Range: 1 ~ 99
+			leg = 7
+
+		#####################################################################################
+		# Obsidian gear settings
+		#####################################################################################
+		[cyclic.items.obsidian]
+			#Armor toughness
+			#Range: 0.10000000149011612 ~ 99.0
+			toughness = 6.0
+			#Weapon damage
+			#Range: 0.10000000149011612 ~ 99.0
+			damage = 10.5
+			#Damage Reduction
+			#Range: 1 ~ 99
+			boots = 7
+			#Damage Reduction
+			#Range: 1 ~ 99
+			helm = 7
+			#Damage Reduction
+			#Range: 1 ~ 99
+			chest = 11
+			#Damage Reduction
+			#Range: 1 ~ 99
+			leg = 10
+
+		#####################################################################################
+		# Settings for varios charms (curios)
+		#####################################################################################
+		[cyclic.items.charms]
+			#Boost given by item charm_luck
+			#Range: 0 ~ 100
+			luck = 10
+			#Boost given by item charm_speed
+			#Range: 0.0 ~ 2.0
+			speed = 0.5
+			#Boost given by item charm_attackspeed
+			#Range: 0.0 ~ 2.0
+			attackspeed = 0.5
+
+		#####################################################################################
+		# Edible chorus settings
+		#####################################################################################
+		[cyclic.items.chorus]
+			#Seconds of noClip per chorus_spectral
+			#Range: 1 ~ 20000
+			ticks = 600
+
 	#####################################################################################
 	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use  
 	#####################################################################################
 	[cyclic.command]
 		#True means only players with OP can use this /cyclic command
-		help = false
-		#True means only players with OP can use this /cyclic command
-		nbtprint = false
-		#True means only players with OP can use this /cyclic command
 		health = true
 		#True means only players with OP can use this /cyclic command
-		pingnether = false
-		#True means only players with OP can use this /cyclic command
 		gethome = false
-		#True means only players with OP can use this /cyclic command
-		worldspawn = false
 		#True means only players with OP can use this /cyclic command
 		home = false
 		#True means only players with OP can use this /cyclic command
 		hunger = false
+		#True means only players with OP can use this /cyclic command
+		dev = false
+		#True means only players with OP can use this /cyclic command
+		ping = false
 
 	#####################################################################################
 	# Energy related configs for machines and items
@@ -215,10 +279,42 @@
 			#RECIPE IDS HERE.  Block these recipe ids from being reversed, but do not block all recipes for this output item
 			ignore_recipes = ["botania:cobweb", "minecraft:magma_cream", "minecraft:beacon", "minecraft:stick_from_bamboo_item", "minecraft:netherite_ingot_from_netherite_block", "mysticalagriculture:essence*", "mysticalagriculture:farmland_till", "refinedstorage:coloring_recipes*"]
 
+		#Ender shelf settings
+		[cyclic.blocks.ender_shelf]
+			#Each shelf has five rows.  Set the number of books stored per row here
+			#Range: 1 ~ 64
+			books_per_row = 64
+			#Controller Max distance to search (using manhattan distance)
+			#Range: 1 ~ 256
+			controller_distance = 64
+
+		#Sprinkler settings
+		[cyclic.blocks.sprinkler]
+			#Water consumption
+			#Range: 0 ~ 1000
+			water = 5
+			#Tick rate.  20 will fire one block per second
+			#Range: 1 ~ 20
+			ticks = 20
+
 	#####################################################################################
 	# Worldgen settings  
 	#####################################################################################
 	[cyclic.worldgen]
 		#Does this generate in the world
 		flower_cyan = true
+
+	#####################################################################################
+	#Fluid cost for various machines
+	#####################################################################################
+	[cyclic.fluid]
+		#Cost of magma fluid per action
+		#Range: 1 ~ 64000
+		anvil_magma = 100
+		#Cost of (or payment for if negative) per enchanted book generated
+		#Range: -1000 ~ 16000
+		disenchanter = 100
+		#Payment per void action, if not zero
+		#Range: 0 ~ 16000
+		void_anvil = 25
 

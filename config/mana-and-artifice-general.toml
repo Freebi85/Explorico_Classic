@@ -1,3 +1,21 @@
+#How many souls are players worth when killed?
+#Range: 1 ~ 20000
+playerSouls = 2500
+#How many souls are villagers worth when killed?
+#Range: 1 ~ 20000
+villagerSouls = 250
+#How many souls are enemy faction members worth when killed?
+#Range: 1 ~ 20000
+factionSouls = 250
+#How many souls are mobs worth when killed?
+#Range: 1 ~ 20000
+mobSouls = 150
+#How many souls are animals worth when killed?
+#Range: 1 ~ 20000
+animalSouls = 100
+#How many souls are undead worth when killed?
+#Range: 1 ~ 20000
+undeadSouls = 50
 
 #Raids are based on a chance value.  The value is increased each day there is not a raid.  If the chance hits a total of 1.0 or greater, it's a guaranteed raid.  The chance resets after a raid successfully spawns.
 [ma_faction_raids]
@@ -22,4 +40,10 @@
 [ma_villager_modification]
 	#Adjust librarian villagers to not have enchanted books until tier 3.  This is done for balancing and to remove the exploit of rolling librarians for cheap enchants. [true / false]
 	modifyVillagerTrades = true
+
+#Mana and Artifice // Worldgen Options
+[ma_worldgen_options]
+	#How far apart ley line nodes must be as a minimum.  They can be farther than this depending on world seed and generation.
+	#Range: 100 ~ 15000
+	leyLineDistance = 500
 

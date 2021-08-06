@@ -30,8 +30,6 @@
 	percent_loss_on_death = 0
 	#Whether graves should be allowed to bypass anti-griefing rules [false/true|default:true]
 	graves_bypass_griefing_rules = true
-	#Enables PvP mode, which allows players to open graves of players they kill [false/true|default:false]
-	pvp_mode = false
 	#Only stackable items can be lost on death [false/true|default:true]
 	loss_on_death_only_for_stackable_items = true
 	#Whether to handle player death [false/true|default:true]
@@ -91,8 +89,6 @@
 	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_request_teleport = -1
-	#The Halloween features also happen outside the dates of the event [false/true|default:false]
-	persistant_halloween = false
 	#Whether to cancel the Ghostly Shape effect on breaking a block or opening a chest [false/true|default:false]
 	nerf_ghostly_shape = false
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
@@ -138,8 +134,6 @@
 	black_list_capturable_souls = []
 	#The structures that can't be discovered by lost tablets
 	lost_tablet_denied_structures = []
-	#Allows the purification effect to clear neutral effects [false/true|default:true]
-	purification_affect_neutral_effects = true
 	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
 	#Range: 0 ~ 100
 	chance_pray_reward = 40
@@ -169,7 +163,7 @@
 	#Duration of applied effects in seconds [1..MAX|default:10]
 	#Range: > 1
 	duration_plague_bringer = 10
-	#Restricts the effect of Shadow Step to players [false/true|default:true]
+	#Restricts the effect of Shadow Step to players [false/true|default:false]
 	restrict_shadow_step_to_player = true
 	#Defines if players can steal effects to others players. If nerfed, the stolen effect duration is limited to 10% of the initial effect [ALLOW/NERFED/DISALLOW|default:ALLOW]
 	#Allowed Values: ALLOW, NERFED, DISALLOW
@@ -192,14 +186,9 @@
 
 #Allows to change the chance to drop some items
 [loot]
-	#Allows the undeads to have a low chance to drop their skull [false/true|default:true]
-	undead_can_drop_skull = true
 	#Chance on 1000 to receive a random scroll on undead boss [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_random_scroll_on_boss = 100
-	#Chance on 1000 to receive a random poppet on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_random_poppet_on_boss = 100
 	#Chance on 1000 for undead mobs to drop Grave's Dust [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_grave_dust = 100
@@ -213,6 +202,15 @@
 	treasure_loot_table = ["minecraft:chests/end_city_treasure", "minecraft:chests/abandoned_mineshaft", "minecraft:chests/nether_bridge", "minecraft:chests/stronghold_library", "minecraft:chests/desert_pyramid", "minecraft:chests/jungle_temple", "minecraft:chests/igloo_chest", "minecraft:chests/woodland_mansion"]
 	#The magic items from Tombstone can only be found as creature loot if the player is the killer [false/true|default:true]
 	drop_only_on_player_kill = true
+	#Chance on 1000 to receive a voodoo poppet on undead boss [0..1000|default:100]
+	#Range: 0 ~ 1000
+	chance_voodoo_poppet_on_boss = 100
+	#Chance on 1000 to receive a familiar receptacle on undead boss [0..1000|default:100]
+	#Range: 0 ~ 1000
+	chance_familiar_receptacle_on_boss = 100
+	#Minimum life for an undead to be considered as a boss for drop [200..MAX|default:200]
+	#Range: > 200
+	undead_boss_life_for_drop = 200
 
 #Allows to enable some features related to others mods
 [compatibility]

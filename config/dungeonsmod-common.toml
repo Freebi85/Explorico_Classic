@@ -38,6 +38,10 @@
 		[items.activations.unstable_map]
 			Enable = true
 
+	[items.damage]
+		#Range: 7.0 ~ 1000.0
+		"Void Tome Damage" = 8.0
+
 [mobs]
 
 	[mobs.rogue]
@@ -270,7 +274,7 @@
 
 [traveler]
 	#Traveler does not spawn in this radius if theres another traveler near
-	#Range: 0 ~ 256
+	#Range: 0 ~ 1024
 	"The One radius" = 10
 
 [bosses]
@@ -312,4 +316,9 @@
 	"Lord Skeleton Invocation" = true
 	#Enable Winter Hunter invocation
 	"Winter Hunter Invocation" = true
+
+[loot]
+	#Chance in % that have the bosses to drop legendary items
+	#Range: 0.0 ~ 100.0
+	"Legendary %" = 33.0
 

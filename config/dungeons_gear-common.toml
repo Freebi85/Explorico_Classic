@@ -1,132 +1,39 @@
 
 #Item Configuration
 [item_configuration]
-
-	#For armor durability configuration reference, here are the vanilla armor durability multiplier values: 
-	#Leather - 5
-	#Gold = 7
-	#Iron = 14
-	#Turtle = 25
-	#Diamond = 33
-	#Netherite = 37
-	[item_configuration.armor_durability_multiplier_reference]
-
-		#Entity Configuration
-		[item_configuration.armor_durability_multiplier_reference.super_rare_loot_table_configuration]
-			#Add gear from this mod to loot tables considered super rare. 
-			#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-			#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-			superRareLootTables = ["minecraft:chests/woodland_mansion", "minecraft:chests/buried_treasure"]
-			#The decimal chance for an artifact to appear in super rare loot tables [0.0-1.0, default: 1.0]
-			#Range: 0.0 ~ 1.0
-			artifactSuperRareLoot = 1.0
-			#Use this list to prevent specific loot tables from getting super rare loot. 
-			#To do so, enter the full path of the specific loot table.
-			superRareLootTablesBlacklist = []
-			#The decimal chance for a unique item to appear in super rare loot tables instead of a common one [0.0-1.0, default: 0.6]
-			#Range: 0.0 ~ 1.0
-			uniqueItemSuperRareLoot = 1.0
-			#Add entities that will never be targeted by aggressive Dungeons Gear effects. 
-			#To do so, enter their registry names.
-			effectTargetBlacklist = ["minecraft:chicken", "minecraft:cow", "minecraft:pig", "minecraft:sheep", "minecraft:bee", "minecraft:wolf", "minecraft:fox", "minecraft:villager", "minecraft:horse", "minecraft:donkey", "minecraft:mooshroom", "minecraft:parrot", "minecraft:ocelot", "minecraft:rabbit", "minecraft:squid", "minecraft:strider", "minecraft:turtle", "minecraft:salmon", "minecraft:cod", "minecraft:pufferfish", "minecraft:tropical_fish", "minecraft:dolphin", "minecraft:panda", "minecraft:polar_bear", "minecraft:bat", "minecraft:trader_llama"]
-
-		#Combat Configuration
-		[item_configuration.armor_durability_multiplier_reference.combat_configuration]
-			#Enable area of effects also being applied to players. 
-			#If you do not want area of effects being applied to other players, disable this feature. [true / false]
-			enableAreaOfEffectOnPlayers = true
-
-		#Rare Loot Table Configuration
-		[item_configuration.armor_durability_multiplier_reference.rare_loot_table_configuration]
-			#The decimal chance for an artifact to appear in rare loot tables [0.0-1.0, default: 0.75]
-			#Range: 0.0 ~ 1.0
-			artifactRareLoot = 0.75
-			#Add gear from this mod to loot tables considered rare. 
-			#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-			#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-			rareLootTables = ["minecraft:chests/stronghold", "minecraft:chests/underwater_ruin", "minecraft:chests/ruined_portal", "minecraft:chests/pillager_outpost", "minecraft:chests/simple_dungeon", "minecraft:chests/end_city_treasure", "minecraft:chests/igloo_chest"]
-			#The decimal chance for a unique weapon to appear in rare loot table instead of a common ones [0.0-1.0, default: 0.45]
-			#Range: 0.0 ~ 1.0
-			uniqueItemRareLoot = 0.75
-			#Use this list to prevent specific loot tables from getting rare loot. 
-			#To do so, enter the full path of the specific loot table.
-			rareLootTableBlacklist = []
-
-		#Uncommon Loot Table Configuration
-		[item_configuration.armor_durability_multiplier_reference.uncommon_loot_table_configuration]
-			#The decimal chance for a unique item to appear in uncommon loot tables instead of a common one [0.0-1.0, default: 0.3]
-			#Range: 0.0 ~ 1.0
-			uniqueItemUncommonLoot = 0.5
-			#Add gear from this mod to loot tables considered uncommon. 
-			#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-			#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-			uncommonLootTables = ["minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/bastion"]
-			#Use this list to prevent specific loot tables from getting uncommon loot. 
-			#To do so, enter the full path of the specific loot table.
-			uncommonLootTablesBlacklist = ["minecraft:chests/jungle_temple_dispenser"]
-			#The decimal chance for an artifact to appear in uncommon loot tables [0.0-1.0, default: 0.5]
-			#Range: 0.0 ~ 1.0
-			artifactUncommonLoot = 0.5
-
-		#Common Loot Table Configuration
-		[item_configuration.armor_durability_multiplier_reference.common_loot_table_configuration]
-			#The decimal chance for a unique item to appear in common loot tables instead of a common one [0.0-1.0, default: 0.15]
-			#Range: 0.0 ~ 1.0
-			uniqueItemCommonLoot = 0.25
-			#Add gear from this mod to loot tables considered common. 
-			#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-			#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-			commonLootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/shipwreck", "minecraft:chests/desert_pyramid"]
-			#The decimal chance for an artifact to appear in common loot tables [0.0-1.0, default: 0.25]
-			#Range: 0.0 ~ 1.0
-			artifactCommonLoot = 0.25
-			#Use this list to prevent specific loot tables from getting common loot. 
-			#To do so, enter the full path of the specific loot table.
-			commonLootTablesBlacklist = []
-
-		#For tool durability configuration reference, here are the vanilla tool durability values: 
-		#Gold - 32
-		#Wood = 59
-		#Stone = 131
-		#Iron = 250
-		#Crossbow - 326
-		#Bow - 384
-		#Diamond = 1561
-		#Netherite = 2031
-		[item_configuration.armor_durability_multiplier_reference.tool_durability_reference]
-			#Set the durability multiplier for armors that can be classified as medium plate, such as Reinforced Mail. [0-1024, default: 14
-			#Range: 0 ~ 1024
-			mediumArmorDurabilityMultiplier = 14
-			#Set the durability for melee weapons. [0-1024, default: 250
-			#Range: 0 ~ 1024
-			meleeWeaponDurability = 250
-			#Set the durability for artifacts. [0-1024, default: 64
-			#Range: 0 ~ 1024
-			artifactDurability = 64
-			#Set the durability multiplier for armors that can be classified as light plate, such as Guard's Armor. [0-1024, default: 14
-			#Range: 0 ~ 1024
-			lightArmorDurabilityMultiplier = 14
-			#Set the durability multiplier for armors that can be classified as a robe, such as the Evocation Robe. [0-1024, default: 14
-			#Range: 0 ~ 1024
-			robeArmorDurabilityMultiplier = 14
-			#Set the durability multiplier for armors that are made out of pelts, such as Wolf Armor. [0-1024, default: 14
-			#Range: 0 ~ 1024
-			peltArmorDurabilityMultiplier = 14
-			#Set the durability multiplier for armors that can be classified as heavy plate, such as Mercenary Armor. [0-1024, default: 14
-			#Range: 0 ~ 1024
-			heavyArmorDurabilityMultiplier = 14
-			#Set the durability multiplier for armors that can be classified as a vest, such as Hunter's Armor. [0-1024, default: 14
-			#Range: 0 ~ 1024
-			vestArmorDurabilityMultiplier = 14
-			#Set the durability for crossbows. [0-1024, default: 326
-			#Range: 0 ~ 1024
-			crossbowDurability = 326
-			#Set the durability for bows. [0-1024, default: 384
-			#Range: 0 ~ 1024
-			bowDurability = 384
-			#Set the durability multiplier for armors that are made out of bones, such as Grim Armor. [0-1024, default: 14
-			#Range: 0 ~ 1024
-			boneArmorDurabilityMultiplier = 14
+	#Set the durability multiplier for armors that can be classified as a vest, such as Hunter's Armor. [0-1024, default: 14
+	#Range: 0 ~ 1024
+	vestArmorDurabilityMultiplier = 14
+	#Set the durability multiplier for armors that can be classified as a robe, such as the Evocation Robe. [0-1024, default: 14
+	#Range: 0 ~ 1024
+	robeArmorDurabilityMultiplier = 14
+	#Set the durability multiplier for armors that are made out of pelts, such as Wolf Armor. [0-1024, default: 14
+	#Range: 0 ~ 1024
+	peltArmorDurabilityMultiplier = 14
+	#Set the durability multiplier for armors that are made out of bones, such as Grim Armor. [0-1024, default: 14
+	#Range: 0 ~ 1024
+	boneArmorDurabilityMultiplier = 14
+	#Set the durability multiplier for armors that can be classified as light plate, such as Guard's Armor. [0-1024, default: 14
+	#Range: 0 ~ 1024
+	lightArmorDurabilityMultiplier = 14
+	#Set the durability multiplier for armors that can be classified as medium plate, such as Reinforced Mail. [0-1024, default: 14
+	#Range: 0 ~ 1024
+	mediumArmorDurabilityMultiplier = 14
+	#Set the durability multiplier for armors that can be classified as heavy plate, such as Mercenary Armor. [0-1024, default: 14
+	#Range: 0 ~ 1024
+	heavyArmorDurabilityMultiplier = 14
+	#Set the durability for melee weapons. [0-1024, default: 250
+	#Range: 0 ~ 1024
+	meleeWeaponDurability = 250
+	#Set the durability for bows. [0-1024, default: 384
+	#Range: 0 ~ 1024
+	bowDurability = 384
+	#Set the durability for crossbows. [0-1024, default: 326
+	#Range: 0 ~ 1024
+	crossbowDurability = 326
+	#Set the durability for artifacts. [0-1024, default: 64
+	#Range: 0 ~ 1024
+	artifactDurability = 64
 
 #General Mod Configuration
 [general_mod_configuration]
@@ -155,6 +62,45 @@
 	#Enable the salvaging of Dungeons Gear items by shift-right clicking villagers with the item in your hand. 
 	#If you have other mods messing with shift-right clicking villagers or simply don't want it, disable this feature. [true / false]
 	enableSalvaging = true
+	#Enable Librarian Villagers trading books enchanted with this mod's enchantments. 
+	#Disable this feature if you want to prevent this. [true / false]
+	enableEnchantmentTrades = true
+	#Enable enchantments from this mod appearing in any type of generated loot. 
+	#Disable this feature if you want to prevent this. [true / false]
+	enableEnchantmentLoot = true
+	#Add enchantments that should be prevented from being applied to any gear. 
+	#To do so, enter their registry names.
+	enchantmentBlacklist = ["dungeons_gear:lucky_explorer"]
+	#Add enchantments that should be designated as treasure-only. 
+	#To do so, enter their registry names.
+	treasureOnlyEnchantments = []
+	#Enable melee weapons appearing in chest loot and trades. 
+	#If you want to disable obtaining this mod's melee weapons, disable this feature. [true / false]
+	enableMeleeWeaponLoot = true
+	#Enable ranged weapons appearing in chest loot and trades. 
+	#If you want to disable obtaining this mod's ranged weapons, disable this feature. [true / false]
+	enableRangedWeaponLoot = true
+	#Enable armors appearing in chest loot and trades. 
+	#If you want to disable obtaining this mod's armors, disable this feature. [true / false]
+	enableArmorLoot = true
+	#Enable artifacts appearing in chest loot and trades. 
+	#If you want to disable obtaining this mod's artifacts, disable this feature. [true / false]
+	enableArtifactLoot = true
+	#Enable melee weapons appearing in their own tab in the creative menu. 
+	#Disabling this feature puts them in the COMBAT tab. [true / false]
+	enableMeleeWeaponTab = true
+	#Enable ranged weapons appearing in their own tab in the creative menu. 
+	#Disabling this feature puts them in the COMBAT tab. [true / false]
+	enableRangedWeaponTab = true
+	#Enable armors appearing in their own tab in the creative menu. 
+	#Disabling this feature puts them in the COMBAT tab. [true / false]
+	enableArmorTab = true
+	#Enable artifacts appearing in their own tab in the creative menu. 
+	#Disabling this feature puts them in the COMBAT tab. [true / false]
+	enableArtifactTab = true
+
+#Compatibility Configuration
+[compatibility_configuration]
 	#Enable Elenai Dodge 2 compatibility. Effects that trigger on jump will now trigger on dodge. 
 	#Does nothing if Elenai Dodge is not installed. [true / false]
 	enableElenaiDodgeCompat = true
@@ -163,4 +109,81 @@
 	#Block reach attributes are added to spears so they benefit from skills. 
 	#Does nothing if Project: War Dance is not installed. [true / false]
 	enableProjectWarDanceCompat = true
+
+#Combat Configuration
+[combat_configuration]
+	#Enable area of effects also being applied to players. 
+	#If you do not want area of effects being applied to other players, disable this feature. [true / false]
+	enableAreaOfEffectOnPlayers = false
+	#Add entities that will never be targeted by aggressive Dungeons Gear effects. 
+	#To do so, enter their registry names.
+	effectTargetBlacklist = ["guardvillagers:guard", "minecraft:bat", "minecraft:bee", "minecraft:chicken", "minecraft:cod", "minecraft:cow", "minecraft:dolphin", "minecraft:donkey", "minecraft:fox", "minecraft:horse", "minecraft:iron_golem", "minecraft:mooshroom", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:pufferfish", "minecraft:rabbit", "minecraft:salmon", "minecraft:sheep", "minecraft:squid", "minecraft:strider", "minecraft:trader_llama", "minecraft:tropical_fish", "minecraft:turtle", "minecraft:villager", "minecraft:wandering_trader", "minecraft:wolf"]
+
+#Common Loot Table Configuration
+[common_loot_table_configuration]
+	#Add gear from this mod to loot tables considered common. 
+	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
+	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
+	commonLootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/shipwreck", "minecraft:chests/desert_pyramid"]
+	#Use this list to prevent specific loot tables from getting common loot. 
+	#To do so, enter the full path of the specific loot table.
+	commonLootTablesBlacklist = []
+	#The decimal chance for a unique item to appear in common loot tables instead of a common one [0.0-1.0, default: 0.25] 
+	#Note: If a player has the Fortune of the Sea enchantment, this value will effectively be increased by 0.1 per level of the enchantment for them.
+	#Range: 0.0 ~ 1.0
+	uniqueItemCommonLoot = 0.25
+	#The decimal chance for an artifact to appear in common loot tables [0.0-1.0, default: 0.25]
+	#Range: 0.0 ~ 1.0
+	artifactCommonLoot = 0.25
+
+#Uncommon Loot Table Configuration
+[uncommon_loot_table_configuration]
+	#Add gear from this mod to loot tables considered uncommon. 
+	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
+	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
+	uncommonLootTables = ["minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/bastion"]
+	#Use this list to prevent specific loot tables from getting uncommon loot. 
+	#To do so, enter the full path of the specific loot table.
+	uncommonLootTablesBlacklist = ["minecraft:chests/jungle_temple_dispenser"]
+	#The decimal chance for a unique item to appear in uncommon loot tables instead of a common one [0.0-1.0, default: 0.5] 
+	#Note: If a player has the Fortune of the Sea enchantment, this value will effectively be increased by 0.1 per level of the enchantment for them.
+	#Range: 0.0 ~ 1.0
+	uniqueItemUncommonLoot = 0.5
+	#The decimal chance for an artifact to appear in uncommon loot tables [0.0-1.0, default: 0.5]
+	#Range: 0.0 ~ 1.0
+	artifactUncommonLoot = 0.5
+
+#Rare Loot Table Configuration
+[rare_loot_table_configuration]
+	#Add gear from this mod to loot tables considered rare. 
+	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
+	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
+	rareLootTables = ["minecraft:chests/stronghold", "minecraft:chests/underwater_ruin", "minecraft:chests/ruined_portal", "minecraft:chests/pillager_outpost", "minecraft:chests/simple_dungeon", "minecraft:chests/end_city_treasure", "minecraft:chests/igloo_chest"]
+	#Use this list to prevent specific loot tables from getting rare loot. 
+	#To do so, enter the full path of the specific loot table.
+	rareLootTableBlacklist = []
+	#The decimal chance for a unique weapon to appear in rare loot table instead of a common ones [0.0-1.0, default: 0.75] 
+	#Note: If a player has the Fortune of the Sea enchantment, this value will effectively be increased by 0.1 per level of the enchantment for them.
+	#Range: 0.0 ~ 1.0
+	uniqueItemRareLoot = 0.75
+	#The decimal chance for an artifact to appear in rare loot tables [0.0-1.0, default: 0.75]
+	#Range: 0.0 ~ 1.0
+	artifactRareLoot = 0.75
+
+#Super Rare Loot Table Configuration
+[super_rare_loot_table_configuration]
+	#Add gear from this mod to loot tables considered super rare. 
+	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
+	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
+	superRareLootTables = ["minecraft:chests/woodland_mansion", "minecraft:chests/buried_treasure"]
+	#Use this list to prevent specific loot tables from getting super rare loot. 
+	#To do so, enter the full path of the specific loot table.
+	superRareLootTablesBlacklist = []
+	#The decimal chance for a unique item to appear in super rare loot tables instead of a common one [0.0-1.0, default: 1.0] 
+	#Note: If a player has the Fortune of the Sea enchantment, this value will effectively be increased by 0.1 per level of the enchantment for them.
+	#Range: 0.0 ~ 1.0
+	uniqueItemSuperRareLoot = 1.0
+	#The decimal chance for an artifact to appear in super rare loot tables [0.0-1.0, default: 1.0]
+	#Range: 0.0 ~ 1.0
+	artifactSuperRareLoot = 1.0
 

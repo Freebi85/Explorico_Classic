@@ -4,7 +4,7 @@
 	#Forge Energy conversion rate (in FE/t at max RPM).
 	#Range: > 0
 	fe_conversion = 60
-	#Baseline stress factor for the Alternator and Electric Motor.
+	#Max stress for the Alternator and Electric Motor.
 	#Range: > 0
 	generator_stress = 4096
 
@@ -25,7 +25,7 @@
 
 #Alternator
 [alternator]
-	#Alternator max input in FE (Energy transfer not generation).
+	#Alternator max input in FE (Energy transfer, not generation).
 	#Range: > 0
 	generator_max_output = 8192
 	#Alternator internal capacity in FE.
@@ -46,7 +46,7 @@
 
 #Heater
 [heater]
-	#Induction Heater max input in FE (Energy transfer not consumption).
+	#Induction Heater max input in FE (Energy transfer, not consumption).
 	#Range: > 0
 	heater_max_input = 8192
 	#Induction Heater internal capacity in FE.
@@ -72,12 +72,6 @@
 	#Connector internal capacity in FE.
 	#Range: > 0
 	connector_capacity = 8196
-	#Loss per block in copper wire (Not implemented, currently no loss).
-	#Range: 0.0 ~ 0.5
-	copper_wire_loss = 0.02
-	#Loss per block in gold wire (Not implemented, currently no loss).
-	#Range: 0.0 ~ 0.5
-	gold_wire_loss = 0.005
 
 #Accumulator
 [accumulator]
@@ -96,6 +90,9 @@
 	#Diamond Grit Sandpaper durability (number of uses).
 	#Range: > 3
 	diamond_grit_sandpaper_uses = 1024
+	#The energy cost of turning Chromatic Compound into Overcharged Alloy.
+	#Range: > 1
+	overcharging_energy_cost = 16777216
 
 #Charger
 [charger]
