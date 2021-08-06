@@ -43,4 +43,6 @@ woot/*
 *.dat
 !defaultconfigs/*
 journeymap/journeymap.log
-journeymap/journeymap.log
+journeymap/data
+*/journeymap/*
+journeymap/*

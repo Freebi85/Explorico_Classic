@@ -15,7 +15,7 @@ event.shapeless(Item.of('mana-and-artifice:arcanist_ink', {Damage:0,AS_Amulet_Ho
 ['mana-and-artifice:purified_vinteum_dust', 'minecraft:glass_bottle', '#mana-and-artifice:ma_flowers', '#forge:dyes/black'])
 
 
-// Manaweaving Functions =======================================================================
+// Manaweaving Function =======================================================================
 
 function manaweaving_circle(tier, input1, input2, input3, input4, output1) {
 event.custom({
