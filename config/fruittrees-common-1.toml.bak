@@ -5,7 +5,7 @@ fruitDropModeSingleplayer = "INDEPENDENT"
 #Allowed Values: NO_DROP, INDEPENDENT, ONE_BY_ONE
 fruitDropModeMultiplayer = "ONE_BY_ONE"
 #Range: 0.0 ~ 1.0
-oakLeavesDropsAppleSapling = 0.20000000298023224
+oakLeavesDropsAppleSapling = 0.2
 worldGen = true
 #Range: 0.0 ~ 1.0
 treesGenInPlains = 0.004000000189989805

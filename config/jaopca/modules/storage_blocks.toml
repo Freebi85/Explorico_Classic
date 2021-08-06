@@ -1,5 +1,5 @@
 
 [general]
 	#The material blacklist of this module.
-	materialBlacklist = ["obsidian", "brick", "salt"]
+	materialBlacklist = ["obsidian", "brick", "salt", "red_alloy"]
 

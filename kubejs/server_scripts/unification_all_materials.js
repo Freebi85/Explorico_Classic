@@ -144,7 +144,7 @@ event.replaceOutput({}, '#forge:dusts/diamond', 'thermal:diamond_dust')
 event.replaceOutput({}, '#forge:dusts/emerald', 'thermal:emerald_dust')
 event.replaceOutput({}, '#forge:dusts/lapis', 'thermal:lapis_dust')
 event.replaceOutput({}, '#forge:dusts/ender_pearl', 'appliedenergistics2:ender_dust')
-event.replaceOutput({}, '#appliedenergistics2:dusts/ender', 'appliedenergistics2:ender_dust') 
+event.replaceOutput({}, '#appliedenergistics2:dusts/ender', 'appliedenergistics2:ender_dust')
 event.replaceOutput({}, '#forge:dusts/saltpeter', 'thermal:niter_dust')
 event.replaceOutput({}, '#forge:dusts/niter', 'thermal:niter_dust')
 event.replaceOutput({}, '#forge:dusts/sulfur', 'thermal:sulfur_dust')
@@ -169,19 +169,19 @@ event.replaceOutput({}, '#forge:dusts/coal_coke', 'immersiveengineering:dust_cok
 
 
 // Special Gems / Coke ==================================================================================================================
-
 event.replaceOutput({}, '#forge:gems/sapphire', 'iceandfire:sapphire_gem')
 event.replaceOutput({}, '#forge:storage_blocks/sapphire', 'iceandfire:sapphire_block')
 event.replaceOutput({}, '#forge:gems/amethyst', 'iceandfire:amythest_gem')
 event.replaceOutput({}, '#forge:storage_blocks/amethyst', '#forge:storage_blocks/amethyst')
-event.replaceOutput({}, '#forge:gems/ruby', 'bluepower:ruby_gem')
-event.replaceOutput({}, '#forge:storage_blocks/ruby', 'bluepower:ruby_block')
-event.replaceOutput({}, '#forge:gems/green_sapphire', 'bluepower:green_sapphire')
-event.replaceOutput({}, '#forge:storage_blocks/malachite', 'bluepower:malachite_block')
+event.replaceOutput({}, '#forge:gems/ruby', 'silentgems:ruby')
+event.replaceOutput({}, '#forge:storage_blocks/ruby', 'silentgems:ruby_block')
+event.replaceOutput({}, '#forge:gems/green_sapphire', 'silentgems:green_sapphire')
+event.replaceOutput({}, '#forge:storage_blocks/green_sapphire', 'silentgems:green_sapphire_block')
+event.replaceOutput({}, '#forge:storage_blocks/malachite', 'silentgems:malachite')
+event.replaceOutput({}, '#forge:storage_blocks/malachite', 'silentgems:malachite_block')
+event.replaceOutput({}, '#forge:storage_blocks/peridot', 'silentgems:peridot')
+event.replaceOutput({}, '#forge:storage_blocks/peridot', 'silentgems:peridot_block')
 event.replaceOutput({}, '#forge:gems/apatite', 'thermal:apatite')
-
-
-
 event.replaceOutput({}, '#forge:coal_coke', 'thermal:coal_coke')
 
 

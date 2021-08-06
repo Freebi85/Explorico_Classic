@@ -190,22 +190,3 @@ craftingTable.addShapeless("coal_m", <item:silents_mechanisms:coal_dust>, [<item
 // Starmetal =============================================================================================
 craftingTable.removeRecipe(<item:astralsorcery:stardust>);
 craftingTable.addShapeless("starmetal_m", <item:astralsorcery:stardust>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:astralsorcery:starmetal>], null);
-
-// Tungsten =============================================================================================
-craftingTable.removeRecipe(<item:jaopca:dusts.tungsten>);
-craftingTable.addShapeless("tungsten_m", <item:jaopca:dusts.tungsten>, [<item:immersiveengineering:hammer>.anyDamage().transformDamage(4),<tag:items:forge:ingots/tungsten>], null);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

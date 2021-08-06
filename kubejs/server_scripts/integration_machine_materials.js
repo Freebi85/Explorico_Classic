@@ -15,8 +15,6 @@ event.remove({id: 'assemblylinemachines:grinder/grind_charcoal'})
 event.remove({id: 'thermal:earth_charge/quartz_from_quartz_block'})
 event.remove({id: 'create:mixing/chromatic_compound'})
 event.remove({id: 'create:crushing/obsidian'})
-event.remove({id: 'immersiveengineering:arcfurnace/ore_tungsten'})
-event.remove({id: 'immersiveengineering:arcfurnace/dust_tungsten'})
 event.remove({id: 'immersiveengineering:crusher/nether_gold'})
 event.remove({id: 'immersiveengineering:crusher/ore_gold'})
 event.remove({id: 'thermal:machine/plugins/mekanism/pulverizer_mekanism_fluorite_ore'})
@@ -131,7 +129,6 @@ event.recipes.immersiveengineering.crusher(item.of('minecraft:quartz', 4), '#for
 
 // Redstone Alloy Dust/Ingots/Ores in missing machines ======================================================================
 event.recipes.mekanism.crushing('silents_mechanisms:redstone_alloy_dust', '#forge:ingots/redstone_alloy')
-event.recipes.immersiveengineering.crusher('silents_mechanisms:redstone_alloy_dust', '#forge:ingots/redstone_alloy')
 event.recipes.thermal.pulverizer('silents_mechanisms:redstone_alloy_dust', '#forge:ingots/redstone_alloy')
 
 event.recipes.appliedenergistics2.grinder({
@@ -216,20 +213,6 @@ event.recipes.thermal.pulverizer('astralsorcery:stardust', '#astralsorcery:starm
 event.recipes.immersiveengineering.crusher('astralsorcery:stardust', '#astralsorcery:starmetal')
 event.recipes.silents_mechanisms.crushing({ingredient: ingredient.of('#astralsorcery:starmetal').toJson(),results: [item.of('astralsorcery:stardust').toResultJson()], process_time: 200})
 
-
-// Tungsten Dust/Ingots/Ores in missing machines ======================================================================
-event.recipes.mekanism.crushing('jaopca:dusts.tungsten', '#forge:ingots/tungsten')
-event.recipes.thermal.pulverizer('jaopca:dusts.tungsten', '#forge:ingots/tungsten')
-event.recipes.silents_mechanisms.crushing({ingredient: ingredient.of('#forge:ingots/tungsten').toJson(),results: [item.of('jaopca:dusts.tungsten').toResultJson()], process_time: 200})
-event.recipes.appliedenergistics2.grinder({
-    input: ingredient.of('#forge:ingots/tungsten').toJson(),
-    result: {
-      primary: item.of('jaopca:dusts.tungsten').toResultJson(),
-      optional: []
-    },
-    turns: 6
-  })
-
 // Sapphire Dust/Ingots/Ores in missing machines ======================================================================
 event.replaceOutput({}, '#forge:gems/sapphire', 'iceandfire:sapphire_gem')
 event.replaceOutput({}, '#forge:storage_blocks/sapphire', 'iceandfire:sapphire_block')
@@ -258,25 +241,23 @@ event.recipes.appliedenergistics2.grinder({
 
 
 // Ruby Dust/Ingots/Ores in missing machines ======================================================================
-event.recipes.immersiveengineering.crusher(item.of('bluepower:ruby_gem', 2), '#forge:ores/ruby')
-event.replaceOutput({}, '#forge:gems/ruby', 'bluepower:ruby_gem')
-event.replaceOutput({}, '#forge:storage_blocks/ruby', 'bluepower:ruby_block')
+event.recipes.immersiveengineering.crusher(item.of('silentgems:ruby', 2), '#forge:ores/ruby')
 event.recipes.appliedenergistics2.grinder({
     input: ingredient.of('#forge:ores/ruby').toJson(),
     result: {
-      primary: item.of('bluepower:ruby_gem').toResultJson(),
+      primary: item.of('silentgems:ruby').toResultJson(),
       optional: []
     },
     turns: 6
   })
 
 // Malachite Dust/Ingots/Ores in missing machines ======================================================================
-event.recipes.immersiveengineering.crusher(item.of('bluepower:green_sapphire_gem', 2), '#forge:ores/green_sapphire')
-event.recipes.thermal.pulverizer(item.of('bluepower:green_sapphire_gem', 2), '#forge:ores/green_sapphire')
+event.recipes.immersiveengineering.crusher(item.of('silentgems:green_sapphire', 2), '#forge:ores/green_sapphire')
+event.recipes.thermal.pulverizer(item.of('silentgems:green_sapphire', 2), '#forge:ores/green_sapphire')
 event.recipes.appliedenergistics2.grinder({
     input: ingredient.of('#forge:ores/green_sapphire').toJson(),
     result: {
-      primary: item.of('bluepower:green_sapphire_gem').toResultJson(),
+      primary: item.of('silentgems:green_sapphire').toResultJson(),
       optional: []
     },
     turns: 6

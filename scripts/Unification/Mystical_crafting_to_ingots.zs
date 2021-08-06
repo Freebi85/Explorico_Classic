@@ -25,7 +25,7 @@ craftingTable.addShaped("nickel_myst", <item:silents_mechanisms:nickel_ingot> * 
 
 
 // Zinc  =============================================================================================
-craftingTable.removeRecipe(<item:bluepower:zinc_ingot>);
+craftingTable.removeRecipe(<item:silents_mechanisms:zinc_dust>);
 craftingTable.addShaped("zinc_myst", <item:silents_mechanisms:zinc_ingot> * 3, [[<item:mysticalagriculture:zinc_essence>, <item:mysticalagriculture:zinc_essence>, <item:mysticalagriculture:zinc_essence>], [<item:mysticalagriculture:zinc_essence>, <item:minecraft:air>, <item:mysticalagriculture:zinc_essence>], [<item:mysticalagriculture:zinc_essence>, <item:mysticalagriculture:zinc_essence>, <item:mysticalagriculture:zinc_essence>]], null);
 
 
@@ -46,7 +46,6 @@ craftingTable.addShaped("bronze_myst", <item:silents_mechanisms:bronze_ingot> * 
 
 
 // Brass  =============================================================================================
-craftingTable.removeRecipe(<item:bluepower:brass_ingot>);
 craftingTable.addShaped("brass_myst", <item:silents_mechanisms:brass_ingot> * 3, [[<item:mysticalagriculture:brass_essence>, <item:mysticalagriculture:brass_essence>, <item:mysticalagriculture:brass_essence>], [<item:mysticalagriculture:brass_essence>, <item:minecraft:air>, <item:mysticalagriculture:brass_essence>], [<item:mysticalagriculture:brass_essence>, <item:mysticalagriculture:brass_essence>, <item:mysticalagriculture:brass_essence>]], null);
 
 
@@ -80,13 +79,3 @@ craftingTable.addShaped("lead_myst", <item:silents_mechanisms:lead_ingot> * 3, [
 // invar  =============================================================================================
 craftingTable.removeRecipe(<item:thermal:invar_ingot>);
 craftingTable.addShaped("invar_myst", <item:silents_mechanisms:invar_ingot> * 3, [[<item:mysticalagriculture:invar_essence>, <item:mysticalagriculture:invar_essence>, <item:mysticalagriculture:invar_essence>], [<item:mysticalagriculture:invar_essence>, <item:minecraft:air>, <item:mysticalagriculture:invar_essence>], [<item:mysticalagriculture:invar_essence>, <item:mysticalagriculture:invar_essence>, <item:mysticalagriculture:invar_essence>]], null);
-
-
-
-
-
-
-
-
-
-

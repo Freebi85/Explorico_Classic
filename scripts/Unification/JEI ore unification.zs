@@ -186,32 +186,26 @@ mods.jei.JEI.hideItem(<item:bno:netherosmium_ore>);
 // Silentstuff ===========================================
 mods.jei.JEI.hideItem(<item:silents_mechanisms:compressed_iron_ingot>);
 
-// Bluepower ===========================================
-mods.jei.JEI.hideItem(<item:bluepower:silver_ore>);
-mods.jei.JEI.hideItem(<item:bluepower:copper_ore>);
-mods.jei.JEI.hideItem(<item:bluepower:zinc_ore>);
-mods.jei.JEI.hideItem(<item:bluepower:copper_ingot>);
-mods.jei.JEI.hideItem(<item:bluepower:silver_ingot>);
-mods.jei.JEI.hideItem(<item:bluepower:zinc_ingot>);
-mods.jei.JEI.hideItem(<item:bluepower:brass_ingot>);
-mods.jei.JEI.hideItem(<item:bluepower:brass_ingot>);
-mods.jei.JEI.hideItem(<item:bluepower:brass_ingot>);
-mods.jei.JEI.hideItem(<item:bluepower:zinc_block>);
-mods.jei.JEI.hideItem(<item:bluepower:copper_block>);
-mods.jei.JEI.hideItem(<item:bluepower:silver_block>);
-mods.jei.JEI.hideItem(<item:bluepower:zinc_dust>);
-mods.jei.JEI.hideItem(<item:bluepower:zinc_tiny_dust>);
-mods.jei.JEI.hideItem(<item:bluepower:zinc_ore_crushed>);
-mods.jei.JEI.hideItem(<item:bluepower:zinc_ore_purified>);
-mods.jei.JEI.hideItem(<item:bluepower:red_alloy_ingot>);
-mods.jei.JEI.hideItem(<item:bluepower:sapphire_gem>);
-mods.jei.JEI.hideItem(<item:bluepower:sapphire_block>);
-craftingTable.removeRecipe(<item:bluepower:sapphire_gem>);
-craftingTable.removeRecipe(<item:bluepower:sapphire_block>);
-mods.jei.JEI.hideItem(<item:bluepower:amethyst_gem>);
-mods.jei.JEI.hideItem(<item:bluepower:amethyst_block>);
-craftingTable.removeRecipe(<item:bluepower:amethyst_gem>);
-craftingTable.removeRecipe(<item:bluepower:amethyst_block>);
+// Projectred ===========================================
+mods.jei.JEI.hideItem(<item:projectred-core:peridot>);
+mods.jei.JEI.hideItem(<item:projectred-core:ruby>);
+mods.jei.JEI.hideItem(<item:projectred-core:sapphire>);
+mods.jei.JEI.hideItem(<item:projectred-core:copper_ingot>);
+mods.jei.JEI.hideItem(<item:projectred-core:tin_ingot>);
+mods.jei.JEI.hideItem(<item:projectred-core:silver_ingot>);
+mods.jei.JEI.hideItem(<item:projectred-core:red_ingot>);
+mods.jei.JEI.hideItem(<item:projectred-core:red_iron_comp>);
+mods.jei.JEI.hideItem(<item:projectred-exploration:copper_block>);
+mods.jei.JEI.hideItem(<item:projectred-exploration:silver_block>);
+mods.jei.JEI.hideItem(<item:projectred-exploration:tin_block>);
+mods.jei.JEI.hideItem(<item:projectred-exploration:ruby_block>);
+mods.jei.JEI.hideItem(<item:projectred-exploration:sapphire_block>);
+mods.jei.JEI.hideItem(<item:projectred-exploration:peridot_block>);
+mods.jei.JEI.hideItem(<item:projectred-exploration:peridot_ore>);
+mods.jei.JEI.hideItem(<item:projectred-exploration:copper_ore>);
+mods.jei.JEI.hideItem(<item:projectred-exploration:tin_ore>);
+mods.jei.JEI.hideItem(<item:projectred-exploration:silver_ore>);
+mods.jei.JEI.hideItem(<item:projectred-core:silicon>);
 
 
 // Tinkers Mechworks ===========================================
@@ -357,4 +351,3 @@ mods.jei.JEI.hideItem(<item:tconstruct:copper_block>);
 mods.jei.JEI.hideItem(<item:tconstruct:copper_ingot>);
 mods.jei.JEI.hideItem(<item:tconstruct:copper_ore>);
 mods.jei.JEI.hideItem(<item:tconstruct:copper_nugget>);
-
