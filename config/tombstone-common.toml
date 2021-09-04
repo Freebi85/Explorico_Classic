@@ -3,8 +3,6 @@
 [player_death]
 	#Whether to log the positions of players' graves [false/true|default:true]
 	log_player_grave = true
-	#Prevents death outside of world borders [false/true|default:false]
-	prevent_death_outside_world = false
 	#The chance that creatures appear after the contents of a grave are retrieved [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_mob_on_grave_recovery = 0
@@ -39,33 +37,41 @@
 	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
 	#Range: 0 ~ 100
 	pvp_stolen_xp = 30
+	#Prevents death outside the borders of the world [false/true|default:true]
+	prevent_death_outside_world_border = true
+	#Prevents death outside the build height [false/true|default:false]
+	prevent_death_outside_build_height = false
+
+	[player_death.nerf_ghostly_shape]
+		#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]
+		teleport_with_key = true
+		#Cancel the Ghostly Shape effect when colliding an enemy [false/true|default:true]
+		enemy_collision = true
+		#Cancel the Ghostly Shape effect when opening a chest [false/true|default:true]
+		open_chest = true
+		#Cancel the Ghostly Shape effect when breaking a block [false/true|default:true]
+		break_block = true
 
 #Options related to player's alignment
 [alignment]
-	#Points for killing a villager (or minecolonies citizen) [0..50|default:-2]
+	#Points for killing a villager (or minecolonies citizen) [-50..0|default:-3]
 	#Range: -50 ~ 0
 	points_kill_villager = -2
-	#Points for zombie villager exorcism [0..50|default:2]
+	#Points for zombie villager exorcism [0..50|default:3]
 	#Range: 0 ~ 50
 	points_exorcism_zombie_villager = 2
-	#Chance for tablet of cupidity [0..100|default:50]
-	#Range: 0 ~ 100
-	chance_tablet_of_cupidity = 50
 	#Points for plundering a player's grave [-50..0|default:-2]
 	#Range: -50 ~ 0
 	points_plunder_player_grave = -2
-	#Points for tablet of cupidity [-20..0|default:-1]
+	#Points for tablet of cupidity [-20..0|default:-2]
 	#Range: -20 ~ 0
 	points_tablet_of_cupidity = -1
-	#Points for freeing a soul in a receptacle [0..50|default:3]
+	#Points for freeing a soul in a receptacle [0..50|default:10]
 	#Range: 0 ~ 50
 	points_free_soul_receptacle = 3
 	#Points for killing a raider [0..20|default:1]
 	#Range: 0 ~ 20
 	points_kill_raider = 1
-	#Chance for killing a raider [0..100|default:30]
-	#Range: 0 ~ 100
-	chance_kill_raider = 30
 	#Points for Pray of Protection [0..50|default:2]
 	#Range: 0 ~ 50
 	points_pray_of_protection = 2
@@ -89,8 +95,6 @@
 	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_request_teleport = -1
-	#Whether to cancel the Ghostly Shape effect on breaking a block or opening a chest [false/true|default:false]
-	nerf_ghostly_shape = false
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
 	knowledge_reduce_phantom_spawn = true
 	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
@@ -98,8 +102,8 @@
 	time_for_phantom_spawn = 72000
 	#Allows players to be hurt by special damages related to some items [false/true|default:true]
 	allow_beyond_the_grave_damage = true
-	#Cooldown in minutes to use the perk Tomb Raider [0..1440|default:0]
-	#Range: 0 ~ 1440
+	#Cooldown in minutes to use the perk Tomb Raider [60..1440|default:60]
+	#Range: 60 ~ 1440
 	cooldown_tomb_raiding = 60
 
 #Allows to define the conditions for a village siege to begin
@@ -130,8 +134,6 @@
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
-	#The creatures that can't be captured in receptacle
-	black_list_capturable_souls = []
 	#The structures that can't be discovered by lost tablets
 	lost_tablet_denied_structures = []
 	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
@@ -143,8 +145,8 @@
 	#Duration of voodoo poppet's effects in seconds when preventing death [5..60000|default:60]
 	#Range: 5 ~ 60000
 	duration_voodoo_poppet_effects = 60
-	#Time in minutes to check if a soul appears on a grave [10..10000|default:30]
-	#Range: 10 ~ 10000
+	#Time in minutes to check if a soul appears on a grave [30..10000|default:30]
+	#Range: 30 ~ 10000
 	time_soul = 30
 	#Allows lost tablets to find locations outside the current world [false/true|default:true]
 	lost_tablet_search_outside_world = true
@@ -192,16 +194,9 @@
 	#Chance on 1000 for undead mobs to drop Grave's Dust [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_grave_dust = 100
-	#Chance on 1000 to receive a decorative grave on undead boss [0..1000|default:50]
-	#Range: 0 ~ 1000
-	chance_decorative_grave_on_boss = 30
 	#Chance on 1000 to receive a Soul Receptacle on undead boss [0..1000|default:50]
 	#Range: 0 ~ 1000
 	chance_soul_receptacle_on_boss = 50
-	#Defines the allowed loottables having a chance to contain a magic item from Tombstone
-	treasure_loot_table = ["minecraft:chests/end_city_treasure", "minecraft:chests/abandoned_mineshaft", "minecraft:chests/nether_bridge", "minecraft:chests/stronghold_library", "minecraft:chests/desert_pyramid", "minecraft:chests/jungle_temple", "minecraft:chests/igloo_chest", "minecraft:chests/woodland_mansion"]
-	#The magic items from Tombstone can only be found as creature loot if the player is the killer [false/true|default:true]
-	drop_only_on_player_kill = true
 	#Chance on 1000 to receive a voodoo poppet on undead boss [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_voodoo_poppet_on_boss = 100
@@ -211,6 +206,8 @@
 	#Minimum life for an undead to be considered as a boss for drop [200..MAX|default:200]
 	#Range: > 200
 	undead_boss_life_for_drop = 200
+	#Entities that can't found as loot in a Familiar Receptacle
+	unhandled_tameable_entities = []
 
 #Allows to enable some features related to others mods
 [compatibility]

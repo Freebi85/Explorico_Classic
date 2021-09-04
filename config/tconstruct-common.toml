@@ -2,7 +2,7 @@
 #Everything to do with gameplay
 [gameplay]
 	#Set this to false to disable new players spawning with the Tinkers' Book.
-	shouldSpawnWithTinkersBook = false
+	shouldSpawnWithTinkersBook = true
 	#If non-empty, only this material will be shown on tools in creative and JEI (or the first valid material if this is invalid for the tool).
 	#If empty, all materials will show
 	showOnlyToolMaterial = ""
@@ -64,7 +64,7 @@
 			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 15
+			separation = 25
 
 		#Settings for sky slime islands in the overworld sky
 		[worldgen.slime_islands.sky]

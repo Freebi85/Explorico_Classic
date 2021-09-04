@@ -14,7 +14,7 @@
 	#Enable the Forge block rendering pipeline - fixes the lighting of custom models.
 	forgeLightPipelineEnabled = true
 	#When enabled, Forge will show any warnings that occurred during loading.
-	showLoadWarnings = true
+	showLoadWarnings = false
 	#Enable uploading cloud geometry to the GPU for faster rendering.
 	forgeCloudsEnabled = true
 	#When enabled, makes specific reload tasks such as language changing quicker to run.

@@ -17,7 +17,7 @@
 	#Range: > 0
 	motor_capacity = 16000
 	#Electric Motor min/max RPM.
-	#Range: 1 ~ 256
+	#Range: > 1
 	motor_rpm_range = 256
 	#Electric Motor minimum required energy consumption in FE/t.
 	#Range: > 0

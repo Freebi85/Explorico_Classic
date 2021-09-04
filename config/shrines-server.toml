@@ -13,9 +13,6 @@
 		#Ballon Seed (Only Change if you know what you are doing)[default: 143665]
 		#Range: > -2147483648
 		seed = 143665
-		#Ballon Generate Loot Chance [default: 0.25]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 0.25
 		#Ballon Minimum Separation (in chunks) [default: 8]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 8
@@ -40,9 +37,6 @@
 		#Bees Seed (Only Change if you know what you are doing)[default: 779806245]
 		#Range: > -2147483648
 		seed = 779806245
-		#Bees Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Bees Minimum Separation (in chunks) [default: 12]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 12
@@ -67,9 +61,6 @@
 		#High Tempel Seed (Only Change if you know what you are doing)[default: 536987987]
 		#Range: > -2147483648
 		seed = 536987987
-		#High Tempel Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#High Tempel Minimum Separation (in chunks) [default: 18]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 18
@@ -94,9 +85,6 @@
 		#Nether Pyramid Seed (Only Change if you know what you are doing)[default: 7428394]
 		#Range: > -2147483648
 		seed = 7428394
-		#Nether Pyramid Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Nether Pyramid Minimum Separation (in chunks) [default: 50]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 50
@@ -121,9 +109,6 @@
 		#Nether Shrine Seed (Only Change if you know what you are doing)[default: 653267]
 		#Range: > -2147483648
 		seed = 653267
-		#Nether Shrine Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Nether Shrine Minimum Separation (in chunks) [default: 15]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 15
@@ -148,9 +133,6 @@
 		#Player House Seed (Only Change if you know what you are doing)[default: 751963298]
 		#Range: > -2147483648
 		seed = 751963298
-		#Player House Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Player House Minimum Separation (in chunks) [default: 15]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 15
@@ -175,9 +157,6 @@
 		#Small Tempel Seed (Only Change if you know what you are doing)[default: 4765321]
 		#Range: > -2147483648
 		seed = 4765321
-		#Small Tempel Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Small Tempel Minimum Separation (in chunks) [default: 13]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 13
@@ -202,9 +181,6 @@
 		#Water Shrine Seed (Only Change if you know what you are doing)[default: 643168754]
 		#Range: > -2147483648
 		seed = 1520586
-		#Water Shrine Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Water Shrine Minimum Separation (in chunks) [default: 15]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 15
@@ -229,9 +205,6 @@
 		#Mineral Temple Seed (Only Change if you know what you are doing)[default: 576143753]
 		#Range: > -2147483648
 		seed = 576143753
-		#Mineral Temple Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Mineral Temple Minimum Separation (in chunks) [default: 10]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 10
@@ -256,9 +229,6 @@
 		#Flooded Temple Seed (Only Change if you know what you are doing)[default: 54315143]
 		#Range: > -2147483648
 		seed = 54315143
-		#Flooded Temple Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Flooded Temple Minimum Separation (in chunks) [default: 10]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 10
@@ -283,9 +253,6 @@
 		#Harbour Seed (Only Change if you know what you are doing)[default: 651398043]
 		#Range: > -2147483648
 		seed = 651398043
-		#Harbour Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Harbour Minimum Separation (in chunks) [default: 8]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 8
@@ -310,9 +277,6 @@
 		#Infested Prison Seed (Only Change if you know what you are doing)[default: 567483014]
 		#Range: > -2147483648
 		seed = -567483014
-		#Infested Prison Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Infested Prison Minimum Separation (in chunks) [default: 11]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 11
@@ -337,9 +301,6 @@
 		#Jungle Tower Seed (Only Change if you know what you are doing)[default: 987531843]
 		#Range: > -2147483648
 		seed = -987531843
-		#Jungle Tower Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Jungle Tower Minimum Separation (in chunks) [default: 11]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 11
@@ -364,9 +325,6 @@
 		#Guardian Meeting Seed (Only Change if you know what you are doing)[default: 1498473232]
 		#Range: > -2147483648
 		seed = 1498473232
-		#Guardian Meeting Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#Guardian Meeting Minimum Separation (in chunks) [default: 17]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 17
@@ -391,9 +349,6 @@
 		#End Temple Seed (Only Change if you know what you are doing)[default: 478360]
 		#Range: > -2147483648
 		seed = 478360
-		#End Temple Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 		#End Temple Minimum Separation (in chunks) [default: 11]. See 'Structure Min Distance' at general settings too
 		#Range: 1 ~ 500
 		seperation = 11
@@ -429,9 +384,6 @@
 		dimensions = ["minecraft:overworld"]
 		#Use Random Varianting for Abandoned Witch House? [default: true]
 		use_random_varianting = true
-		#Abandoned Witch House Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 
 	[structures.oriental_sanctuary]
 		#Generate Oriental Sanctuarys?
@@ -480,9 +432,6 @@
 		dimensions = ["minecraft:overworld"]
 		#Use Random Varianting for Trader House? [default: true]
 		use_random_varianting = true
-		#Trader House Generate Loot Chance [default: 1.0]
-		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
 
 	[structures.watchtower]
 		#Generate Watchtowers?
@@ -507,7 +456,28 @@
 		dimensions = ["minecraft:overworld"]
 		#Use Random Varianting for Watchtower? [default: true]
 		use_random_varianting = true
-		#Watchtower Generate Loot Chance [default: 1.0]
+
+	[structures.shrine_of_savanna]
+		#Generate Shrine of savannas?
+		generate = true
+		#Shrine of savanna Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
-		loot_chance = 1.0
+		spawn_chance = 0.6
+		#Shrine of savanna Distance (in chunks) [default: 67]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		distance = 67
+		#Shrine of savanna Minimum Separation (in chunks) [default: 11]. See 'Structure Min Distance' at general settings too
+		#Range: 1 ~ 500
+		seperation = 11
+		#Shrine of savanna Seed (Only Change if you know what you are doing)[default: 432333099]
+		#Range: > -2147483648
+		seed = 432333099
+		#Biome Types the Shrine of savanna can generate in
+		categories = ["PLAINS", "FOREST", "TAIGA", "SAVANNA", "JUNGLE", "MESA", "ICY", "DESERT", "SWAMP", "MUSHROOM"]
+		#Biomes the Shrine of savanna can NOT generate in
+		blacklist = []
+		#Here's a list of all dimensions where Shrine of savanna can spawn in
+		dimensions = ["minecraft:overworld"]
+		#Use Random Varianting for Shrine of savanna? [default: true]
+		use_random_varianting = true
 

@@ -14,13 +14,13 @@
 ["Diamond Sand Overworld"]
 	#Rarity of diamond sand veins. Default = 6
 	#Range: 0 ~ 100
-	rarity = 6
+	rarity = 10
 	#Maximum vein size for an diamondsand Ore vein. For reference, diamonds have a max vein size of 8. Default = 7
 	#Range: 0 ~ 64
-	vein_size = 7
+	vein_size = 3
 	#Maximum spawn height size for an diamondsand ore vein. Default = 16
 	#Range: 1 ~ 255
-	max_spawn_height = 64
+	max_spawn_height = 40
 	#Maximum spawn height size for an diamondsand ore vein. Default = 16
 	#Range: 1 ~ 255
 	min_spawn_height = 20

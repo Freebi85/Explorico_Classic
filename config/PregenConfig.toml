@@ -3,8 +3,6 @@
 	#Defines how many Dimensions can be generated at the same time, this is due to thread limitations mcs worldgen has. 0 => Single Dimension, 1 => Up to 3 dimensions (Ensures each dimension has at least 2 threads), 2 => Up to 5 Dimensions (Dimensions will fight over CPU Threads due to limitations)
 	#Range: 0 ~ 2
 	"Threading Rule" = 0
-	#Defines how the pregenerator processes the Chunks. True => will cause a lot more CPU/Server usage, but can be faster, False => more cpu friendly but can be slower. NOTE: Pregen without agressive pregeneration is already very fast. This is more if you have a overbuild server/cpu and want to maximize generation
-	"Agressive Pregen" = false
 	#Defines if the SyncChunkWrite config should be not forcefully set to false. Note: SyncChunkWrite "May" Prevent data corruption. Though this was only enabled since 1.16 before it was always disabled. Downside of this is that HDDs/SSDs during pregen are at 100% usage ALL the time instead of less then 5%. This can lead to hardware failure much much much much more quickly. This is why the override is enabled by default
 	"Disable ChunkSyncOverride" = false
 	#Defines how many Players have to be online for the Processor to Auto Pause, -1 = Disabled. It is Inclusive 2 = Allows 1 Player
@@ -17,6 +15,10 @@
 	auto-restart = false
 	#Defines if the Profiler should run in the background or not
 	enable-profiler = false
+	#Changes the World Generator to process Multiple chunks at the same time (Multithreading) to use more resources if present, may cause crashes with mods
+	Multithread-Hack = false
+	#Defines if the Improved Command Arguments should be used on Command Creation. If enabled mod is required on client
+	"Advanced Command Arguments" = true
 
 [client]
 
