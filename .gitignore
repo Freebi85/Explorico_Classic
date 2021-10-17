@@ -69,3 +69,5 @@ journeymap/data/sp/BYG TEST/overworld/day/-1,-1.png
 shrines-saves/shrines.properties
 server.dat_old
 servers.dat
+config.json
+config.bak.json
