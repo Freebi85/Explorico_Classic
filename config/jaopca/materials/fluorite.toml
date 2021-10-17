@@ -25,3 +25,7 @@
 	#The byproduct material to output in Create's crushing.
 	byproduct = "minecraft:cobblestone"
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+

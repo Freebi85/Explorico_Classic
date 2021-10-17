@@ -11,3 +11,7 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+

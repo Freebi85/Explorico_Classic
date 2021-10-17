@@ -16,8 +16,6 @@
 	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
 	#Range: 1 ~ 10
 	sniffer_range = 5
-	#Whether to require a Grave's Key to access graves [false/true|default:true]
-	player_grave_access = true
 	#Graveless Areas
 	no_grave_location = ["0, -300, 0, minecraft:overworld, 20"]
 	#Knowledge of Death loss why dying [0..500|default:0]
@@ -41,16 +39,16 @@
 	prevent_death_outside_world_border = true
 	#Prevents death outside the build height [false/true|default:false]
 	prevent_death_outside_build_height = false
-
-	[player_death.nerf_ghostly_shape]
-		#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]
-		teleport_with_key = true
-		#Cancel the Ghostly Shape effect when colliding an enemy [false/true|default:true]
-		enemy_collision = true
-		#Cancel the Ghostly Shape effect when opening a chest [false/true|default:true]
-		open_chest = true
-		#Cancel the Ghostly Shape effect when breaking a block [false/true|default:true]
-		break_block = true
+	#Whether to unlock access to a grave if the player has been killed by another player [false/true|default:true]
+	pvp_unlock_grave = true
+	#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]
+	nerf_ghostly_shape_teleport_with_key = true
+	#Cancel the Ghostly Shape effect when colliding an enemy [false/true|default:true]
+	nerf_ghostly_shape_enemy_collision = true
+	#Cancel the Ghostly Shape effect when opening a chest [false/true|default:true]
+	nerf_ghostly_shape_open_chest = true
+	#Cancel the Ghostly Shape effect when breaking a block [false/true|default:true]
+	nerf_ghostly_shape_break_block = true
 
 #Options related to player's alignment
 [alignment]
@@ -154,6 +152,8 @@
 	lost_tablet_modded_structure = true
 	#Allows to replace a grave plate already set on a grave [false/true|default:true]
 	can_replace_grave_plate = true
+	#Allows the merchant grave gardian [false/true|default:true]
+	allow_grave_gardian = true
 
 #Allows to customize or disable the enchantments
 [enchantments]
@@ -170,6 +170,8 @@
 	#Defines if players can steal effects to others players. If nerfed, the stolen effect duration is limited to 10% of the initial effect [ALLOW/NERFED/DISALLOW|default:ALLOW]
 	#Allowed Values: ALLOW, NERFED, DISALLOW
 	magic_siphon_on_player_rule = "ALLOW"
+	#Shadow Step is disabled for 10 seconds by opening a chest [false/true|default:true]
+	nerf_shadow_step_open_chest = true
 
 #Options related to the command recovery and auto-save of players
 [recovery]

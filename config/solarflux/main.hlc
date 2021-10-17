@@ -1,6 +1,6 @@
 # Main configuration file for Solar Flux Reborn!
 # To implement custom panels, look for the custom_panels.js file!
-~ Saved With Solar Flux 16.2.5
+~ Saved With Hammer Lib 16.3.25
 
 +C:Main={
   # How much energy should be generated when it is raining? 0 - nothing, 1 - full power. (Default: 0.6, Range: [0.0;1.0])

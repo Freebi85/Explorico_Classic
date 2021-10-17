@@ -53,3 +53,19 @@ journeymap/data/sp/Dev Area/overworld/day/-1,-1.png
 journeymap/data/sp/Dev Area/overworld/night/-1,-1.png
 journeymap/journeymap.log
 hs_err_pid40072.log
+journeymap/data/sp/BYG TEST/overworld/day/-1,-1.png
+journeymap/data/sp/BYG TEST/overworld/day/-1,-1.png
+journeymap/data/sp/BYG TEST/overworld/day/0,-1.png
+journeymap/data/sp/BYG TEST/overworld/night/-1,-1.png
+journeymap/data/sp/BYG TEST/overworld/night/0,-1.png
+journeymap/data/sp/BYG TEST/overworld/topo/-1,-1.png
+journeymap/data/sp/BYG TEST/overworld/topo/0,-1.png
+journeymap/server/5.7/journeymap.server.death.config
+journeymap/server/5.7/journeymap.server.the_end_of_time.config
+journeymap/server/5.7/journeymap.server.the_end_of_time_2.config
+journeymap/server/5.7/journeymap.server.theabyssdim.config
+journeymap/server/5.7/journeymap.server.theabyssdimiceworld.config
+journeymap/data/sp/BYG TEST/overworld/day/-1,-1.png
+shrines-saves/shrines.properties
+server.dat_old
+servers.dat

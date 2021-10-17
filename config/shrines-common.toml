@@ -17,4 +17,7 @@
 	banned_blocks = []
 	#All entities in this list will not be placed with the structures
 	banned_entities = []
+	#How many times you need to find a structure to enable it's complete story
+	#Range: 0 ~ 100
+	needed_novels = 5
 

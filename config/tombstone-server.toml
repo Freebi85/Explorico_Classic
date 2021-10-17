@@ -6,7 +6,7 @@
 	xp_loss = 0
 	#Allows players with bad alignment and the perk tomb raider to steal items on abandoned graves [false/true|default:false]
 	allow_tomb_raiding = false
-	#The time in minutes before a Grave's Key isn't required to open a grave (-1 = disabled) [-1..MAX|default:-1]
+	#The time in minutes before a grave is unlocked to anyone (-1 = disabled) [-1..MAX|default:-1]
 	#Range: > -1
 	decay_time = -1
 
@@ -43,8 +43,6 @@
 	plague_bringer_combining_magic_siphon = false
 	#Allows Magic Siphon at enchanting table [false/true|default:false]
 	magic_siphon_enchanting_table = true
-	#Shadow Step is only active while sneaking [false/true|default:false]
-	nerf_shadow_step = false
 	#Allows Plague Bringer at enchanting table [false/true|default:false]
 	plague_bringer_enchanting_table = false
 	#Enables the enchantment Magic Siphon [false/true|default:true]
@@ -67,6 +65,8 @@
 	#Max level for Curse of Bones [1..10|default:5]
 	#Range: 1 ~ 10
 	max_level_curse_of_bones = 5
+	#Shadow Step is only active while sneaking [false/true|default:false]
+	nerf_shadow_step_force_sneak = false
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]

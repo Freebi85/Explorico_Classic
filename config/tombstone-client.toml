@@ -28,8 +28,6 @@
 	priorize_tool_on_hotbar = false
 	#Highlights the tomb from far when holding the key [false/true|default:true]
 	highlight = true
-	#Enables the special rendering and particles for Halloween [false/true|default:true]
-	enable_halloween_effect = true
 	#Favorite grave
 	#Allowed Values: GRAVE_SIMPLE, GRAVE_NORMAL, GRAVE_CROSS, TOMBSTONE, SUBARAKI_GRAVE, GRAVE_ORIGINAL
 	favorite_grave = "GRAVE_SIMPLE"
@@ -67,4 +65,6 @@
 	#Defines when to automatically equip your items [NEVER/GRAVE_RECOVERY/DEATH_RESPAWN/ALWAYS|default:ALWAYS]
 	#Allowed Values: NEVER, GRAVE_RECOVERY, DEATH_RESPAWN, ALWAYS
 	auto_equip_rule = "ALWAYS"
+	#Allows the ghost to appear around you during Halloween [false/true|default:true]
+	allow_halloween_ghost = true
 
