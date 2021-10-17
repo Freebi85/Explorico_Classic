@@ -1,33 +1,39 @@
+*/mods/*
+mods/*
 */saves/*
 saves/*
 */schematics/*
 schematics/*
 */screenshots/*
 screenshots/*
+*/shrines-saves/*
+shrines-saves/*
 */resourcepacks/*
 resourcepacks/*
 */patchouli_books/*
 patchouli_books/*
 */natives/*
 natives/*
+*/journeymap/*
+journeymap/*
 */local/*
 local/*
 */logs/*
 logs/*
-*/journeymap/*
-journeymap/*
 */downloads/*
 downloads/*
 */backups/*
 backups/*
+*/crash-reports/*
+crash-reports/*
 */.mixin.out/*
 .mixin.out/*
 */scriptsFormatted/*
 scriptsFormatted/*
 */ESM/*
 ESM/*
-*/mods/*
-mods/*
+instances - Verknüpfung/*
+*/instances - Verknüpfung/*
 minecraftinstance.json
 patchouli_data.json
 realms_persistence.json
@@ -35,14 +41,15 @@ TrashSlotState.json
 TrashSlotSaveState.json
 usercache.json
 usernamecache.json
-config.json
+options.txt
 reauth.toml
-servers.dat_old
+BotaniaVars.dat
+config.bak
 woot/*
-*.txt
-*.dat
+kubejs/README.txt
 !defaultconfigs/*
+!kubejs/assets/*
+journeymap/data/sp/Dev Area/overworld/day/-1,-1.png
+journeymap/data/sp/Dev Area/overworld/night/-1,-1.png
 journeymap/journeymap.log
-journeymap/data
-*/journeymap/*
-journeymap/*
+hs_err_pid40072.log
