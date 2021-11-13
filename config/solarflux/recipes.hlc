@@ -12,7 +12,11 @@
 
   +B:solarflux:capacity_upgrade=true
 
+  +B:solarflux:chaotic_panel=true
+
   +B:solarflux:dispersive_upgrade=true
+
+  +B:solarflux:draconic_panel=true
 
   +B:solarflux:efficiency_upgrade=true
 
@@ -55,6 +59,8 @@
   +B:solarflux:transfer_rate_upgrade=true
 
   +B:solarflux:traversal_upgrade=true
+
+  +B:solarflux:wyvern_panel=true
 
 }
 
