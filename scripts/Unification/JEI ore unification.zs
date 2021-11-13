@@ -242,8 +242,6 @@ mods.jei.JEI.hideItem(<item:thermal:copper_ore>);
 mods.jei.JEI.hideItem(<item:thermal:tin_ore>);
 mods.jei.JEI.hideItem(<item:thermal:ender_pearl_dust>);
 
-
-mods.jei.JEI.hideItem(<item:thermal:gold_plate>);
 mods.jei.JEI.hideItem(<item:thermal:gold_gear>);
 mods.jei.JEI.hideItem(<item:thermal:lapis_gear>);
 mods.jei.JEI.hideItem(<item:thermal:diamond_gear>);
@@ -338,6 +336,9 @@ mods.jei.JEI.hideItem(<item:create:zinc_ingot>);
 mods.jei.JEI.hideItem(<item:create:brass_block>);
 mods.jei.JEI.hideItem(<item:create:brass_nugget>);
 mods.jei.JEI.hideItem(<item:create:brass_ingot>);
+mods.jei.JEI.hideItem(<item:create:copper_sheet>);
+mods.jei.JEI.hideItem(<item:create:iron_sheet>);
+mods.jei.JEI.hideItem(<item:create:golden_sheet>);
 
 // MoreVanillaLib ===========================================
 mods.jei.JEI.hideItem(<item:morevanillalib:obsidian_shard>);

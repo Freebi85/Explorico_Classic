@@ -22,8 +22,9 @@ craftingTable.addShapeless("iron_p", <item:thermal:iron_plate>, [hammer, <item:m
 // Gold  =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:gold_dust>);
 craftingTable.removeRecipe(<item:create:golden_sheet>);
+craftingTable.removeRecipe(<item:thermal:gold_plate>);
 craftingTable.addShapeless("gold_d", <item:silents_mechanisms:gold_dust>, [hammer,<item:minecraft:gold_ingot>], null);
-craftingTable.addShapeless("gold_p", <item:create:golden_sheet>, [hammer, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>], null);
+craftingTable.addShapeless("gold_p", <item:thermal:gold_plate>, [hammer, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>], null);
 
 // Glowstone  =============================================================================================
 craftingTable.addShapeless("glowstone_m", <item:minecraft:glowstone_dust>, [hammer,<item:mekanism:ingot_refined_glowstone>], null);
@@ -159,8 +160,10 @@ craftingTable.addShapeless("bronze_p", <item:thermal:bronze_plate>, [hammer, <ta
 
 // Brass  =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:brass_dust>);
-craftingTable.addShapeless("brass_m", <item:silents_mechanisms:brass_dust> * 4, [<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/zinc>], null);
-craftingTable.addShapeless("brass_m2", <item:silents_mechanisms:brass_dust>, [hammer,<tag:items:forge:ingots/brass>], null);
+craftingTable.removeRecipe(<item:create:brass_sheet>);
+craftingTable.addShapeless("brass_d", <item:silents_mechanisms:brass_dust> * 4, [<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/copper>,<tag:items:forge:dusts/zinc>], null);
+craftingTable.addShapeless("brass_d2", <item:silents_mechanisms:brass_dust>, [hammer, <tag:items:forge:ingots/brass>], null);
+craftingTable.addShapeless("brass_p", <item:create:brass_sheet>, [hammer, <tag:items:forge:ingots/brass>, <tag:items:forge:ingots/brass>], null);
 
 // Invar  =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:invar_dust>);

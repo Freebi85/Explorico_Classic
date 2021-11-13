@@ -81,8 +81,46 @@ event.remove({id: 'tconstruct:smeltery/casting/metal/zinc/nugget_sand_cast'})
 event.remove({id: 'tconstruct:smeltery/casting/metal/zinc/nugget_gold_cast'})
 event.remove({id: 'tconstruct:smeltery/casting/metal/zinc/block'})
 
-
+event.remove({id: '/tconstruct:smeltery/casting/metal/copper/plate_\\w+/'})
+event.remove({id: '/tconstruct:smeltery/casting/metal/iron/plate_\\w+/'})
+event.remove({id: '/tconstruct:smeltery/casting/metal/gold/plate_\\w+/'})
 // ============================================================= New Recipes =============================================================
+
+// Iron  =============================================================
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/multi_use/plate'},
+fluid: {name: 'tconstruct:molten_iron',amount: 144},
+result: {item: 'thermal:iron_plate'},
+cooling_time: 50
+})
+
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/single_use/plate'},
+cast_consumed: true,
+fluid: {name: 'tconstruct:molten_iron', amount: 144},
+result: {item: 'thermal:iron_plate'},
+cooling_time: 50
+})
+
+// gold  =============================================================
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/multi_use/plate'},
+fluid: {name: 'tconstruct:molten_gold',amount: 144},
+result: {item: 'thermal:gold_plate'},
+cooling_time: 50
+})
+
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/single_use/plate'},
+cast_consumed: true,
+fluid: {name: 'tconstruct:molten_gold', amount: 144},
+result: {item: 'thermal:gold_plate'},
+cooling_time: 50
+})
 
 // Copper replaceInput =============================================================
 event.custom({
@@ -124,6 +162,23 @@ type: 'tconstruct:casting_basin',
 fluid: {name: 'tconstruct:molten_copper', amount: 1296},
 result: {item: 'silents_mechanisms:copper_block'},
 cooling_time: 150
+})
+
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/multi_use/plate'},
+fluid: {name: 'tconstruct:molten_copper',amount: 144},
+result: {item: 'thermal:copper_plate'},
+cooling_time: 50
+})
+
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/single_use/plate'},
+cast_consumed: true,
+fluid: {name: 'tconstruct:molten_copper', amount: 144},
+result: {item: 'thermal:copper_plate'},
+cooling_time: 50
 })
 
 // Aluminum replaceInput =============================================================
