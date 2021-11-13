@@ -185,6 +185,7 @@ mods.jei.JEI.hideItem(<item:bno:netherosmium_ore>);
 
 // Silentstuff ===========================================
 mods.jei.JEI.hideItem(<item:silents_mechanisms:compressed_iron_ingot>);
+mods.jei.JEI.hideItem(<item:silentgems:silver_ingot>);
 
 // Projectred ===========================================
 mods.jei.JEI.hideItem(<item:projectred-core:peridot>);
