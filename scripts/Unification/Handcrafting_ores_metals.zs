@@ -213,8 +213,8 @@ craftingTable.addShapeless("lumium_p", <item:thermal:lumium_plate>, [hammer, <ta
 craftingTable.removeRecipe(<item:silents_mechanisms:enderium_dust>);
 craftingTable.removeRecipe(<item:thermal:enderium_plate>);
 craftingTable.addShapeless("enderium_d", <item:silents_mechanisms:enderium_dust> * 4, [<tag:items:forge:dusts/lead>,<tag:items:forge:dusts/lead>,<tag:items:forge:dusts/lead>,<tag:items:forge:dusts/diamond>, <tag:items:forge:dusts/ender_pearl>,<tag:items:forge:dusts/ender_pearl>], null);
-craftingTable.addShapeless("signalum_d2", <item:silents_mechanisms:enderium_dust>, [hammer, <tag:items:forge:ingots/enderium>], null);
-craftingTable.addShapeless("signalum_p", <item:thermal:enderium_plate>, [hammer, <tag:items:forge:ingots/enderium>, <tag:items:forge:ingots/enderium>], null);
+craftingTable.addShapeless("enderium_d2", <item:silents_mechanisms:enderium_dust>, [hammer, <tag:items:forge:ingots/enderium>], null);
+craftingTable.addShapeless("enderium_p", <item:thermal:enderium_plate>, [hammer, <tag:items:forge:ingots/enderium>, <tag:items:forge:ingots/enderium>], null);
 
 // Coal =============================================================================================
 craftingTable.removeRecipe(<item:silents_mechanisms:coal_dust>);
