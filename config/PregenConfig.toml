@@ -19,6 +19,8 @@
 	Multithread-Hack = false
 	#Defines if the Improved Command Arguments should be used on Command Creation. If enabled mod is required on client
 	"Advanced Command Arguments" = true
+	#Override increases the Watchdog Kill switch to a minimum of 10 minutes instead of 60 seconds. Because Heavy modpacks cause spikes that can last 60 seconds during pregen and saving, this just reduces crashes by minecraft itself and leaves the killswitch
+	"Disable Watchdog Override" = false
 
 [client]
 

@@ -15,4 +15,5 @@ treesGenInForest = 0.009999999776482582
 [modules]
 	cherry = true
 	hybridization = true
+	food = true
 

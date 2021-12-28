@@ -34,4 +34,7 @@
 	#If set to true Shields added by other mods block 100% of the incomming damage, if set to false the will block the amount set in defaultDamageReduction.
 	#Default: true
 	customShieldMaxReduction = true
+	#Enables modified damage reduction values for shields.
+	#Default: true
+	enableDamageReduction = true
 

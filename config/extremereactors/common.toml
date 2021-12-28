@@ -114,3 +114,17 @@
 		#Range: 0.5 ~ 100.0
 		reactorPowerProductionMultiplier = 1.0
 
+	#Define how Fluidizer works
+	[common.fluidizer]
+		#The maximum valid size of a Fluidizer in the Y dimension, in blocks.
+		#Lower this if your server's players are building ginormous Fluidizer.
+		#Range: 3 ~ 64
+		maxFluidizerHeight = 16
+		#The maximum valid size of a Fluidizer in the X/Z plane, in blocks.
+		#Lower this if your server's players are building ginormous Fluidizer.
+		#Range: 3 ~ 64
+		maxFluidizerSize = 16
+		#The amount of energy need to process a single tick of a recipe.
+		#Range: 20 ~ 1000
+		energyPerRecipeTick = 25
+

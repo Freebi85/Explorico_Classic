@@ -9,24 +9,24 @@
 	farlanderLootWellSpawnRate = 20
 
 	[common.small_house]
-		#Spacing between structures
+		#The average distance between structures of this type, measured in chunks.
 		#Range: > 1
 		spacing = 25
-		#Offsets the spacing of the structures randomly
+		#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 		#Range: > 0
 		offset = 5
-		#Chance of generating in an allowed chunk
+		#Percent chance of generating in an allowed chunk.
 		#Range: 0.0 ~ 1.0
 		probability = 0.6
 
 	[common.farlander_village]
-		#Spacing between structures
+		#The average distance between structures of this type, measured in chunks.
 		#Range: > 1
 		spacing = 40
-		#Offsets the spacing of the structures randomly
+		#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 		#Range: > 0
 		offset = 15
-		#Chance of generating in an allowed chunk
+		#Percent chance of generating in an allowed chunk.
 		#Range: 0.0 ~ 1.0
 		probability = 0.3
 

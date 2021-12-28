@@ -79,6 +79,8 @@
 [colors]
 	#The gamma value used to blend colors.
 	gammaValue = 2.0
+	#Should colors of all materials be reset on next startup.
+	resetColors = false
 
 #Configurations related to material localization.
 [materialLocalization]

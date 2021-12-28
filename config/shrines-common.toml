@@ -5,10 +5,10 @@
 	#Distance Factor (Default 1.0) Is multiplied on the structures distance. Allows changing distance of every structure at once. See 'Structure Min Distance' too
 	#Range: 0.0 ~ 100.0
 	distance_factor = 1.0
-	#Seperation Factor (Default 1.0) Is multiplied on the structures seperation. Allows changing seperation of every structure at once. See 'Structure Min Distance' too
+	#Seperation Factor (Default 1.0) Is multiplied on the structures separation. Allows changing separation of every structure at once. See 'Structure Min Distance' too
 	#Range: 0.0 ~ 100.0
 	seperation_factor = 1.0
-	#The structures min. distance is the smallest possible distance between two structures (of this mod). You should set this to an lower value if you set the distance and seperation to lower values, because to high distances here can prevent any structure from spawning
+	#The structures min. distance is the smallest possible distance between two structures (of this mod). You should set this to an lower value if you set the distance and separation to lower values, because to high distances here can prevent any structure from spawning
 	#Range: 1 ~ 100
 	structures_min_distance = 10
 	#Use advanced logging. Gives more help by finding issues. Please enable this before reporting a bug
